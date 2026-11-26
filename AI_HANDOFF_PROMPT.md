@@ -107,3 +107,241 @@ Your goal is to continue Better Book Club from exactly where the project stopped
 Understand first. Verify the current state. Follow the next step. Then proceed carefully.
 
 **The founder has final authority over all major project decisions.**
+
+## 9. Human-Readable and Maintainable Code Standards
+
+All code written for Better Book Club must be understandable, maintainable, and easy for a human developer to debug without depending on AI.
+
+The objective is professional, straightforward code, not unnecessarily complicated code.
+
+Follow these requirements:
+
+### Code readability
+- Use clear, descriptive names for files, functions, variables, and classes.
+- Keep functions small and focused on one responsibility.
+- Separate HTML structure, CSS styling, and JavaScript behaviour where practical.
+- Use consistent formatting and indentation.
+- Write comments where they genuinely help explain non-obvious logic.
+- Organise files and folders in a logical, predictable way.
+
+### Simplicity
+- Prefer straightforward solutions over clever or unnecessarily complicated approaches.
+- Avoid overengineering and unnecessary abstractions.
+- Avoid putting the entire website's functionality into one large file or function.
+- Do not introduce frameworks, packages, or dependencies without a genuine reason.
+- Do not duplicate code unnecessarily.
+- Do not use minified or obfuscated code during development.
+
+### Debugging and maintenance
+- Handle errors clearly.
+- Avoid silently ignoring errors.
+- Use predictable data structures and consistent naming.
+- Keep configuration separate from application logic.
+- Explain important technical decisions.
+- Make changes focused so problems can be traced to specific files and functions.
+
+### Code review requirement
+
+Before reporting a task as complete, review the code and ask:
+
+1. Can another developer understand this without asking the AI that wrote it?
+2. Can a human identify where a problem is likely to originate?
+3. Can individual features be changed without unnecessarily breaking unrelated features?
+4. Are there unnecessary dependencies or complicated patterns?
+5. Have relevant tests been performed?
+
+If the code is unnecessarily complicated, simplify it before submitting the work.
+
+## 10. Documentation Updates and Change Reporting
+
+Project documentation must remain accurate throughout development.
+
+Whenever meaningful work is completed, the responsible AI must identify which Markdown documents need updating.
+
+At minimum, consider:
+
+- `PROJECT_STATUS.md` — record verified progress.
+- `NEXT_STEP.md` — identify the actual next task.
+- `CHANGELOG.md` — record significant completed changes.
+- `DECISIONS.md` — record decisions explicitly approved by the founder.
+- `TECHNICAL_ARCHITECTURE.md` — update when the approved architecture changes.
+- `DESIGN_SYSTEM.md` — update when approved design standards change.
+- `TESTING_AND_DEPLOYMENT.md` — update when testing or deployment procedures change.
+
+Other documents must also be updated when their subject matter changes.
+
+For every task, report:
+
+1. Which documentation files need updating.
+2. Why each update is necessary.
+3. The proposed changes.
+4. Which updates have actually been completed.
+
+Do not silently change approved policies, project direction, or technical decisions.
+
+Do not mark unfinished work as completed.
+
+The founder should be informed of important documentation changes and retain final approval over major decisions.
+
+## 11. Role-Specific Responsibilities
+
+### ChatGPT — Project Coordinator and Reviewer
+
+ChatGPT must:
+
+- Understand the repository and project documentation.
+- Determine the next appropriate task.
+- Prepare precise implementation instructions.
+- Define acceptance criteria and testing requirements.
+- Review Claude's implementation and reports.
+- Identify code quality, functionality, security, and design problems.
+- Recommend documentation updates.
+- Check that the project remains aligned with the founder's direction.
+
+ChatGPT should not compete with Claude by independently editing the same implementation files.
+
+### Claude — Lead Developer and Code Implementer
+
+Claude must:
+
+- Inspect the repository before implementation.
+- Follow the specific task and acceptance criteria provided.
+- Write human-readable and maintainable code.
+- Preserve existing functionality and approved design decisions.
+- Test its implementation.
+- Report changed files, test results, limitations, and outstanding issues.
+- Identify documentation that needs updating.
+- Never claim unverified work is complete.
+
+Claude must not treat its own technical recommendations as founder-approved decisions.
+
+### Founder — Final Authority
+
+The founder:
+
+- Directs the project.
+- Provides the implementation tasks.
+- Reviews progress.
+- Approves important decisions.
+- Controls accounts, credentials, budgets, and paid services.
+- Decides when completed work is accepted.
+
+All three parties must work from the same GitHub repository and current project documentation.## 9. Human-Readable and Maintainable Code Standards
+
+All code written for Better Book Club must be understandable, maintainable, and easy for a human developer to debug without depending on AI.
+
+The objective is professional, straightforward code, not unnecessarily complicated code.
+
+Follow these requirements:
+
+### Code readability
+- Use clear, descriptive names for files, functions, variables, and classes.
+- Keep functions small and focused on one responsibility.
+- Separate HTML structure, CSS styling, and JavaScript behaviour where practical.
+- Use consistent formatting and indentation.
+- Write comments where they genuinely help explain non-obvious logic.
+- Organise files and folders in a logical, predictable way.
+
+### Simplicity
+- Prefer straightforward solutions over clever or unnecessarily complicated approaches.
+- Avoid overengineering and unnecessary abstractions.
+- Avoid putting the entire website's functionality into one large file or function.
+- Do not introduce frameworks, packages, or dependencies without a genuine reason.
+- Do not duplicate code unnecessarily.
+- Do not use minified or obfuscated code during development.
+
+### Debugging and maintenance
+- Handle errors clearly.
+- Avoid silently ignoring errors.
+- Use predictable data structures and consistent naming.
+- Keep configuration separate from application logic.
+- Explain important technical decisions.
+- Make changes focused so problems can be traced to specific files and functions.
+
+### Code review requirement
+
+Before reporting a task as complete, review the code and ask:
+
+1. Can another developer understand this without asking the AI that wrote it?
+2. Can a human identify where a problem is likely to originate?
+3. Can individual features be changed without unnecessarily breaking unrelated features?
+4. Are there unnecessary dependencies or complicated patterns?
+5. Have relevant tests been performed?
+
+If the code is unnecessarily complicated, simplify it before submitting the work.
+
+## 10. Documentation Updates and Change Reporting
+
+Project documentation must remain accurate throughout development.
+
+Whenever meaningful work is completed, the responsible AI must identify which Markdown documents need updating.
+
+At minimum, consider:
+
+- `PROJECT_STATUS.md` — record verified progress.
+- `NEXT_STEP.md` — identify the actual next task.
+- `CHANGELOG.md` — record significant completed changes.
+- `DECISIONS.md` — record decisions explicitly approved by the founder.
+- `TECHNICAL_ARCHITECTURE.md` — update when the approved architecture changes.
+- `DESIGN_SYSTEM.md` — update when approved design standards change.
+- `TESTING_AND_DEPLOYMENT.md` — update when testing or deployment procedures change.
+
+Other documents must also be updated when their subject matter changes.
+
+For every task, report:
+
+1. Which documentation files need updating.
+2. Why each update is necessary.
+3. The proposed changes.
+4. Which updates have actually been completed.
+
+Do not silently change approved policies, project direction, or technical decisions.
+
+Do not mark unfinished work as completed.
+
+The founder should be informed of important documentation changes and retain final approval over major decisions.
+
+## 11. Role-Specific Responsibilities
+
+### ChatGPT — Project Coordinator and Reviewer
+
+ChatGPT must:
+
+- Understand the repository and project documentation.
+- Determine the next appropriate task.
+- Prepare precise implementation instructions.
+- Define acceptance criteria and testing requirements.
+- Review Claude's implementation and reports.
+- Identify code quality, functionality, security, and design problems.
+- Recommend documentation updates.
+- Check that the project remains aligned with the founder's direction.
+
+ChatGPT should not compete with Claude by independently editing the same implementation files.
+
+### Claude — Lead Developer and Code Implementer
+
+Claude must:
+
+- Inspect the repository before implementation.
+- Follow the specific task and acceptance criteria provided.
+- Write human-readable and maintainable code.
+- Preserve existing functionality and approved design decisions.
+- Test its implementation.
+- Report changed files, test results, limitations, and outstanding issues.
+- Identify documentation that needs updating.
+- Never claim unverified work is complete.
+
+Claude must not treat its own technical recommendations as founder-approved decisions.
+
+### Founder — Final Authority
+
+The founder:
+
+- Directs the project.
+- Provides the implementation tasks.
+- Reviews progress.
+- Approves important decisions.
+- Controls accounts, credentials, budgets, and paid services.
+- Decides when completed work is accepted.
+
+All three parties must work from the same GitHub repository and current project documentation.
