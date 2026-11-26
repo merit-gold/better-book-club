@@ -2,163 +2,181 @@
 
 ## 1. Purpose
 
-This document records the current development status of Better Book Club (BBC).
+This document records the actual development status of Better Book Club (BBC).
 
-It helps the founder and collaborating AIs understand:
+It helps the founder and collaborating AIs understand what has been completed, what remains outstanding, and what should happen next.
 
-- What has been completed.
-- What is currently being worked on.
-- What remains outstanding.
-- Which decisions are still pending.
-- What should happen next.
-
-This document must reflect actual progress, not assumed progress.
+All progress reports must reflect actual work and verified evidence.
 
 ## 2. Project Overview
 
 **Project:** Better Book Club (BBC)
 
-**Purpose:** Build an independent literary discovery and reader community platform that helps readers discover interesting books and gives authors opportunities to connect with readers.
+**Purpose:** An independent literary discovery and reader community platform.
 
 **Project owner:** Founder of Better Book Club.
 
-**Primary project repository:**  
-https://github.com/merit-gold/better-book-club
+**Repository:** https://github.com/merit-gold/better-book-club
 
-**Development approach:** AI-assisted planning, research, design, implementation, testing, and review.
+**Default branch:** `main`
 
 ## 3. Current Development Phase
 
-<escape>**Phase 1 — Project Foundation and Documentation**</escape>
+**Phase 1 — Project Foundation and Documentation**
 
-The project is currently establishing its documentation, working rules, design direction, technical direction, and AI collaboration process.
+Status: Completed.
 
-The website implementation should follow once the documentation foundation is sufficiently complete and reviewed.
+The initial project documentation has been created and committed to the GitHub repository.
+
+The project is now ready for a documentation review and technical repository inspection before website implementation begins.
 
 ## 4. Documentation Progress
 
-### Project foundation
+All 13 planned documentation files have been created.
 
 | Document | Status |
 |---|---|
-| README.md | Existing; improvement may be needed |
+| README.md | Created; project overview being completed |
 | BBC_MASTER_BLUEPRINT.md | Created |
 | BOOK_SELECTION_CRITERIA.md | Created |
-
-### Design and technology
-
-| Document | Status |
-|---|---|
 | DESIGN_SYSTEM.md | Created |
 | TECHNICAL_ARCHITECTURE.md | Created |
 | DECISIONS.md | Created |
-
-### Working with AI
-
-| Document | Status |
-|---|---|
 | AI_WORKFLOW.md | Created |
-| PROJECT_STATUS.md | Currently being created |
-| NEXT_STEP.md | Pending |
-| CHANGELOG.md | Pending |
+| PROJECT_STATUS.md | Created |
+| NEXT_STEP.md | Created |
+| CHANGELOG.md | Created |
+| CONTENT_GUIDELINES.md | Created |
+| AUTHOR_AND_READER_POLICIES.md | Created |
+| TESTING_AND_DEPLOYMENT.md | Created |
 
-### Supporting guidelines
+The documentation foundation is complete. Consistency and accuracy reviews are the next priority.
 
-| Document | Status |
-|---|---|
-| CONTENT_GUIDELINES.md | Pending |
-| AUTHOR_AND_READER_POLICIES.md | Pending |
-| TESTING_AND_DEPLOYMENT.md | Pending |
+## 5. Completed Planning Work
 
-## 5. Completed Project Planning
+The project documentation establishes:
 
-The following areas have been established in the project documentation:
-
-- BBC's vision and overall purpose.
+- BBC's vision and purpose.
 - Target audience and platform direction.
-- Book discovery and selection approach.
+- Book discovery and selection criteria.
 - Editorial independence and verification principles.
 - Website sitemap and proposed sections.
 - Individual book page requirements.
 - Brand identity and working colour palette.
-- Initial frontend technology preference.
+- Preferred frontend technology direction.
 - Proposed technical architecture.
 - Project decision-making rules.
-- Roles of ChatGPT, Claude, and the founder.
-- Standard AI collaboration workflow.
+- ChatGPT, Claude, and founder responsibilities.
+- AI collaboration workflow.
+- Content and editorial guidelines.
+- Author and reader participation principles.
+- Testing, security, and deployment expectations.
 
-## 6. Current Website Implementation Status
+## 6. Website Implementation Status
 
-The website implementation has not yet been confirmed as started.
+**Status: Not yet confirmed as started.**
 
-The following items therefore remain unverified:
+No website implementation should be marked complete until the repository has been inspected and implementation evidence is available.
 
-- Homepage implementation.
+The following areas remain to be assessed or implemented:
+
+- Homepage.
 - Responsive navigation.
-- Book catalogue.
+- Book discovery and catalogue.
 - Individual book pages.
-- Author pages and submission forms.
-- Reader information and application forms.
-- Newsletter integration.
+- Featured and upcoming books.
+- Past features and archive.
+- Author information and submission forms.
+- Reader information and participation forms.
 - About and contact pages.
+- Newsletter integration.
 - Secure administration dashboard.
 - Backend and database integration.
 - Hosting and deployment.
 
-Do not mark these items complete until implementation evidence has been reviewed.
+## 7. Current Technical Decisions
 
-## 7. Outstanding Documentation
+The preferred frontend direction is:
 
-The remaining documentation tasks are:
+- HTML5.
+- Bootstrap 5.
+- Vanilla JavaScript.
+- Custom CSS.
 
-1. Complete `NEXT_STEP.md`.
-2. Complete `CHANGELOG.md`.
-3. Complete `CONTENT_GUIDELINES.md`.
-4. Complete `AUTHOR_AND_READER_POLICIES.md`.
-5. Complete `TESTING_AND_DEPLOYMENT.md`.
+The final backend, database, hosting provider, domain, newsletter provider, and form-processing approach have not yet been approved.
 
-The existing `README.md` should also be reviewed and improved so it serves as a useful entry point to the repository.
+Firebase remains a candidate for evaluation, not a final decision.
 
-## 8. Important Pending Decisions
+Refer to `DECISIONS.md` before treating a technical proposal as approved.
 
-Some implementation and operational decisions still require review or founder approval.
+## 8. Outstanding Work
 
-These include:
+### Immediate priorities
+
+1. Complete and commit the updated README.
+2. Update this project status document.
+3. Update `NEXT_STEP.md`.
+4. Update `CHANGELOG.md`.
+5. Review consistency across the documentation.
+6. Give Claude access to the repository for an initial inspection.
+7. Review Claude's findings and agree on the first implementation task.
+
+### Technical and operational decisions
+
+The following still require review or founder approval:
 
 - Final backend and database.
 - Hosting provider and deployment method.
 - Domain configuration.
 - Newsletter provider.
-- Form processing and email notifications.
-- Final book catalogue structure.
+- Form handling and email notifications.
+- Final catalogue structure.
 - Author submission requirements.
 - Reader programme requirements.
-- Privacy policy and data retention.
-- Copyright and permissions procedures.
-- Any future paid services or pricing.
+- Privacy and data retention arrangements.
+- Copyright and asset permissions procedures.
+- Any paid services or pricing.
 
-Do not assume these decisions have been approved.
+## 9. AI Collaboration Status
 
-## 9. Next Development Priorities
+The intended workflow is established.
 
-The immediate priorities are:
+| Role | Responsibility |
+|---|---|
+| Founder | Project owner and final decision-maker |
+| ChatGPT | Planning, research, task preparation, and review |
+| Claude | Repository inspection, UI/UX, implementation, and testing |
 
-1. Finish the remaining project documentation.
-2. Review the documentation for consistency.
-3. Improve the repository README.
-4. Give Claude the complete repository documentation to review.
-5. Ask Claude to inspect the repository and report its current state.
-6. Prepare the first focused website implementation task.
-7. Review implementation and testing evidence before accepting completed work.
+Only one AI should actively edit project files at a time.
 
-## 10. Progress Reporting Rules
+See `AI_WORKFLOW.md` for the complete workflow.
+
+## 10. Next Development Stage
+
+**Phase 2 — Repository Inspection and Technical Assessment**
+
+Claude should:
+
+1. Read the project documentation.
+2. Inspect the actual repository structure.
+3. Identify existing code and assets.
+4. Assess the proposed technical direction.
+5. Identify missing components and technical concerns.
+6. Recommend an appropriate implementation structure.
+7. Report its findings before beginning major implementation.
+
+ChatGPT will review Claude's report and help prepare the first focused implementation task.
+
+The founder will approve the next stage.
+
+## 11. Progress Reporting Rules
 
 Whenever meaningful work is completed:
 
-- Update this document.
-- Update `NEXT_STEP.md` to reflect the next priority.
+- Update `PROJECT_STATUS.md`.
+- Update `NEXT_STEP.md`.
 - Record significant changes in `CHANGELOG.md`.
-- Update `DECISIONS.md` when the founder approves a new decision.
+- Update `DECISIONS.md` when a decision receives founder approval.
 
 Use accurate status descriptions:
 
@@ -169,12 +187,12 @@ Use accurate status descriptions:
 - Completed.
 - Deferred.
 
-Do not report a task as completed without appropriate evidence or founder confirmation.
+Do not mark work completed without appropriate evidence or founder confirmation.
 
-## 11. Current Project Principle
+## 12. Guiding Principle
 
-The priority is to establish a clear, consistent foundation before moving into full implementation.
+The repository must always reflect the real state of Better Book Club.
 
-The project should progress in manageable stages, with every important decision documented and every completed feature reviewed.
+Every collaborating AI should be able to understand the project's progress and continue from the correct point without repeating completed work.
 
-**The founder remains the final authority on project progress, approvals, and scope.**
+The founder remains the final authority on project direction, approvals, and scope.
