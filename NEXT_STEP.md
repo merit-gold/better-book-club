@@ -4,82 +4,115 @@
 
 This document identifies the immediate next action for the Better Book Club project.
 
-It prevents unnecessary repetition, keeps development organised, and helps every collaborating AI continue from the correct point.
-
-Always read this document before starting new project work.
+Every collaborating AI should consult it before starting new project work.
 
 ## 2. Current Project Stage
 
-**Current stage:** Project foundation and documentation.
+**Current stage:** Project foundation and documentation completed.
 
-**Current priority:** Complete the remaining project documentation before beginning full website implementation.
+**Next stage:** Repository inspection and technical assessment.
 
-## 3. Immediate Next Action
+## 3. Immediate Next Action — Claude Repository Review
 
-### Complete the remaining documentation
+The next action is to give Claude the GitHub repository and ask it to inspect the project before beginning implementation.
 
-The next documentation files to create are:
+**Repository:**
 
-1. `CHANGELOG.md`
-2. `CONTENT_GUIDELINES.md`
-3. `AUTHOR_AND_READER_POLICIES.md`
-4. `TESTING_AND_DEPLOYMENT.md`
+https://github.com/merit-gold/better-book-club
 
-The `README.md` should also be reviewed and improved as the documentation foundation is completed.
+Claude must first understand the project and inspect what actually exists.
 
-## 4. After Documentation Is Complete
+It should not immediately begin building the website.
 
-Once all documentation is available:
+## 4. Instructions for Claude
 
-1. Review the repository for missing or inconsistent information.
-2. Check that all documents agree with the master blueprint.
-3. Share the GitHub repository with Claude.
-4. Ask Claude to read the documentation and inspect the existing repository.
-5. Request a report identifying the current repository structure, missing implementation components, technical concerns, and recommended first development task.
-6. Share Claude's report with ChatGPT for review.
-7. Agree on the first implementation task.
-8. Begin development in focused, reviewable stages.
+Claude should:
 
-Claude should not start a major implementation before inspecting the repository and understanding the approved project direction.
+1. Read `README.md`.
+2. Read `BBC_MASTER_BLUEPRINT.md`.
+3. Read `BOOK_SELECTION_CRITERIA.md`.
+4. Read `DESIGN_SYSTEM.md`.
+5. Read `TECHNICAL_ARCHITECTURE.md`.
+6. Read `DECISIONS.md`.
+7. Read `AI_WORKFLOW.md`.
+8. Read `PROJECT_STATUS.md`.
+9. Read `NEXT_STEP.md`.
+10. Read the supporting content, policy, and testing documents.
 
-## 5. Rules for the Next AI
+After reviewing the documentation, Claude should inspect the actual repository.
 
-Any AI continuing this project must:
+Its report should cover:
 
-- Read `README.md` first.
-- Read `BBC_MASTER_BLUEPRINT.md`.
-- Read the documents relevant to its assigned task.
-- Check `DECISIONS.md`.
-- Check `PROJECT_STATUS.md`.
-- Follow this `NEXT_STEP.md`.
-- Avoid repeating completed work.
-- Identify unresolved decisions rather than guessing.
-- Ask for clarification when an important requirement is unclear.
+- Existing repository structure.
+- Existing source code, if any.
+- Existing images, logo, and other assets.
+- Missing files and implementation components.
+- Whether the proposed frontend stack is suitable.
+- Recommended project structure.
+- Backend and database requirements.
+- Hosting and deployment considerations.
+- Security concerns.
+- Any contradictions or unclear requirements in the documentation.
+- Recommended first implementation task.
 
-## 6. Completion Requirements
+Claude should distinguish verified findings from assumptions and recommendations.
 
-The documentation stage can be considered complete when:
+## 5. Important Restrictions
 
-- All planned documentation files have been created.
-- The README provides a useful project overview and document index.
-- The documents are consistent with one another.
-- Important decisions and unresolved matters are clearly distinguished.
-- The repository is ready for an implementation review.
+Before receiving approval for implementation:
 
-## 7. Updating This File
+- Do not redesign or replace the existing BBC logo.
+- Do not silently change the approved brand direction.
+- Do not assume Firebase or another backend has been selected.
+- Do not introduce paid services without approval.
+- Do not remove existing files or functionality without approval.
+- Do not commit credentials, API keys, passwords, or private information.
+- Do not start a major implementation before the repository inspection report is reviewed.
 
-Whenever the current priority changes:
+## 6. After Claude's Report
 
-1. Replace the immediate next action with the new priority.
-2. Keep the later steps relevant.
-3. Remove outdated instructions.
-4. Ensure the update agrees with `PROJECT_STATUS.md`.
-5. Record significant changes in `CHANGELOG.md`.
+Once Claude completes the inspection:
 
-Do not leave outdated next-step instructions in place.
+1. The founder shares Claude's report with ChatGPT.
+2. ChatGPT reviews the findings against the project documentation.
+3. Any technical concerns or missing requirements are identified.
+4. ChatGPT prepares the first focused implementation task.
+5. The founder approves the task.
+6. Claude begins implementation.
+7. Claude reports changes and testing results.
+8. ChatGPT reviews the implementation.
+9. The project documentation is updated as necessary.
 
-## 8. Guiding Principle
+## 7. Following Implementation
 
-Every new session should continue from the latest documented project state.
+Website development should proceed in manageable stages.
 
-The objective is to make it possible for ChatGPT, Claude, or another capable AI to understand where BBC stands and continue the work without starting over.
+Each implementation task should include:
+
+- Clear objectives.
+- Relevant files.
+- Requirements.
+- Restrictions.
+- Acceptance criteria.
+- Testing expectations.
+
+Do not begin several unrelated implementation tasks at once.
+
+## 8. Documentation Maintenance
+
+Whenever the project progresses:
+
+- Update `PROJECT_STATUS.md`.
+- Update this file.
+- Record significant changes in `CHANGELOG.md`.
+- Update `DECISIONS.md` when the founder approves a decision.
+
+Keep all project documents consistent.
+
+## 9. Guiding Principle
+
+The next step must always reflect the actual state of the project.
+
+The objective is to let ChatGPT, Claude, and future collaborators continue from the correct point without repeating work or making assumptions.
+
+The founder has final authority over project direction and approvals.
