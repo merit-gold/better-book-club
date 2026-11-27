@@ -260,6 +260,12 @@ Website implementation should begin only after the initial inspection and review
 
 ---
 
+### 2026-11-27 — For Authors Hero Image Fix
+
+**Fixed**
+- Replaced the For Authors hero background image URL with the same image URL already used successfully by the About page, keeping the existing overlay, layout, and responsive styling unchanged.
+- No other page content or design was changed.
+
 ## Future Entries
 
 Add new entries below whenever meaningful project changes occur.
