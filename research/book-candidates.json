@@ -1,0 +1,417 @@
+{
+  "research_snapshot": "2026-11-27",
+  "branch": "task-003/immersive-homepage-redesign",
+  "status": "first-pass-discovery; not founder-approved; not final 50",
+  "rating_policy": {
+    "average_rating_is_hard_filter": false,
+    "rating_count_preference": "modest established readership; avoid millions and very large totals",
+    "minimum_500_is_absolute": false,
+    "note": "A genuinely strong book may be retained despite a lower average or smaller rating count. Counts are snapshots."
+  },
+  "candidates": [
+    [
+      "The Grey Bastards",
+      "Jonathan French",
+      "Fantasy",
+      4.06,
+      9073,
+      "https://www.goodreads.com/list/show/140318.Best_Indie_Fantasy_Books_Worth_a_Read",
+      "promising; verify publishing route, edition, Amazon, cover and sample"
+    ],
+    [
+      "The Path of Flames",
+      "Phil Tucker",
+      "Fantasy",
+      4.02,
+      3428,
+      "https://www.goodreads.com/list/show/140318.Best_Indie_Fantasy_Books_Worth_a_Read",
+      "promising; verify publishing route, edition, Amazon, cover and sample"
+    ],
+    [
+      "Vortex Visions",
+      "Elise Kova",
+      "Fantasy",
+      4.03,
+      6040,
+      "https://www.goodreads.com/list/show/140318.Best_Indie_Fantasy_Books_Worth_a_Read",
+      "verify independent publication history for this edition"
+    ],
+    [
+      "The Thief Who Pulled on Trouble's Braids",
+      "Michael McClung",
+      "Fantasy",
+      3.98,
+      3455,
+      "https://www.goodreads.com/list/show/140318.Best_Indie_Fantasy_Books_Worth_a_Read",
+      "inspect sample and cover"
+    ],
+    [
+      "Drowned Tomb",
+      "James Fahy",
+      "Fantasy",
+      4.45,
+      813,
+      "https://www.goodreads.com/list/show/140318.Best_Indie_Fantasy_Books_Worth_a_Read",
+      "smaller readership; discovery lead"
+    ],
+    [
+      "Chains of Gaia",
+      "James Fahy",
+      "Fantasy",
+      4.59,
+      704,
+      "https://www.goodreads.com/list/show/140318.Best_Indie_Fantasy_Books_Worth_a_Read",
+      "smaller readership; check series accessibility"
+    ],
+    [
+      "Paternus",
+      "Dyrk Ashton",
+      "Fantasy",
+      3.95,
+      2804,
+      "https://www.goodreads.com/list/show/140318.Best_Indie_Fantasy_Books_Worth_a_Read",
+      "evaluate sample and cover"
+    ],
+    [
+      "Bedside Manor",
+      "Jack Townsend",
+      "Horror",
+      4.18,
+      2400,
+      "https://www.goodreads.com/shelf/show/indie-horror",
+      "promising horror lead"
+    ],
+    [
+      "Tales from the Gas Station: Volume Two",
+      "Jack Townsend",
+      "Horror",
+      4.44,
+      5545,
+      "https://www.goodreads.com/shelf/show/indie-horror",
+      "check series entry point and presentation"
+    ],
+    [
+      "Tales from the Gas Station: Volume Three",
+      "Jack Townsend",
+      "Horror",
+      4.41,
+      4208,
+      "https://www.goodreads.com/shelf/show/indie-horror",
+      "check series entry point and presentation"
+    ],
+    [
+      "Kosa",
+      "John Durgin",
+      "Horror",
+      4.12,
+      566,
+      "https://www.goodreads.com/shelf/show/indie-horror",
+      "smaller readership; discovery lead"
+    ],
+    [
+      "Norylska Groans",
+      "Michael R. Fletcher",
+      "Science Fiction/Fantasy",
+      4.01,
+      611,
+      "https://www.goodreads.com/shelf/show/indie-sff",
+      "cross-genre discovery lead"
+    ],
+    [
+      "The Lessons Never Learned",
+      "Rob J. Hayes",
+      "Fantasy",
+      4.09,
+      1698,
+      "https://www.goodreads.com/shelf/show/indie-sff",
+      "promising series candidate"
+    ],
+    [
+      "Along the Razor's Edge",
+      "Rob J. Hayes",
+      "Fantasy",
+      3.83,
+      3628,
+      "https://www.goodreads.com/shelf/show/indie-sff",
+      "review sample and commentary; no automatic score rejection"
+    ],
+    [
+      "Mushroom Blues",
+      "Adrian M. Gibson",
+      "Science Fiction/Fantasy",
+      3.8,
+      803,
+      "https://www.goodreads.com/shelf/show/indie-sff",
+      "distinctive lead; close quality review"
+    ],
+    [
+      "Sistah Samurai",
+      "Tatiana Obey",
+      "Fantasy/Science Fiction",
+      4.15,
+      612,
+      "https://www.goodreads.com/shelf/show/indie-sff",
+      "confirm genre and publishing route"
+    ],
+    [
+      "Chasing Graves",
+      "Ben Galley",
+      "Fantasy",
+      3.81,
+      1047,
+      "https://www.goodreads.com/shelf/show/indie-sff",
+      "editorial review lead"
+    ],
+    [
+      "Never Die",
+      "Rob J. Hayes",
+      "Fantasy",
+      3.87,
+      4798,
+      "https://www.goodreads.com/shelf/show/indie-sff",
+      "inspect sample and cover"
+    ],
+    [
+      "Obsidian Magic",
+      "McKenzie Hunter",
+      "Fantasy/Paranormal",
+      4.12,
+      4486,
+      "https://www.goodreads.com/shelf/show/indie-sff",
+      "confirm exact genre and edition"
+    ],
+    [
+      "Grim Solace",
+      "Ben Galley",
+      "Fantasy",
+      4.14,
+      511,
+      "https://www.goodreads.com/shelf/show/indie-sff",
+      "smaller readership; discovery lead"
+    ],
+    [
+      "Relic of the Gods",
+      "Philip C. Quaintrell",
+      "Fantasy",
+      4.51,
+      7683,
+      "https://www.goodreads.com/shelf/show/indie-sff",
+      "check series and edition"
+    ],
+    [
+      "Empire of Dirt",
+      "Philip C. Quaintrell",
+      "Fantasy",
+      4.42,
+      8969,
+      "https://www.goodreads.com/shelf/show/indie-sff",
+      "check series and edition"
+    ],
+    [
+      "Because I'm Yours",
+      "Claire Contreras",
+      "Romance",
+      4.11,
+      3002,
+      "https://www.goodreads.com/list/show/100835.Underrated_contemporary_romance_books",
+      "verify independent route"
+    ],
+    [
+      "Hard to Hold",
+      "K. Bromberg",
+      "Romance",
+      4.24,
+      6378,
+      "https://www.goodreads.com/list/show/100835.Underrated_contemporary_romance_books",
+      "verify independent route"
+    ],
+    [
+      "Sweet Little Hearts",
+      "Shanora Williams",
+      "Romance",
+      4.28,
+      3314,
+      "https://www.goodreads.com/list/show/151681.Read_More_Indie_Romance_Books",
+      "verify independent route"
+    ],
+    [
+      "Thirty, Flirty, and Forever Alone",
+      "Christine Riccio",
+      "Contemporary/Young Adult",
+      4.04,
+      7416,
+      "https://www.goodreads.com/list/show/151681.Read_More_Indie_Romance_Books",
+      "verify publishing route"
+    ],
+    [
+      "Caribbean Crush",
+      "R.S. Grey",
+      "Romance",
+      3.91,
+      4041,
+      "https://www.goodreads.com/list/show/151681.Read_More_Indie_Romance_Books",
+      "assess sample and edition"
+    ],
+    [
+      "Heart Restoration Project",
+      "Beth Merlin",
+      "Romance",
+      3.91,
+      916,
+      "https://www.goodreads.com/list/show/151681.Read_More_Indie_Romance_Books",
+      "smaller readership; discovery lead"
+    ],
+    [
+      "Reservations",
+      "Kindle Alexander",
+      "Romance",
+      4.16,
+      2137,
+      "https://www.goodreads.com/list/show/13798.Best_Indie_Romance_Books",
+      "verify publishing route"
+    ],
+    [
+      "Broken Wings",
+      "Chelle Bliss",
+      "Romance",
+      4.42,
+      2113,
+      "https://www.goodreads.com/list/show/13798.Best_Indie_Romance_Books",
+      "verify edition and author publishing route"
+    ],
+    [
+      "The Amendment",
+      "Melanie Moreland",
+      "Romance",
+      4.14,
+      6798,
+      "https://www.goodreads.com/list/show/13798.Best_Indie_Romance_Books",
+      "verify publishing route"
+    ],
+    [
+      "A Chance Encounter",
+      "Nikki Ash",
+      "Romance",
+      4.06,
+      6975,
+      "https://www.goodreads.com/list/show/13798.Best_Indie_Romance_Books",
+      "verify publishing route"
+    ],
+    [
+      "Code Name: Revenge",
+      "Sawyer Bennett",
+      "Romance",
+      4.11,
+      1141,
+      "https://www.goodreads.com/list/show/13798.Best_Indie_Romance_Books",
+      "verify publishing route"
+    ],
+    [
+      "Mr. Bloomsbury",
+      "Louise Bay",
+      "Romance",
+      4.11,
+      5792,
+      "https://www.goodreads.com/list/show/13798.Best_Indie_Romance_Books",
+      "verify publishing route"
+    ],
+    [
+      "Voice of Power",
+      "Melanie Cellier",
+      "Young Adult/Fantasy",
+      4.19,
+      7948,
+      "https://www.goodreads.com/list/show/423925.Indie_Young_Adult_Fantasy",
+      "verify publishing route"
+    ],
+    [
+      "Stars May Burn",
+      "Alice Ivinya",
+      "Young Adult/Fantasy",
+      4.14,
+      1311,
+      "https://www.goodreads.com/list/show/423925.Indie_Young_Adult_Fantasy",
+      "promising YA lead"
+    ],
+    [
+      "The Changelings",
+      "Elle Casey",
+      "Young Adult/Fantasy",
+      4.08,
+      6083,
+      "https://www.goodreads.com/list/show/19363.Best_Indie_Y_A_Fantasy_Book",
+      "verify edition and publishing route"
+    ],
+    [
+      "The Moon Dwellers",
+      "David Estes",
+      "Young Adult/Science Fiction",
+      3.83,
+      4457,
+      "https://www.goodreads.com/list/show/423925.Indie_Young_Adult_Fantasy",
+      "review sample; no automatic score rejection"
+    ],
+    [
+      "Secrets of the Realm",
+      "Bev Stout",
+      "Fantasy",
+      3.97,
+      638,
+      "https://www.goodreads.com/list/show/35450.Indie_Self_Published_Books",
+      "smaller readership; discovery lead"
+    ],
+    [
+      "The Selkie Sorceress",
+      "Sophie Moss",
+      "Fantasy/Romance",
+      4.38,
+      658,
+      "https://www.goodreads.com/list/show/76315.Best_self_published_books_on_Amazon",
+      "smaller readership; discovery lead"
+    ],
+    [
+      "Miss Mabel's School for Girls",
+      "Katie Cross",
+      "Fantasy/Young Adult",
+      3.95,
+      4706,
+      "https://www.goodreads.com/list/show/76315.Best_self_published_books_on_Amazon",
+      "listed as self-published Amazon book; verify current edition"
+    ],
+    [
+      "Duel of Fire",
+      "Jordan Rivet",
+      "Fantasy",
+      4.02,
+      3928,
+      "https://www.goodreads.com/shelf/show/indie-self-published",
+      "Goodreads indie shelf lead; verify publishing route"
+    ],
+    [
+      "The Faerie Guardian",
+      "Rachel Morgan",
+      "Fantasy/Young Adult",
+      3.96,
+      9713,
+      "https://www.goodreads.com/shelf/show/indie-self-published",
+      "Goodreads indie shelf lead; near upper end of modest range"
+    ]
+  ],
+  "founder_supplied_past_features": [
+    {
+      "title": "Book of Cin",
+      "status": "historical BBC feature; metadata verification required"
+    },
+    {
+      "title": "Daggermouth",
+      "status": "historical BBC feature; may also be assessed for main catalogue"
+    },
+    {
+      "title": "Blood Rains Down",
+      "status": "historical BBC feature; metadata verification required"
+    }
+  ],
+  "amazon_availability": "not yet verified title by title",
+  "cover_rights": "not verified; no cover assets approved for reuse",
+  "public_catalogue_written": false
+}
