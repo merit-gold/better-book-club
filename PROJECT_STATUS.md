@@ -24,14 +24,14 @@ All progress reports must reflect actual work and verified evidence.
 
 **Stage A — Public frontend implementation (backend-free)**
 
-Status: The immersive homepage and About page are implemented on `task-003/immersive-homepage-redesign`; the founder has approved the About page and previously reported that the homepage is responsive with working navigation. The Explore Books page is now implemented and awaiting founder review. The working branch has not been merged into `main`.
+Status: The immersive homepage and About page are implemented on `task-003/immersive-homepage-redesign`; the founder has approved the About page and previously reported that the homepage is responsive with working navigation. The Explore Books page is implemented and the founder has reviewed it positively; the founder confirmed that it is working as expected. The working branch has not been merged into `main`.
 
 - Phase 1 (project foundation and documentation): Completed.
 - Phase 2 (repository inspection and technical assessment): Completed. The report was reviewed with ChatGPT and the founder agreed the decisions recorded in `DECISIONS.md` on 2026-11-27.
 - Phase 3 (Foundation Skeleton): Committed to GitHub on `main` and reviewed. Real-browser and physical-device testing remain outstanding.
 - Stage A homepage: Immersive editorial redesign implemented on `task-003/immersive-homepage-redesign`; founder reports responsive layout and working page links.
 - Stage A About page: Implemented with purpose, independent discovery approach, values and community pathways; founder-approved.
-- Stage A Explore Books page: Implemented with five editorial collections, intentional empty states, responsive styling, an empty approved-books JSON source, and a frontend catalogue renderer; awaiting founder review.
+- Stage A Explore Books page: Implemented with five editorial collections, intentional empty states, responsive styling, an empty approved-books JSON source, and a frontend catalogue renderer; founder-reviewed positively.
 - Remaining public pages: For Authors, For Readers and Contact are still placeholders.
 ## 4. Documentation Progress
 
@@ -78,7 +78,7 @@ The project documentation establishes:
 
 ## 6. Website Implementation Status
 
-**Status: Foundation Skeleton committed to `main`; immersive homepage, founder-approved About page, and Explore Books page implemented on `task-003/immersive-homepage-redesign`. Explore Books is awaiting founder review.**
+**Status: Foundation Skeleton committed to `main`; immersive homepage, founder-approved About page, and Explore Books page implemented on `task-003/immersive-homepage-redesign`. Explore Books has been reviewed positively by the founder.**
 
 | Area | Status |
 |---|---|
@@ -86,7 +86,7 @@ The project documentation establishes:
 | Responsive layout | Founder reports the homepage is responsive and navigation works; formal real-browser and physical-device testing remains outstanding |
 | Brand colour variables and typography | Implemented on the working branch using the repository's current working palette; the Ghost-site colours recorded in the PDF have not been substituted |
 | About page | Implemented and founder-approved on `task-003/immersive-homepage-redesign` |
-| Explore Books page | Implemented on the working branch; awaiting founder review |
+| Explore Books page | Implemented and founder-reviewed positively on the working branch |
 | For Authors, For Readers and Contact pages | Still placeholders; queued for page-by-page implementation |
 | Original BBC logo | Blocked: asset not yet supplied (placeholder in place) |
 | Book catalogue | `data/books.json` created with no approved entries yet; individual static book pages not started |
