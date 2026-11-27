@@ -1,7 +1,7 @@
 {
   "research_snapshot": "2026-11-27",
   "branch": "task-003/immersive-homepage-redesign",
-  "status": "first-pass-discovery; not founder-approved; not final 50",
+  "status": "50-title discovery pool; title-by-title verification outstanding; not founder-approved",
   "rating_policy": {
     "average_rating_is_hard_filter": false,
     "rating_count_preference": "modest established readership; avoid millions and very large totals",
@@ -395,6 +395,60 @@
       9713,
       "https://www.goodreads.com/shelf/show/indie-self-published",
       "Goodreads indie shelf lead; near upper end of modest range"
+    ],
+    [
+      "Wagons & Wyverns",
+      "Z.S. Diamanti",
+      "Fantasy",
+      4.4,
+      628,
+      "https://www.goodreads.com/shelf/show/indie-fantasy",
+      "recent indie-fantasy shelf lead; verify publication route and series context"
+    ],
+    [
+      "Dragon's Reach",
+      "J.A. Andrews",
+      "Fantasy",
+      4.35,
+      2504,
+      "https://www.goodreads.com/shelf/show/indie-fantasy",
+      "promising rating volume; verify publication route and edition"
+    ],
+    [
+      "Curse Painter",
+      "Jordan Rivet",
+      "Fantasy",
+      4.13,
+      701,
+      "https://www.goodreads.com/shelf/show/indie-fantasy",
+      "smaller readership; discovery lead; verify publishing route"
+    ],
+    [
+      "Herald",
+      "Rob J. Hayes",
+      "Fantasy",
+      4.29,
+      1021,
+      "https://www.goodreads.com/shelf/show/fantasy-indie",
+      "promising smaller-scale lead; verify edition and publishing route"
+    ],
+    [
+      "At Home with the Horrors",
+      "Sammy Scott",
+      "Horror",
+      4.17,
+      1976,
+      "https://www.goodreads.com/shelf/show/indie-horror",
+      "promising horror lead; verify publishing route and sample"
+    ],
+    [
+      "The Thirteen Black Cats of Edith Penn",
+      "Sean McDonough",
+      "Horror",
+      4.34,
+      571,
+      "https://www.goodreads.com/shelf/show/self-published-indie-horror",
+      "smaller readership; discovery lead; verify publication details"
     ]
   ],
   "founder_supplied_past_features": [
