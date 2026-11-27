@@ -4,6 +4,31 @@ This document records significant changes to the Better Book Club project.
 
 It provides a history of project planning, documentation, design decisions, implementation, testing, and releases.
 
+## 2026-11-27 — Task 001 Homepage Completion
+
+### Added
+
+- Completed the homepage section flow: Featured Books, Explore Books, Worth Discovering, Coming Soon, reader opportunities, author opportunities, About BBC, and a clearly inactive newsletter placeholder.
+- Added responsive styling for the new homepage content and opportunity panels.
+
+### Changed
+
+- Updated the homepage hero headline to the founder-approved “Discover Stories Worth Your Time.”
+- Changed the secondary hero action to “For authors” and linked it to the existing author page.
+- Used “Worth Discovering” for the editorial noteworthy-books section; the section explicitly avoids implying a popularity ranking.
+- Updated the decisions register, website specification, README, project status, and next-step instructions to reflect the approved decisions and actual repository state.
+
+### Testing
+
+- Reviewed homepage markup, internal page destinations, semantic section headings, and responsive CSS changes.
+- Automated browser/device testing has not yet been performed; founder review and real-browser/mobile checks remain outstanding.
+
+### Next
+
+Founder reviews `task-001/homepage-completion`. Merge into `main` only after approval.
+
+---
+
 ## Changelog Format
 
 Each entry should include:
