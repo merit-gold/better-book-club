@@ -6,16 +6,16 @@ This document identifies the immediate next action for the Better Book Club proj
 
 ## 2. Current Project Stage
 
-**Current stage:** Phase 3 — Foundation Skeleton (backend-free), reviewed by ChatGPT, awaiting founder commit to GitHub.
+**Current stage:** Phase 4 — Homepage Completion (Task 001, backend-free). The Foundation Skeleton is committed to `main`; Task 001 is implemented on `task-001/homepage-completion` and awaiting founder review.
 
-Phases 1 (documentation) and 2 (repository inspection) are complete.
+Phases 1 (documentation), 2 (repository inspection), and 3 (Foundation Skeleton) are complete.
 
 ## 3. Immediate Next Action
 
-1. ChatGPT has reviewed the Foundation Skeleton; the founder has checked page navigation locally in VS Code.
-2. The founder commits the changes to GitHub (including the new `.gitignore`).
-3. The founder supplies the original BBC logo. Place it in `assets/images/logo/` and replace the placeholder in the header (see the comment in each page's header). Do not redraw or recolour it.
-4. Test in real browsers and on a phone; the skeleton has only been checked with scripts so far.
+1. Review the Task 001 homepage changes on `task-001/homepage-completion`.
+2. Test the homepage in desktop and mobile browsers, including the responsive layout and navigation.
+3. If the founder approves the changes, merge the working branch into `main`.
+4. Supply the original BBC logo when available. Place it in `assets/images/logo/` and replace the homepage placeholder; do not redraw or recolour it.
 
 ## 4. Approved Scope Limits (unchanged)
 
@@ -30,15 +30,15 @@ Firebase remains an option, not an approved backend.
 
 ## 5. Likely Following Task (to be agreed, not yet approved)
 
-Book catalogue data (`data/books.json`, approved books only) and individual static book pages with their own titles, descriptions, and social-sharing metadata.
+After Task 001 is accepted, consider the Stage A book catalogue (`data/books.json`, approved books only) and individual static book pages with their own titles, descriptions, and social-sharing metadata.
 
 ## 6. Workflow
 
-1. ChatGPT prepares a focused task with acceptance criteria.
-2. The founder gives it to Claude.
-3. Claude implements, tests, and reports files changed, tests, and remaining issues.
-4. ChatGPT reviews; the founder approves and commits to GitHub.
-5. Documentation is updated.
+1. The founder approves a focused task and its acceptance criteria.
+2. The assigned AI implements on the agreed working branch; for Task 001, the founder specifically authorised ChatGPT to implement directly.
+3. The implementing AI reports files changed, checks performed, and remaining issues.
+4. The founder reviews and approves before the branch is merged into `main`.
+5. Documentation is updated to reflect verified progress.
 
 Only one AI edits project files at a time. Do not begin several unrelated tasks at once.
 
