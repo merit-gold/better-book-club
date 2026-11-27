@@ -276,6 +276,20 @@ Website implementation should begin only after the initial inspection and review
 **Next**
 - Founder reviews the For Readers page; Contact remains the next public page to implement.
 
+### 2026-11-27 — Contact Page Implementation
+
+**Added**
+- Replaced the Contact placeholder with an editorial-style page introducing contact routes and four clear enquiry pathways: author enquiries, reader opportunities, book information, and content/copyright questions.
+- Linked each pathway to relevant existing BBC information pages so visitors have a useful next step without pretending to submit a message.
+- Added a clear notice that direct contact details and message handling are not published yet; explicitly states that no enquiry is submitted from this page.
+- Added responsive contact-specific styling consistent with the existing public pages and retained shared navigation and footer.
+
+**Testing**
+- Source-level checks are being performed for page structure, anchors, internal destinations, metadata, responsive breakpoints, and the absence of a non-functional form. No browser visual test has been performed by ChatGPT.
+
+**Next**
+- Founder reviews Contact. Once approved, cross-check all public pages before beginning the book catalogue.
+
 ## Future Entries
 
 Add new entries below whenever meaningful project changes occur.
