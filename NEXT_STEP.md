@@ -6,7 +6,7 @@ This document identifies the immediate next action for the Better Book Club proj
 
 ## 2. Current Project Stage
 
-**Current stage:** Stage A — public frontend implementation. The immersive homepage is implemented on `task-003/immersive-homepage-redesign`; the founder has reported that its responsive layout and page links work. The About page has now been implemented on the same branch and is awaiting founder review.
+**Current stage:** Stage A — public frontend implementation. The immersive homepage and About page are implemented on `task-003/immersive-homepage-redesign`; the founder has approved the About page and reported that the homepage is responsive with working navigation. The Explore Books page has now been implemented on the same branch and is awaiting founder review.
 
 The Foundation Skeleton and project documentation remain on `main`. The active development branch is intentionally separate; no changes have been merged into `main`.
 
