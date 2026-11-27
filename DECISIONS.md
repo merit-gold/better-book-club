@@ -38,7 +38,7 @@ When a decision changes, update this register and add an entry to `CHANGELOG.md`
 | First implementation task | Backend-free Foundation Skeleton (no database, backend, authentication, newsletter integration, paid services, or functional forms) | Approved (2026-11-27) |
 | Visual direction | Premium, literary, welcoming, distinctive, and responsive | Approved direction |
 | Homepage hero headline | “Discover Stories Worth Your Time.” | Approved (2026-11-27) |
-| Homepage editorial section name | “Worth Discovering” for noteworthy book selections, without implying a popularity ranking | Approved (2026-11-27) |
+| Homepage editorial section name | “Worth Discovering” for noteworthy book selections, without implying a popularity ranking | Approved (2026-11-27) |\n| Development sequence | Complete and review all public page designs first; then conduct a site-wide review; add approved books, individual book pages and connected book previews afterwards | Approved (2026-11-27) |
 
 ## 4. Proposed Brand Palette
 
