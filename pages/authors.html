@@ -4,40 +4,39 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>For Authors - Better Book Club</title>
-  <meta name="description" content="How Better Book Club finds and chooses books, and how authors can take part.">
+  <meta name="description" content="Discover how Better Book Club independently considers books and approaches genuine connections between authors and readers.">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Better Book Club">
   <meta property="og:title" content="For Authors - Better Book Club">
-  <meta property="og:description" content="How Better Book Club finds and chooses books, and how authors can take part.">
-  <!-- TODO: add og:image once the original BBC logo/share image is supplied. -->
+  <meta property="og:description" content="Discover how Better Book Club independently considers books and approaches genuine connections between authors and readers.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="../assets/css/bbc.css">
 </head>
-<body>
+<body class="authors-page">
   <a class="skip-link" href="#main">Skip to main content</a>
 
   <header class="site-header">
     <nav class="navbar navbar-expand-lg" aria-label="Main navigation">
       <div class="container">
-        <a class="navbar-brand" href="../index.html">
-          <!-- LOGO PLACEHOLDER: replace this span with the original logo, e.g.
-               <img src="../assets/images/logo/FILENAME" alt="Better Book Club" height="48">
-               Do not redraw or recolour the logo. -->
-          <span class="logo-placeholder" aria-hidden="true">LOGO</span>
-          <span>Better Book Club</span>
+        <a class="navbar-brand" href="../index.html" aria-label="Better Book Club home">
+          <span class="brand-mark" aria-hidden="true">b.</span>
+          <span class="brand-name">Better Book <i>Club</i></span>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-menu"
                 aria-controls="main-menu" aria-expanded="false" aria-label="Show or hide the menu">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="main-menu">
-          <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="explore.html">Explore Books</a></li>
-          <li class="nav-item"><a class="nav-link" href="authors.html">For Authors</a></li>
-          <li class="nav-item"><a class="nav-link" href="readers.html">For Readers</a></li>
-          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+            <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="explore.html">Explore Books</a></li>
+            <li class="nav-item"><a class="nav-link" href="authors.html" aria-current="page">For Authors</a></li>
+            <li class="nav-item"><a class="nav-link" href="readers.html">For Readers</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link nav-contact" href="contact.html">Get in touch <span aria-hidden="true">↗</span></a></li>
           </ul>
         </div>
       </div>
@@ -45,39 +44,180 @@
   </header>
 
   <main id="main">
-    <section class="section">
+    <section class="authors-hero" aria-labelledby="authors-title">
+      <div class="authors-hero-shade"></div>
+      <div class="container authors-hero-content">
+        <p class="eyebrow eyebrow-light reveal">For the people behind the pages</p>
+        <h1 id="authors-title" class="reveal">Your story deserves<br><em>to be considered.</em></h1>
+        <p class="reveal">Better Book Club discovers books with curiosity and care, creating thoughtful ways for authors and readers to find one another.</p>
+        <a class="text-link-light reveal" href="#how-we-consider-books">How we consider books <span aria-hidden="true">↓</span></a>
+      </div>
+      <span class="authors-hero-index">BETTER BOOK CLUB / FOR AUTHORS</span>
+    </section>
+
+    <section class="authors-intro-section">
+      <div class="container authors-intro-grid">
+        <div class="authors-intro-label reveal">
+          <p class="eyebrow">A note to authors</p>
+          <span class="authors-ornament" aria-hidden="true">✳</span>
+        </div>
+        <div class="authors-intro-copy reveal">
+          <h2>We’re interested in the stories that <em>stay with people.</em></h2>
+          <p class="authors-lead">BBC is an independent literary discovery and reader community. We look beyond what is already everywhere, seeking books that offer readers something worth their time.</p>
+          <p>Authors and publishers are welcome to introduce us to their work. A submission gives us a chance to consider a book; it does not buy a place in the collection or replace our independent editorial judgement.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="authors-principles-section">
       <div class="container">
-        <h1>For Authors</h1>
-        <p class="lead mt-3">This section is being prepared. It will explain how BBC selects books and how authors can take part. Submissions are not open yet.</p>
-        <p class="mt-4"><a class="btn btn-bbc-outline" href="../index.html">Back to the homepage</a></p>
+        <div class="authors-section-heading reveal">
+          <p class="eyebrow eyebrow-light">What guides us</p>
+          <h2>Good relationships<br><em>begin with honesty.</em></h2>
+          <p>We want authors to understand what BBC does, what it does not promise, and how decisions are made.</p>
+        </div>
+        <div class="authors-principles-grid">
+          <article class="authors-principle-card reveal">
+            <span class="authors-card-number">01</span>
+            <h3>Independent discovery</h3>
+            <p>We research books independently and welcome suitable submissions. The work should speak for itself, not arrive with a promise of attention.</p>
+          </article>
+          <article class="authors-principle-card reveal">
+            <span class="authors-card-number">02</span>
+            <h3>Thoughtful consideration</h3>
+            <p>We consider a book against our editorial approach and the interests of the readers we are building connections with.</p>
+          </article>
+          <article class="authors-principle-card reveal">
+            <span class="authors-card-number">03</span>
+            <h3>Honest outcomes</h3>
+            <p>No guaranteed features, reader matches, positive reviews, ratings, sales or exposure. Reader opinions must remain their own.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="authors-process-section" id="how-we-consider-books">
+      <div class="container">
+        <div class="authors-process-heading reveal">
+          <p class="eyebrow">01 / The editorial process</p>
+          <h2>Every book gets<br><em>a considered look.</em></h2>
+          <p>Whether we discover a book ourselves or an author brings it to us, the decision remains independent.</p>
+        </div>
+        <div class="authors-process-list">
+          <article class="authors-process-item reveal">
+            <span class="authors-process-number">01</span>
+            <div><h3>Discovery</h3><p>Books may come to our attention through independent research or an author or publisher submission.</p></div>
+            <span class="authors-process-symbol" aria-hidden="true">↗</span>
+          </article>
+          <article class="authors-process-item reveal">
+            <span class="authors-process-number">02</span>
+            <div><h3>Initial review</h3><p>We look at the available book information and consider its fit with BBC’s editorial direction and reader interests.</p></div>
+            <span class="authors-process-symbol" aria-hidden="true">◎</span>
+          </article>
+          <article class="authors-process-item reveal">
+            <span class="authors-process-number">03</span>
+            <div><h3>Editorial decision</h3><p>The founder makes the final decision about whether a book is selected for an official BBC feature.</p></div>
+            <span class="authors-process-symbol" aria-hidden="true">✳</span>
+          </article>
+          <article class="authors-process-item reveal">
+            <span class="authors-process-number">04</span>
+            <div><h3>Publication, if selected</h3><p>Only approved books move forward to a BBC feature. A submission or shortlist is not a promise of publication.</p></div>
+            <span class="authors-process-symbol" aria-hidden="true">✦</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="authors-submission-section">
+      <div class="container authors-submission-grid">
+        <div class="authors-submission-copy reveal">
+          <p class="eyebrow eyebrow-light">02 / Introducing us to your book</p>
+          <h2>Have a story<br><em>for us to discover?</em></h2>
+          <p>Our approach welcomes authors and publishers who want to put a book forward for consideration. Basic book submission for consideration is free; selection is never guaranteed.</p>
+          <p class="authors-submission-note">The website submission form is not available yet. We’ll make the route clear when the process is ready. Please do not send unpublished manuscripts through this page.</p>
+        </div>
+        <aside class="authors-submission-aside reveal">
+          <span class="authors-aside-mark" aria-hidden="true">“</span>
+          <h3>A submission is an introduction, not a guarantee.</h3>
+          <p>We will not claim a book has been selected until a decision has actually been made.</p>
+          <span class="authors-aside-rule"></span>
+          <span class="authors-aside-caption">OUR COMMITMENT TO TRANSPARENCY</span>
+        </aside>
+      </div>
+    </section>
+
+    <section class="authors-trust-section">
+      <div class="container authors-trust-grid">
+        <div class="authors-trust-heading reveal">
+          <p class="eyebrow">03 / Trust and ownership</p>
+          <h2>Your work<br><em>remains yours.</em></h2>
+        </div>
+        <div class="authors-trust-copy reveal">
+          <p>Authors and publishers retain ownership of their original work. Sending a book for consideration does not transfer copyright to Better Book Club.</p>
+          <p>We use book covers, descriptions and excerpts responsibly and seek appropriate permission where it is required. Authors should only share materials they own or are authorised to provide.</p>
+          <p>If a reader opportunity is ever arranged, participation and feedback must remain genuine. No author can purchase a positive opinion, rating or review.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="authors-faq-section">
+      <div class="container authors-faq-grid">
+        <div class="authors-faq-heading reveal">
+          <p class="eyebrow">A few useful answers</p>
+          <h2>Before you<br><em>get in touch.</em></h2>
+          <p>Clear expectations matter to us. Here are some of the questions authors may have.</p>
+        </div>
+        <div class="authors-faq-list reveal">
+          <details>
+            <summary>Does submitting a book guarantee a feature?</summary>
+            <p>No. Every book is considered independently, and the founder makes the final selection decision. A submission does not guarantee a feature or publication.</p>
+          </details>
+          <details>
+            <summary>Does BBC charge to consider a book?</summary>
+            <p>Basic book submission for consideration is free. Any separate professional service, if introduced, would have its own clearly explained scope and price. Payment would never guarantee editorial selection.</p>
+          </details>
+          <details>
+            <summary>Can I pay for a positive review or rating?</summary>
+            <p>No. BBC does not sell positive reviews or ratings, and readers are never required to give favourable feedback.</p>
+          </details>
+          <details>
+            <summary>Will BBC find a reader for my book?</summary>
+            <p>We cannot guarantee a reader match. If a suitable opportunity exists, the reader is asked whether they want to participate and may accept or decline.</p>
+          </details>
+          <details>
+            <summary>Can I send an unpublished manuscript now?</summary>
+            <p>Please do not send unpublished manuscripts through this website. The website submission route is not available yet, and any future manuscript-sharing process will need clear confidentiality arrangements.</p>
+          </details>
+          <details>
+            <summary>Who makes the final decision?</summary>
+            <p>The founder retains final authority over official BBC book selections and features.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="authors-closing-section">
+      <div class="container authors-closing-inner reveal">
+        <p class="eyebrow eyebrow-light">A place for good stories</p>
+        <h2>Let’s keep the focus<br><em>where it belongs.</em></h2>
+        <p>On the books, the people who write them, and the readers who may find something meaningful in their pages.</p>
+        <div class="authors-closing-actions">
+          <a class="btn btn-cream" href="explore.html">Explore books <span aria-hidden="true">↗</span></a>
+          <a class="authors-closing-link" href="about.html">More about BBC <span aria-hidden="true">→</span></a>
+        </div>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <div class="row g-4">
-        <div class="col-md-5">
-          <h2>Better Book Club</h2>
-          <p>An independent literary discovery and reader community.</p>
-        </div>
-        <div class="col-6 col-md-3">
-          <h2>Explore</h2>
-          <ul class="list-unstyled">
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="explore.html">Explore Books</a></li>
-          <li><a href="authors.html">For Authors</a></li>
-          <li><a href="readers.html">For Readers</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-        <div class="col-6 col-md-4">
-          <h2>Newsletter</h2>
-          <p>The BBC newsletter is not open yet. Signup will appear here when it is ready.</p>
-        </div>
+      <div class="footer-main">
+        <div class="footer-brand"><a class="footer-logo" href="../index.html"><span class="brand-mark" aria-hidden="true">b.</span><span>Better Book <i>Club</i></span></a><p>For the love of stories<br>and the people who find them.</p></div>
+        <div class="footer-links"><span class="eyebrow eyebrow-light">Explore</span><a href="explore.html">Books</a><a href="readers.html">Readers</a><a href="authors.html" aria-current="page">Authors</a></div>
+        <div class="footer-links"><span class="eyebrow eyebrow-light">The club</span><a href="about.html">Our story</a><a href="contact.html">Get in touch</a></div>
+        <div class="footer-signoff"><span>TURN THE PAGE.</span><strong>Stay curious.</strong></div>
       </div>
-      <p class="mt-4 mb-0 small">&copy; <span id="footer-year">2026</span> Better Book Club</p>
+      <div class="footer-bottom"><span>© <span id="footer-year">2026</span> Better Book Club</span><span>An independent literary discovery and reader community.</span></div>
     </div>
   </footer>
 
