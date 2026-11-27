@@ -24,7 +24,7 @@ All progress reports must reflect actual work and verified evidence.
 
 **Stage A — Public frontend implementation (backend-free)**
 
-Status: The immersive homepage and About page are implemented on `task-003/immersive-homepage-redesign`. The founder reports that the homepage is responsive and its navigation links work. The About page is awaiting founder review. The working branch has not been merged into `main`.
+Status: The immersive homepage and About page are implemented on `task-003/immersive-homepage-redesign`; the founder has approved the About page and previously reported that the homepage is responsive with working navigation. The Explore Books page is now implemented and awaiting founder review. The working branch has not been merged into `main`.
 
 - Phase 1 (project foundation and documentation): Completed.
 - Phase 2 (repository inspection and technical assessment): Completed. The report was reviewed with ChatGPT and the founder agreed the decisions recorded in `DECISIONS.md` on 2026-11-27.
@@ -88,7 +88,7 @@ The project documentation establishes:
 | About page | Implemented on `task-003/immersive-homepage-redesign`; awaiting founder review |
 | Explore, Authors, Readers and Contact pages | Still placeholders; queued for page-by-page implementation |
 | Original BBC logo | Blocked: asset not yet supplied (placeholder in place) |
-| Book catalogue, `books.json`, individual book pages | Not started |
+| Book catalogue | `data/books.json` created with no approved entries yet; individual static book pages not started |
 | Functional forms, newsletter, admin, backend, database | Not started; need founder approvals (Stage B) |
 | Hosting and deployment | Not started |
 
@@ -149,7 +149,7 @@ See `AI_WORKFLOW.md` for the complete workflow.
 
 ## 10. Next Development Stage
 
-See `NEXT_STEP.md`. The current task is founder review of the newly implemented About page. The remaining public pages will be built and reviewed individually before the site-wide review and pull request. Stage B (backend, forms, newsletter, admin) needs separate founder approvals.
+See `NEXT_STEP.md`. The current task is founder review of the newly implemented Explore Books page. The remaining public pages will be built and reviewed individually before catalogue population, site-wide review and the pull request. Stage B (backend, forms, newsletter, admin) needs separate founder approvals.
 
 ## 11. Progress Reporting Rules
 
