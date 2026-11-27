@@ -12,10 +12,10 @@ The Foundation Skeleton and project documentation remain on `main`. The active d
 
 ## 3. Immediate Next Action
 
-1. Founder reviews `pages/about.html` on `task-003/immersive-homepage-redesign` for content, visual direction and mobile layout.
-2. Make any requested refinements to the About page.
-3. Once the About page is accepted, implement the Explore Books page, keeping the catalogue empty until approved book records and authorised cover assets are available.
-4. Continue page by page with For Authors, For Readers and Contact, reviewing each page before moving on.
+1. Founder reviews `pages/explore.html` on `task-003/immersive-homepage-redesign` for content, visual direction and mobile layout.
+2. Make any requested refinements to Explore Books.
+3. Continue page by page with For Authors, For Readers and Contact, reviewing each page before moving on.
+4. Populate `data/books.json` and create individual static book pages only after books and authorised cover assets are approved.
 5. After all public pages are implemented, complete a site-wide review and prepare a pull request for founder review. Do not merge into `main` without explicit founder approval.
 
 ## 4. Approved Scope Limits (unchanged)
