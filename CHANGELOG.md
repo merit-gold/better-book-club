@@ -1,3 +1,16 @@
+## 2026-11-27 — For Authors Review Refinements
+
+### Changed
+
+- Confirmed the hero already uses a full-bleed photographic background with a dark readability overlay; no missing hero image needed to be added.
+- Kept all existing For Authors sections and FAQ, while reducing vertical section spacing and hero height to make the page less scroll-heavy.
+- Clarified that submitting a book through the future website form carries no submission fee; any separate author service payment is handled outside the website, and submissions await administrator review before public listing.
+- Kept the submission area as an explicitly unavailable placeholder until the future form and backend are implemented.
+
+### Testing
+
+- Source-level review confirmed the hero background image URL, all eight page sections, and the non-functional submission placeholder remain present. Visual browser review is still pending.
+
 ## 2026-11-27 — Author Service and Delivery Sequence Clarified
 
 ### Founder direction
