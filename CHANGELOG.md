@@ -1,3 +1,27 @@
+## 2026-11-27 — For Authors Page Implemented
+
+### Added
+
+- Replaced the For Authors placeholder with an editorial page explaining BBC's independent book discovery, consideration process, author expectations, copyright principles and honest-feedback standards.
+- Added a transparent explanation that basic book submission for consideration is free, while the website submission form is not yet available.
+- Added FAQs covering selection, fees, reader matching, reviews and manuscript handling.
+- Added responsive page-specific styling consistent with the immersive editorial design used across the public pages.
+
+### Content safeguards
+
+- Used the founder-provided Better Book Club strategy record and the repository's author and reader policies as the content basis.
+- Did not advertise unapproved paid services, promise selection or reader matches, invite manuscript uploads, invent contact details, or add a non-functional form.
+
+### Testing
+
+- Static source review is in progress; founder visual review is pending. Real-browser and physical-device testing has not been performed by ChatGPT.
+
+### Next
+
+Founder reviews `pages/authors.html` on `task-003/immersive-homepage-redesign`. Refine if requested, then implement For Readers.
+
+---
+
 ## 2026-11-27 — Homepage Discovery Principle Clarified
 
 ### Founder direction
