@@ -22,15 +22,13 @@ All progress reports must reflect actual work and verified evidence.
 
 ## 3. Current Development Phase
 
-**Phase 1 — Project Foundation and Documentation**
+**Phase 3 — Foundation Skeleton (backend-free)**
 
-Status: Completed.
+Status: Reviewed by ChatGPT; awaiting founder commit to GitHub.
 
-All 13 planned documentation files have been created and committed to the GitHub repository.
-
-The README, project status, next-step instructions, and changelog have been updated to reflect the current project state.
-
-The project is ready for its initial repository inspection and technical assessment.
+- Phase 1 (project foundation and documentation): Completed.
+- Phase 2 (repository inspection and technical assessment): Completed. The report was reviewed with ChatGPT and the founder agreed the decisions recorded in `DECISIONS.md` on 2026-11-27.
+- Phase 3: the Foundation Skeleton has been written and checked with scripts. ChatGPT has reviewed it, and the founder reports testing navigation between the pages in VS Code. It still needs testing in real browsers and on a phone, and the founder has not yet committed it to GitHub (see `CHANGELOG.md`).
 
 ## 4. Documentation Progress
 
@@ -76,29 +74,22 @@ The project documentation establishes:
 
 ## 6. Website Implementation Status
 
-**Status: Not yet confirmed as started.**
+**Status: Foundation Skeleton written and reviewed by ChatGPT; awaiting founder commit to GitHub. A `.gitignore` is included.**
 
-No website implementation should be marked complete until the repository has been inspected and implementation evidence is available.
-
-The following areas remain to be assessed or implemented:
-
-- Homepage.
-- Responsive navigation.
-- Book discovery and catalogue.
-- Individual book pages.
-- Featured and upcoming books.
-- Past features and archive.
-- Author information and submission forms.
-- Reader information and participation forms.
-- About and contact pages.
-- Newsletter integration.
-- Secure administration dashboard.
-- Backend and database integration.
-- Hosting and deployment.
+| Area | Status |
+|---|---|
+| Homepage structure, header, navigation, footer | Reviewed by ChatGPT; awaiting commit |
+| Responsive layout (Bootstrap 5 grid) | Reviewed by ChatGPT; awaiting commit; not yet viewed on real devices |
+| Brand colour variables and typography | Reviewed by ChatGPT; awaiting commit |
+| Placeholder pages (Explore, Authors, Readers, About, Contact) | Reviewed by ChatGPT; awaiting commit; content is placeholder text only |
+| Original BBC logo | Blocked: asset not yet supplied (placeholder in place) |
+| Book catalogue, `books.json`, individual book pages | Not started |
+| Functional forms, newsletter, admin, backend, database | Not started; need founder approvals (Stage B) |
+| Hosting and deployment | Not started |
 
 ## 7. Current Technical Decisions
 
-The preferred frontend direction is:
+The approved frontend stack (2026-11-27) is:
 
 - HTML5.
 - Bootstrap 5.
@@ -115,13 +106,11 @@ Refer to `DECISIONS.md` before treating a technical proposal as approved.
 
 ### Immediate priorities
 
-1. Give Claude access to the GitHub repository.
-2. Have Claude read the project documentation.
-3. Have Claude inspect the actual repository structure, existing code, and assets.
-4. Obtain Claude's technical assessment and recommendations.
-5. Review the report with ChatGPT.
-6. Agree on the first implementation task.
-7. Obtain the founder's approval before implementation begins.
+1. ChatGPT reviews the Foundation Skeleton.
+2. Founder reviews and approves, then commits to GitHub.
+3. Founder supplies the original BBC logo file.
+4. Test the skeleton in real browsers (Chrome, Firefox, Safari, Edge) and on a phone.
+5. Agree the next focused task.
 
 ### Technical and operational decisions
 
@@ -155,21 +144,7 @@ See `AI_WORKFLOW.md` for the complete workflow.
 
 ## 10. Next Development Stage
 
-**Phase 2 — Repository Inspection and Technical Assessment**
-
-Claude should:
-
-1. Read the project documentation.
-2. Inspect the actual repository structure.
-3. Identify existing code and assets.
-4. Assess the proposed technical direction.
-5. Identify missing components and technical concerns.
-6. Recommend an appropriate implementation structure.
-7. Report its findings before beginning major implementation.
-
-ChatGPT will review Claude's report and help prepare the first focused implementation task.
-
-The founder will approve the next stage.
+See `NEXT_STEP.md`. After the Foundation Skeleton is accepted, the likely next task is the book catalogue and individual static book pages (Stage A). Stage B (backend, forms, newsletter, admin) needs separate founder approvals.
 
 ## 11. Progress Reporting Rules
 

@@ -53,7 +53,7 @@ See `DESIGN_SYSTEM.md` for the design direction.
 
 ## 3. Proposed Technology
 
-The preferred frontend starting point is:
+The approved frontend stack is:
 
 - HTML5
 - Bootstrap 5
@@ -145,13 +145,13 @@ See `AI_WORKFLOW.md` for the complete process.
 
 ## 7. Current Project Status
 
-**Current phase:** Project foundation and documentation completed.
+**Current phase:** Phase 3 — Foundation Skeleton (backend-free), reviewed and awaiting commit to GitHub.
 
-The planned documentation files have been created.
+Phases 1 (documentation) and 2 (repository inspection) are complete. The first frontend files exist: homepage, placeholder pages, `assets/css/bbc.css`, and `assets/js/main.js`.
 
-**Next priority:** Have Claude inspect the repository, review the documentation, assess the technical starting point, and report its recommendations before implementation begins.
+The original BBC logo has not been added yet. A placeholder marks its position.
 
-Website implementation, hosting, and final backend decisions remain outstanding.
+Backend, hosting, newsletter, and functional forms remain outstanding and require founder approval.
 
 See `PROJECT_STATUS.md` and `NEXT_STEP.md`.
 

@@ -31,7 +31,11 @@ When a decision changes, update this register and add an entry to `CHANGELOG.md`
 | AI research support | ChatGPT researches and prepares shortlists; Claude independently cross-checks and supports implementation/content organisation | Approved |
 | Source of project documentation | The GitHub repository is the shared project reference | Approved |
 | Existing logo | Preserve the existing BBC logo; do not redesign it without approval | Approved |
-| Preferred frontend starting point | HTML5, Bootstrap 5, Vanilla JavaScript, and custom CSS | Preferred direction; confirm during implementation |
+| Frontend stack | HTML5, Bootstrap 5, Vanilla JavaScript, and custom CSS | Approved (2026-11-27) |
+| Repository structure | Keep the existing structure; documentation stays at the repository root (no `docs/` folder) | Approved (2026-11-27) |
+| Book pages | Individual static pages, each with its own title, description, and social-sharing metadata | Approved (2026-11-27) |
+| Main navigation | Home, Explore Books, For Authors, For Readers, About, Contact; Newsletter on the homepage and footer | Approved (2026-11-27) |
+| First implementation task | Backend-free Foundation Skeleton (no database, backend, authentication, newsletter integration, paid services, or functional forms) | Approved (2026-11-27) |
 | Visual direction | Premium, literary, welcoming, distinctive, and responsive | Approved direction |
 
 ## 4. Proposed Brand Palette
@@ -53,7 +57,7 @@ The following items must remain open until the founder explicitly approves a dir
 
 | Topic | Current status | What must be decided |
 |---|---|---|
-| Backend provider | Under review | Whether to use Firebase or another suitable service |
+| Backend provider | Under review | Firebase remains an option, not approved. Whether to use it or another suitable service |
 | Database structure | Proposed | Final data model and storage approach |
 | Hosting and deployment | Under review | Where the public site and any backend will run |
 | Domain name | Open | Final domain and registration |
@@ -64,6 +68,7 @@ The following items must remain open until the founder explicitly approves a dir
 | Paid promotional options | Open | Whether any paid opportunities will be offered and how editorial independence will be protected |
 | Reader programmes | Open | Eligibility, application process, privacy, and operating rules |
 | Launch catalogue size | Open | Number of books to include at launch |
+| Name of the "popular / noteworthy" section | Open | Final name and sourcing rules for popularity claims |
 | Analytics | Deferred | Whether analytics are needed and which privacy approach to use |
 
 ## 6. Editorial and Trust Rules

@@ -43,6 +43,8 @@ Suggested direction:
 - Body text: Inter, Lato, or a comparable sans-serif.
 - Buttons and navigation: Clean sans-serif typography.
 
+The Foundation Skeleton uses system serif/sans-serif font stacks with no third-party font requests. Self-hosted fonts may be added later.
+
 Typography must remain readable on desktop and mobile devices.
 
 Avoid excessive font sizes, overly decorative text, and inconsistent heading styles.
@@ -123,6 +125,8 @@ Suggested structure:
 - For Readers
 - About
 - Contact
+
+Newsletter signup is placed on the homepage and in the footer, not in the main navigation.
 
 The Explore Books area may contain categories such as Featured Books, Recommendations, Coming Soon, and Past Features.
 

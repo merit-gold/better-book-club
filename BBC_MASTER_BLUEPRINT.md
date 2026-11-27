@@ -59,26 +59,14 @@ Prefer authorised materials supplied by authors or publishers. Write original BB
 
 ### Public navigation
 
-- Home
-- Explore Books
-  - Featured Books
-  - Recommended Books
-  - Popular on Goodreads & Amazon / What's Gaining Attention
-  - Coming Soon
-  - Past Features / Archive
-- Individual Book Pages
-- For Authors
-  - How It Works
-  - Submit a Book
-  - FAQs
-  - Opportunities and Services
-- For Readers
-  - Founding Readers
-  - Beta Reading
-  - ARC Opportunities
-  - FAQs
-- About
-- Newsletter
+Main navigation: **Home, Explore Books, For Authors, For Readers, About, Contact.**
+
+Newsletter is not a main navigation item. It appears on the homepage and in the footer.
+
+- Explore Books may contain: Featured Books, Recommended Books, a "popular / noteworthy" section (final name and sourcing rules still to be decided), Coming Soon, and Past Features / Archive.
+- For Authors may contain: How It Works, Submit a Book, FAQs, Opportunities and Services.
+- For Readers may contain: Founding Readers, Beta Reading, ARC Opportunities, FAQs.
+- Individual book pages are reached from book cards.
 
 ### Private area
 
@@ -195,9 +183,9 @@ Preferred frontend:
 - Vanilla JavaScript.
 - A small custom CSS layer.
 
-Firebase is the proposed backend and hosting direction. Possible services include Firebase Hosting, Firestore, Authentication, Storage, and Cloud Functions where needed.
+Firebase is one candidate backend and hosting option. It is **not** an approved decision. Other options remain under review (see `DECISIONS.md`).
 
-The final technical architecture remains to be confirmed.
+The frontend stack is approved. The backend, database, hosting, and newsletter provider remain to be decided by the founder.
 
 ## 12. Trust and Transparency
 
@@ -256,22 +244,29 @@ GitHub is the shared source of truth for project files and documentation.
 
 ## 14. MVP Development
 
-The initial website should focus on:
+Development is split into two stages so that frontend work is not blocked by undecided backend choices.
 
-- Responsive public website.
-- Book catalogue.
-- Individual book pages.
-- About section.
-- For Authors section.
-- For Readers section.
-- Functional submission forms.
+### Stage A — Frontend MVP (backend-free)
+
+- Foundation skeleton: homepage, header, navigation, footer, brand styling.
+- Responsive public pages: Explore Books, For Authors, For Readers, About, Contact.
+- Book catalogue rendered from approved data in `data/books.json`.
+- Individual static book pages with their own titles, descriptions, and social-sharing metadata.
+- Accessibility and responsive testing.
+- No database, authentication, newsletter integration, or functional submission forms. Any form shown must clearly state that it is not yet available.
+
+### Stage B — Operational MVP (needs founder approvals)
+
+- Functional author submission, reader application, and contact forms.
+- Newsletter integration.
 - Basic secure admin dashboard.
-- Newsletter integration where ready.
-- Basic accessibility and security testing.
+- Backend, database, hosting, and privacy arrangements.
+
+Stage B starts only after the founder approves the backend, hosting, and newsletter provider and the privacy policy is ready.
 
 Advanced member profiles, messaging, reader matching, payments, and sophisticated analytics can come later.
 
-A 24-hour focused build is an aspiration, not a guaranteed delivery time.
+Delivery times are estimates, not commitments.
 
 ## 15. Decisions Still to Confirm
 

@@ -8,7 +8,7 @@ Technical choices should support the project's real requirements without introdu
 
 ## 2. Preferred Starting Stack
 
-The current preferred frontend stack is:
+The approved frontend stack (founder-approved 2026-11-27) is:
 
 - HTML5 for page structure.
 - Bootstrap 5 for responsive layout and components.
@@ -20,6 +20,13 @@ A backend may be needed for administrator authentication, database storage, subm
 Firebase is a candidate, not an approved final decision. The implementation team should assess the requirements, costs, security, and maintenance implications before recommending a backend.
 
 Do not introduce a large framework or paid dependency without explaining its purpose and obtaining approval where appropriate.
+
+## 2a. Development Stages
+
+- **Stage A — frontend, backend-free.** Static pages, catalogue from `books.json`, static book pages. No functional forms.
+- **Stage B — operational.** Backend, forms, newsletter, admin. Requires founder approval of each provider.
+
+See `BBC_MASTER_BLUEPRINT.md` section 14.
 
 ## 3. Main Website Areas
 
@@ -56,21 +63,24 @@ better-book-club/
 │   ├── authors.html
 │   ├── readers.html
 │   ├── contact.html
-│   └── book.html
-├── admin/
-│   └── index.html
+│   └── books/            (one static page per approved book)
 ├── assets/
-│   ├── css/
-│   ├── js/
-│   ├── images/
-│   │   ├── logo/
-│   │   ├── books/
-│   │   └── general/
-│   └── fonts/
+│   ├── css/bbc.css
+│   ├── js/main.js
+│   └── images/
+│       ├── logo/         (original BBC logo, supplied by the founder)
+│       ├── books/
+│       └── general/
 ├── data/
-│   └── books.json
-└── docs/
+│   └── books.json        (approved books only)
+└── *.md                  (project documentation stays at the repository root)
 ```
+
+The documentation files stay at the repository root. They are not moved into a `docs/` folder.
+
+The `admin/` area is not part of the public static site. It is added only after a backend is approved.
+
+Navigation: Home, Explore Books, For Authors, For Readers, About, Contact. Newsletter appears on the homepage and in the footer.
 
 Do not create every proposed file or folder immediately. Add only what the current implementation task requires.
 
@@ -91,6 +101,8 @@ A book record may include:
 - External book links.
 - Research sources and date last checked.
 - Workflow status.
+
+Each approved book gets its own static page under `pages/books/` with its own title, description, and social-sharing metadata. `data/books.json` holds approved books only; candidate lists and research notes are kept outside the public repository.
 
 The workflow should distinguish candidates, shortlisted books, approved books, upcoming features, current features, and past features.
 

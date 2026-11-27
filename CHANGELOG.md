@@ -23,6 +23,36 @@ Use these categories:
 
 ---
 
+## 2026-11-27 — Foundation Skeleton and Documentation Corrections
+
+### Approved
+
+Founder-approved on 2026-11-27 (recorded in `DECISIONS.md`): frontend stack; keep repository structure; individual static book pages; main navigation; backend-free Foundation Skeleton as the first task. Firebase remains an option, not approved.
+
+### Added
+
+- `index.html` and placeholder pages `pages/explore.html`, `authors.html`, `readers.html`, `about.html`, `contact.html`.
+- `.gitignore` (secrets, private submissions and manuscripts, dependencies, logs, OS and editor files).
+- `assets/css/bbc.css` (brand colour variables, typography, layout) and `assets/js/main.js` (footer year, current-page link).
+- Empty folders for `assets/images/logo`, `books`, `general`, and `pages/books` (with `.gitkeep`).
+- Logo placeholder in the header. The original logo has not been added.
+
+### Changed
+
+- `AI_HANDOFF_PROMPT.md`: removed duplicated sections 10–11 and the duplicate copy of section 9.
+- `BBC_MASTER_BLUEPRINT.md`: Firebase described as a candidate; navigation harmonised; MVP split into Stage A (frontend) and Stage B (operational).
+- `DESIGN_SYSTEM.md`, `TECHNICAL_ARCHITECTURE.md`, `DECISIONS.md`, `README.md`, `PROJECT_STATUS.md`, `NEXT_STEP.md` updated to match.
+
+### Testing
+
+Checked with scripts: HTML structure, internal links, JavaScript syntax, contrast ratios, and page behaviour in a headless browser without Bootstrap. The founder reported testing navigation between pages in VS Code, and ChatGPT reviewed the ZIP. Not yet tested in real browsers or on a phone. Bootstrap loads from a CDN, which could not be tested offline.
+
+### Next
+
+Founder commits to GitHub, then supplies the logo.
+
+---
+
 ## 2026-11-26 — Project Foundation Completed
 
 ### Added
