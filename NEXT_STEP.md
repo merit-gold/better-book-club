@@ -12,9 +12,10 @@ The Foundation Skeleton and project documentation remain on `main`. The active d
 
 ## 3. Immediate Next Action
 
-1. Founder reviews `pages/explore.html` on `task-003/immersive-homepage-redesign` for content, visual direction and mobile layout.
-2. Make any requested refinements to Explore Books.
-3. Continue page by page with For Authors, For Readers and Contact, reviewing each page before moving on.
+1. Implement the For Authors page using the founder-provided strategy record and approved BBC policies; keep website submissions unavailable until the relevant Stage B arrangements are approved.
+2. Founder reviews the For Authors page before moving to For Readers.
+3. Implement and review For Readers, then Contact, one page at a time.
+4. Preserve the homepage discovery principle: Featured Books should visibly preview real approved catalogue entries on the homepage, and Worth Discovering should encourage exploration. Revisit the homepage when the catalogue is ready.
 4. Populate `data/books.json` and create individual static book pages only after books and authorised cover assets are approved.
 5. After all public pages are implemented, complete a site-wide review and prepare a pull request for founder review. Do not merge into `main` without explicit founder approval.
 
