@@ -69,6 +69,22 @@ BBC may consider books across different genres, including:
 
 The catalogue should offer variety rather than repeatedly featuring only one genre.
 
+## Founder-Specified Research Filters (2026-11-27)
+
+The founder has provided the following direction for the initial 50-book research pool:
+
+- Prioritise independently published books for the initial catalogue research. Traditionally published books may be considered when a genuine traditional-publishing client approaches BBC; they are not the focus of this initial independent-book shortlist.
+- Use the founder's accepted genres as the starting point: Fantasy, Romance, Science Fiction, Mystery/Thriller, Horror, Literary Fiction, Historical Fiction, Young Adult, and Contemporary. Research may identify adjacent genre categories for the founder to consider; do not silently treat unapproved additions as accepted BBC genres.
+- Goodreads should be a key discovery and verification source. The founder's minimum target is 500 Goodreads ratings per candidate where that information is available; the preferred range is approximately 3,000–10,000 ratings.
+- Avoid books with extremely large rating counts in the initial candidate pool, particularly titles with millions of ratings, unless an exceptional editorial reason is presented separately.
+- Assess the average star rating separately from the number of ratings. Avoid weakly rated books where the rating profile could undermine BBC's editorial credibility. No numeric minimum average rating has been approved; do not invent one.
+- Featured Books may use editorial discretion beyond the numerical filters when a title is genuinely compelling and appropriate for BBC. Worth Discovering may include interesting books with lower rating counts, provided quality and reader appeal are supported.
+- Strong cover presentation matters, especially for Featured Books. A publicly visible cover is not automatically authorised for reuse; record the source and permission status separately.
+- Amazon availability is preferred but not mandatory. Goodreads availability is strongly preferred.
+- Assess writing quality, story appeal, originality and reader appeal using available evidence. Ratings and marketing descriptions alone do not prove writing quality.
+
+The initial manual website catalogue is expected to contain 10 approved books. Research should prepare a pool of approximately 50 candidates in advance, stored separately from the public catalogue. The founder will approve which candidates enter the public catalogue. Candidate research must not be inserted into `data/books.json` until approved.
+
 ## 5. Popularity Is Not the Only Standard
 
 A book does not need to be a bestseller or have thousands of reviews to qualify.
