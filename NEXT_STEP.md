@@ -6,16 +6,17 @@ This document identifies the immediate next action for the Better Book Club proj
 
 ## 2. Current Project Stage
 
-**Current stage:** Phase 4 — Homepage Completion (Task 001, backend-free). The Foundation Skeleton is committed to `main`; Task 001 is implemented on `task-001/homepage-completion` and awaiting founder review.
+**Current stage:** Stage A — public frontend implementation. The immersive homepage is implemented on `task-003/immersive-homepage-redesign`; the founder has reported that its responsive layout and page links work. The About page has now been implemented on the same branch and is awaiting founder review.
 
-Phases 1 (documentation), 2 (repository inspection), and 3 (Foundation Skeleton) are complete.
+The Foundation Skeleton and project documentation remain on `main`. The active development branch is intentionally separate; no changes have been merged into `main`.
 
 ## 3. Immediate Next Action
 
-1. Review the Task 001 homepage changes on `task-001/homepage-completion`.
-2. Test the homepage in desktop and mobile browsers, including the responsive layout and navigation.
-3. If the founder approves the changes, merge the working branch into `main`.
-4. Supply the original BBC logo when available. Place it in `assets/images/logo/` and replace the homepage placeholder; do not redraw or recolour it.
+1. Founder reviews `pages/about.html` on `task-003/immersive-homepage-redesign` for content, visual direction and mobile layout.
+2. Make any requested refinements to the About page.
+3. Once the About page is accepted, implement the Explore Books page, keeping the catalogue empty until approved book records and authorised cover assets are available.
+4. Continue page by page with For Authors, For Readers and Contact, reviewing each page before moving on.
+5. After all public pages are implemented, complete a site-wide review and prepare a pull request for founder review. Do not merge into `main` without explicit founder approval.
 
 ## 4. Approved Scope Limits (unchanged)
 
@@ -30,7 +31,7 @@ Firebase remains an option, not an approved backend.
 
 ## 5. Likely Following Task (to be agreed, not yet approved)
 
-After Task 001 is accepted, consider the Stage A book catalogue (`data/books.json`, approved books only) and individual static book pages with their own titles, descriptions, and social-sharing metadata.
+After the public pages are reviewed, implement the Stage A book catalogue (`data/books.json`, approved books only) and individual static book pages with their own titles, descriptions, and social-sharing metadata.
 
 ## 6. Workflow
 
