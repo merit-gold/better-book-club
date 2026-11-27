@@ -6,18 +6,17 @@ This document identifies the immediate next action for the Better Book Club proj
 
 ## 2. Current Project Stage
 
-**Current stage:** Stage A — public frontend implementation. The immersive homepage and About page are implemented on `task-003/immersive-homepage-redesign`; the founder has approved the About page and reported that the homepage is responsive with working navigation. The Explore Books page has now been implemented on the same branch and the founder has reviewed it positively.
+**Current stage:** Stage A — public frontend implementation. The immersive homepage, About, Explore Books, For Authors, and For Readers pages are implemented on `task-003/immersive-homepage-redesign`; the founder has reviewed and approved these pages.
 
 The Foundation Skeleton and project documentation remain on `main`. The active development branch is intentionally separate; no changes have been merged into `main`.
 
 ## 3. Immediate Next Action
 
-1. Founder reviews the implemented For Readers page and requests any refinements.
-2. Implement and review Contact, one page at a time.
-3. Finish the remaining public page designs and complete a site-wide visual, responsive, accessibility and link review.
-4. Preserve the homepage discovery principle: Featured Books should visibly preview real approved catalogue entries on the homepage, and Worth Discovering should encourage exploration. Revisit the homepage as part of catalogue integration.
-5. Populate `data/books.json` with founder-approved books and create individual static book pages only after the public page designs are complete and authorised cover assets and verified information are available.
-6. After the catalogue and individual book pages, plan and implement the Stage B admin dashboard, database and backend with the founder. These are not built yet and require technical, privacy and operational decisions.
+1. Founder reviews the implemented Contact page and requests any refinements.
+2. Cross-check every public page for visual consistency, responsive behaviour, accessibility, navigation, internal links, metadata, and accurate content.
+3. Preserve the homepage discovery principle during catalogue integration: Featured Books should preview real approved catalogue entries, and Worth Discovering should encourage exploration.
+4. After the cross-check, populate `data/books.json` with founder-approved books and create individual static book pages only when verified information and authorised cover assets are available.
+5. After the catalogue and individual book pages, plan Stage B admin dashboard, database and backend with the founder; these remain future work.
 
 ## 4. Approved Scope Limits
 
