@@ -31,7 +31,6 @@ async function renderExploreCollections() {
       grid.className = "explore-book-grid";
 
       matches.forEach((book) => {
-        if (!book.slug || !book.title || !book.author || !book.cover) return;
 
         const article = document.createElement("article");
         article.className = "explore-book-card";
@@ -74,6 +73,13 @@ async function renderExploreCollections() {
           genre.className = "explore-book-genre";
           genre.textContent = book.genre;
           meta.appendChild(genre);
+        }
+
+        if (key === "coming-soon" && book.feature_date) {
+          const date = document.createElement("p");
+          date.className = "explore-book-author";
+          date.textContent = `Expected feature: ${book.feature_date}`;
+          meta.appendChild(date);
         }
 
         if (book.editorial_intro) {
