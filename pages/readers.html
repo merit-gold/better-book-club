@@ -4,40 +4,39 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>For Readers - Better Book Club</title>
-  <meta name="description" content="Reading opportunities with Better Book Club.">
+  <meta name="description" content="Discover how readers may take part in Better Book Club's literary community and future reading opportunities.">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Better Book Club">
   <meta property="og:title" content="For Readers - Better Book Club">
-  <meta property="og:description" content="Reading opportunities with Better Book Club.">
-  <!-- TODO: add og:image once the original BBC logo/share image is supplied. -->
+  <meta property="og:description" content="Thoughtful book discovery and genuine reader perspectives with Better Book Club.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="../assets/css/bbc.css">
 </head>
-<body>
+<body class="readers-page">
   <a class="skip-link" href="#main">Skip to main content</a>
 
   <header class="site-header">
     <nav class="navbar navbar-expand-lg" aria-label="Main navigation">
       <div class="container">
-        <a class="navbar-brand" href="../index.html">
-          <!-- LOGO PLACEHOLDER: replace this span with the original logo, e.g.
-               <img src="../assets/images/logo/FILENAME" alt="Better Book Club" height="48">
-               Do not redraw or recolour the logo. -->
-          <span class="logo-placeholder" aria-hidden="true">LOGO</span>
-          <span>Better Book Club</span>
+        <a class="navbar-brand" href="../index.html" aria-label="Better Book Club home">
+          <span class="brand-mark" aria-hidden="true">b.</span>
+          <span class="brand-name">Better Book <i>Club</i></span>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-menu"
                 aria-controls="main-menu" aria-expanded="false" aria-label="Show or hide the menu">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="main-menu">
-          <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="explore.html">Explore Books</a></li>
-          <li class="nav-item"><a class="nav-link" href="authors.html">For Authors</a></li>
-          <li class="nav-item"><a class="nav-link" href="readers.html">For Readers</a></li>
-          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+            <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="explore.html">Explore Books</a></li>
+            <li class="nav-item"><a class="nav-link" href="authors.html">For Authors</a></li>
+            <li class="nav-item"><a class="nav-link" href="readers.html" aria-current="page">For Readers</a></li>
+            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link nav-contact" href="contact.html">Get in touch <span aria-hidden="true">↗</span></a></li>
           </ul>
         </div>
       </div>
@@ -45,39 +44,176 @@
   </header>
 
   <main id="main">
-    <section class="section">
+    <section class="readers-hero" aria-labelledby="readers-title">
+      <div class="readers-hero-shade"></div>
+      <div class="container readers-hero-content">
+        <p class="eyebrow eyebrow-light reveal">For the people who turn the pages</p>
+        <h1 id="readers-title" class="reveal">Good stories are<br><em>better shared.</em></h1>
+        <p class="reveal">Discover books with us, bring your own perspective, and help make room for thoughtful conversations around the stories worth finding.</p>
+        <a class="text-link-light reveal" href="#reader-opportunities">Explore reader opportunities <span aria-hidden="true">↓</span></a>
+      </div>
+      <span class="readers-hero-index">BETTER BOOK CLUB / FOR READERS</span>
+    </section>
+
+    <section class="readers-intro-section">
+      <div class="container readers-intro-grid">
+        <div class="readers-intro-label reveal">
+          <p class="eyebrow">A note to readers</p>
+          <span class="readers-ornament" aria-hidden="true">✳</span>
+        </div>
+        <div class="readers-intro-copy reveal">
+          <h2>There is always another story <em>to discover.</em></h2>
+          <p class="readers-lead">Better Book Club is an independent literary discovery and reader community. We want to help readers come across books they might not otherwise find—and make space for genuine reader perspectives.</p>
+          <p>You do not need to be a professional critic to have a worthwhile point of view. A thoughtful response begins with your honest experience of a book.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="readers-values-section">
       <div class="container">
-        <h1>For Readers</h1>
-        <p class="lead mt-3">This section is being prepared. Reader opportunities will be announced here once their rules are ready.</p>
-        <p class="mt-4"><a class="btn btn-bbc-outline" href="../index.html">Back to the homepage</a></p>
+        <div class="readers-section-heading reveal">
+          <p class="eyebrow eyebrow-light">What matters here</p>
+          <h2>Read with curiosity.<br><em>Respond with honesty.</em></h2>
+          <p>Reader participation should be welcoming, voluntary, and respectful of every person's genuine opinion.</p>
+        </div>
+        <div class="readers-values-grid">
+          <article class="readers-value-card reveal">
+            <span class="readers-card-number">01</span>
+            <h3>Your honest voice</h3>
+            <p>We value genuine reactions. You are never expected to praise a book or change your opinion to please an author or BBC.</p>
+          </article>
+          <article class="readers-value-card reveal">
+            <span class="readers-card-number">02</span>
+            <h3>Participation by choice</h3>
+            <p>Reading opportunities are invitations, not obligations. You should be able to decide whether a particular book and activity suit you.</p>
+          </article>
+          <article class="readers-value-card reveal">
+            <span class="readers-card-number">03</span>
+            <h3>Respect for the work</h3>
+            <p>Respect authors' rights, protect private or unpublished material, and treat fellow readers and contributors with care.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="readers-opportunities-section" id="reader-opportunities">
+      <div class="container">
+        <div class="readers-opportunities-heading reveal">
+          <p class="eyebrow">01 / Ways to take part</p>
+          <h2>Different ways to be<br><em>part of the story.</em></h2>
+          <p>These are reader opportunity areas BBC is working towards. They are not currently open for applications.</p>
+        </div>
+        <div class="readers-opportunities-list">
+          <article class="readers-opportunity reveal">
+            <div class="readers-opportunity-top"><span class="readers-opportunity-number">01</span><span class="readers-status">Planned opportunity</span></div>
+            <div class="readers-opportunity-body">
+              <h3>Founding Readers</h3>
+              <p>A starting circle of readers who can help shape the spirit of the community as Better Book Club grows. The practical details and participation expectations will be shared before this opportunity opens.</p>
+            </div>
+            <span class="readers-opportunity-symbol" aria-hidden="true">✳</span>
+          </article>
+          <article class="readers-opportunity reveal">
+            <div class="readers-opportunity-top"><span class="readers-opportunity-number">02</span><span class="readers-status">Planned opportunity</span></div>
+            <div class="readers-opportunity-body">
+              <h3>Beta Reading</h3>
+              <p>Opportunities to read eligible work and share considered feedback with an author. Any future arrangement will explain the reading brief, timing, confidentiality expectations, and how feedback is to be provided.</p>
+            </div>
+            <span class="readers-opportunity-symbol" aria-hidden="true">◎</span>
+          </article>
+          <article class="readers-opportunity reveal">
+            <div class="readers-opportunity-top"><span class="readers-opportunity-number">03</span><span class="readers-status">Planned opportunity</span></div>
+            <div class="readers-opportunity-body">
+              <h3>ARC Opportunities</h3>
+              <p>Advance reader copy opportunities may allow readers to access a book before its wider release in exchange for an honest response, where appropriate. Availability and any review expectations will be made clear for each opportunity.</p>
+            </div>
+            <span class="readers-opportunity-symbol" aria-hidden="true">✦</span>
+          </article>
+        </div>
+        <p class="readers-opportunities-note">No reader programme is accepting applications yet. We will publish its rules and details before inviting participation.</p>
+      </div>
+    </section>
+
+    <section class="readers-experience-section">
+      <div class="container readers-experience-grid">
+        <div class="readers-experience-heading reveal">
+          <p class="eyebrow eyebrow-light">02 / The reader experience</p>
+          <h2>Room for your<br><em>own perspective.</em></h2>
+        </div>
+        <div class="readers-experience-steps">
+          <article class="readers-experience-step reveal">
+            <span>01</span>
+            <div><h3>Find a book that interests you</h3><p>Explore the BBC catalogue and keep an eye out for future reader opportunities.</p></div>
+          </article>
+          <article class="readers-experience-step reveal">
+            <span>02</span>
+            <div><h3>Choose whether to take part</h3><p>If an opportunity is available, review its details and decide freely whether it works for you.</p></div>
+          </article>
+          <article class="readers-experience-step reveal">
+            <span>03</span>
+            <div><h3>Share an honest response</h3><p>Where feedback is part of an activity, it should reflect your real reading experience—not a requested verdict.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="readers-faq-section">
+      <div class="container readers-faq-grid">
+        <div class="readers-faq-heading reveal">
+          <p class="eyebrow">A few useful answers</p>
+          <h2>Before you<br><em>join the conversation.</em></h2>
+          <p>We want expectations to be clear before any reader opportunity begins.</p>
+        </div>
+        <div class="readers-faq-list reveal">
+          <details>
+            <summary>Can I join a reader programme now?</summary>
+            <p>Not yet. Founding Readers, Beta Reading, and ARC opportunities are planned, but their operating details are still being prepared. There is no reader application form open at present.</p>
+          </details>
+          <details>
+            <summary>Does it cost anything to be a reader?</summary>
+            <p>Reader participation is free. Any specific opportunity will explain what is involved before you decide whether to take part.</p>
+          </details>
+          <details>
+            <summary>Do I have to leave a positive review?</summary>
+            <p>No. BBC values honest opinions and does not require positive reviews, favourable ratings, or a particular response.</p>
+          </details>
+          <details>
+            <summary>Will I receive a book for every opportunity?</summary>
+            <p>We cannot promise a book or a match for every reader. Availability will depend on the details of each future opportunity.</p>
+          </details>
+          <details>
+            <summary>What if a book or manuscript is confidential?</summary>
+            <p>Any opportunity involving unpublished or private material will need clear confidentiality expectations. Readers should not share or distribute material without permission.</p>
+          </details>
+          <details>
+            <summary>Do I need to be a professional reviewer?</summary>
+            <p>No professional-reviewer status is promised or required by the current reader programme outline. What matters is respectful, genuine participation and following the rules of the specific opportunity.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="readers-closing-section">
+      <div class="container readers-closing-inner reveal">
+        <p class="eyebrow eyebrow-light">Keep turning pages</p>
+        <h2>Your next good read<br><em>could be waiting.</em></h2>
+        <p>Explore the books already featured by BBC, and come back as new discoveries and reader opportunities take shape.</p>
+        <div class="readers-closing-actions">
+          <a class="btn btn-cream" href="explore.html">Explore books <span aria-hidden="true">↗</span></a>
+          <a class="readers-closing-link" href="about.html">More about BBC <span aria-hidden="true">→</span></a>
+        </div>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <div class="row g-4">
-        <div class="col-md-5">
-          <h2>Better Book Club</h2>
-          <p>An independent literary discovery and reader community.</p>
-        </div>
-        <div class="col-6 col-md-3">
-          <h2>Explore</h2>
-          <ul class="list-unstyled">
-          <li><a href="../index.html">Home</a></li>
-          <li><a href="explore.html">Explore Books</a></li>
-          <li><a href="authors.html">For Authors</a></li>
-          <li><a href="readers.html">For Readers</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-        <div class="col-6 col-md-4">
-          <h2>Newsletter</h2>
-          <p>The BBC newsletter is not open yet. Signup will appear here when it is ready.</p>
-        </div>
+      <div class="footer-main">
+        <div class="footer-brand"><a class="footer-logo" href="../index.html"><span class="brand-mark" aria-hidden="true">b.</span><span>Better Book <i>Club</i></span></a><p>For the love of stories<br>and the people who find them.</p></div>
+        <div class="footer-links"><span class="eyebrow eyebrow-light">Explore</span><a href="explore.html">Books</a><a href="readers.html" aria-current="page">Readers</a><a href="authors.html">Authors</a></div>
+        <div class="footer-links"><span class="eyebrow eyebrow-light">The club</span><a href="about.html">Our story</a><a href="contact.html">Get in touch</a></div>
+        <div class="footer-signoff"><span>TURN THE PAGE.</span><strong>Stay curious.</strong></div>
       </div>
-      <p class="mt-4 mb-0 small">&copy; <span id="footer-year">2026</span> Better Book Club</p>
+      <div class="footer-bottom"><span>© <span id="footer-year">2026</span> Better Book Club</span><span>An independent literary discovery and reader community.</span></div>
     </div>
   </footer>
 
