@@ -1,3 +1,18 @@
+## 2026-11-27 — Homepage Discovery Principle Clarified
+
+### Founder direction
+
+- The homepage should function as a discovery gateway, not only as content to read.
+- Featured Books should visibly preview actual approved books on the homepage itself, so visitors immediately see that BBC features books without first navigating to Explore Books.
+- Worth Discovering should create curiosity and encourage visitors to click through, without suggesting a popularity ranking.
+- Preserve the existing homepage direction; use this principle when reviewing the homepage and integrating the approved catalogue later. Keep honest empty states until real approved books and authorised covers are available.
+
+### Documentation
+
+- Added the principle to `DECISIONS.md` and `WEBSITE_SPECIFICATION.md`.
+
+---
+
 ## 2026-11-27 — Public Page-First Development Sequence Confirmed
 
 ### Founder decision
