@@ -32,7 +32,7 @@ Status: The immersive homepage and About page are implemented on `task-003/immer
 - Stage A homepage: Immersive editorial redesign implemented on `task-003/immersive-homepage-redesign`; founder reports responsive layout and working page links.
 - Stage A About page: Implemented with purpose, independent discovery approach, values and community pathways; founder-approved.
 - Stage A Explore Books page: Implemented with five editorial collections, intentional empty states, responsive styling, an empty approved-books JSON source, and a frontend catalogue renderer; founder-reviewed positively.
-- Remaining public pages: For Authors, For Readers and Contact are still placeholders.
+- Remaining public pages: For Authors, For Readers and Contact are still placeholders. The next implementation is For Authors, followed by founder review. The founder has clarified that the homepage must act as a discovery gateway, with Featured Books visibly previewing real approved catalogue entries and Worth Discovering encouraging click-through exploration.
 ## 4. Documentation Progress
 
 The planned documentation set is present, including `WEBSITE_SPECIFICATION.md`:
