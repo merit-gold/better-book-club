@@ -367,7 +367,7 @@ Do not promise that submitting a book guarantees selection.
 
 ### 6.4 Submit a Book
 
-Provide a clear explanation of the submission opportunity.
+Provide a clear explanation of the submission opportunity. The act of submitting a book through the future BBC website form itself carries no submission charge. If an author chooses to participate in a separate BBC service that involves payment, that payment is handled outside the website; the service, scope and price must be explained clearly before the author agrees.
 
 Potential information that may eventually be requested:
 
@@ -384,7 +384,7 @@ Potential information that may eventually be requested:
 
 **Stage A:** Display an informative placeholder or explanation that submissions are not yet available through the website.
 
-**Stage B:** Implement a secure working submission form after the founder approves the processing arrangements and privacy requirements.
+**Stage B:** Implement a secure working submission form after the founder approves the processing arrangements and privacy requirements. A submitted book must enter a pending-review state. An administrator reviews it and explicitly approves or rejects it; only an approved book may be published in the public catalogue. The submission form itself does not collect a submission fee.
 
 ### 6.5 Editorial independence and copyright
 
@@ -393,7 +393,8 @@ Explain that:
 - Submitting a book does not guarantee a feature.
 - Authors retain ownership of their work.
 - BBC requires appropriate permission to use copyrighted materials where necessary.
-- Payment, if any paid service is approved in the future, does not guarantee editorial selection.
+- Payment for a separately chosen BBC service does not guarantee editorial selection, a public feature, a reader match, sales, exposure, or a positive review.
+- Any applicable service payment is handled outside the website; no payment is charged merely for submitting a book through the website.
 
 ### 6.6 Author opportunities and services
 
@@ -414,7 +415,7 @@ Recommended topics:
 - Can authors request corrections?
 - Does BBC guarantee sales or reviews?
 
-Answers about fees must remain transparent: pricing and service arrangements have not yet been finalised.
+Answers about fees must remain transparent: authors may choose to participate in BBC services that involve payment, but service offerings, scopes and prices are not yet finalised. Payment is handled outside the website and is not a charge for submitting a book through the website.
 
 ---
 
@@ -640,7 +641,7 @@ These are future features and must not be silently added during Stage A.
 - Newsletter provider integration.
 - Secure administrator authentication.
 - Book management dashboard.
-- Submission management.
+- Submission management, including pending, approved and rejected states; only approved submissions may be published publicly.
 - Database and backend.
 - Hosting and deployment arrangements.
 - Privacy and data-retention arrangements.
