@@ -12,11 +12,11 @@ The Foundation Skeleton and project documentation remain on `main`. The active d
 
 ## 3. Immediate Next Action
 
-1. Founder reviews the implemented Contact page and requests any refinements.
-2. Cross-check every public page for visual consistency, responsive behaviour, accessibility, navigation, internal links, metadata, and accurate content.
-3. Preserve the homepage discovery principle during catalogue integration: Featured Books should preview real approved catalogue entries, and Worth Discovering should encourage exploration.
-4. After the cross-check, populate `data/books.json` with founder-approved books and create individual static book pages only when verified information and authorised cover assets are available.
-5. After the catalogue and individual book pages, plan Stage B admin dashboard, database and backend with the founder; these remain future work.
+1. Founder reviews the updated About page, where the existing generic “Why we exist” section has been replaced with a combined introduction to founder Aliyah Merit-gold and a clearer explanation of why BBC exists. No additional section was added.
+2. Conduct one focused research exercise for approximately 50 independent-book candidates using the founder's criteria recorded in `BOOK_SELECTION_CRITERIA.md`.
+3. Preserve all 50 candidate records and their source evidence in internal research files, separate from `data/books.json`.
+4. Present the research pool for founder review and select 10 approved books for the initial manual public catalogue and individual pages. Retain the other candidates for future admin-page entry so the research does not need to be repeated.
+5. Only after the founder approves individual titles and appropriate cover use, add the 10 books to the public catalogue.
 
 ## 4. Approved Scope Limits
 
