@@ -72,7 +72,7 @@ Should contain:
 - A prominent button leading to Explore Books.
 - A secondary button leading to the For Authors page.
 
-**Proposed headline:**
+**Approved headline (2026-11-27):**
 
 "Discover Stories Worth Your Time."
 
@@ -109,7 +109,7 @@ Suggested button: "Explore All Books".
 
 This section requires a decision.
 
-**Recommendation:** Use "Worth Discovering" as the section name until BBC has a reliable and consistent way to measure popularity.
+**Approved section name (2026-11-27):** Use "Worth Discovering" for noteworthy editorial selections. This label does not imply a measured popularity ranking.
 
 The section can highlight interesting books that deserve attention without suggesting that BBC has verified sales figures, rankings, or popularity.
 
@@ -645,8 +645,8 @@ The following are not settled merely because recommendations appear in this docu
 
 | Topic | Recommended direction | Status |
 |---|---|---|
-| Popularity-related section name | "Worth Discovering" | Proposed |
-| Homepage hero wording | "Discover Stories Worth Your Time." | Proposed |
+| Homepage popularity-related section name | "Worth Discovering" | Approved (2026-11-27) |
+| Homepage hero wording | "Discover Stories Worth Your Time." | Approved (2026-11-27) |
 | Catalogue search | Search by title and author | Proposed |
 | Catalogue filters | Genre and feature category | Proposed |
 | Related books | Show relevant BBC catalogue recommendations | Proposed |
