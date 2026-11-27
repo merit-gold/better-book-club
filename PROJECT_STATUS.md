@@ -30,9 +30,9 @@ Status: The immersive homepage and About page are implemented on `task-003/immer
 - Phase 2 (repository inspection and technical assessment): Completed. The report was reviewed with ChatGPT and the founder agreed the decisions recorded in `DECISIONS.md` on 2026-11-27.
 - Phase 3 (Foundation Skeleton): Committed to GitHub on `main` and reviewed. Real-browser and physical-device testing remain outstanding.
 - Stage A homepage: Immersive editorial redesign implemented on `task-003/immersive-homepage-redesign`; founder reports responsive layout and working page links.
-- Stage A About page: Implemented with purpose, mission, independent discovery approach, values and community pathways; awaiting founder review.
-- Remaining public pages: Explore Books, For Authors, For Readers and Contact are still placeholders.
-
+- Stage A About page: Implemented with purpose, independent discovery approach, values and community pathways; founder-approved.
+- Stage A Explore Books page: Implemented with five editorial collections, intentional empty states, responsive styling, an empty approved-books JSON source, and a frontend catalogue renderer; awaiting founder review.
+- Remaining public pages: For Authors, For Readers and Contact are still placeholders.
 ## 4. Documentation Progress
 
 The planned documentation set is present, including `WEBSITE_SPECIFICATION.md`:
@@ -85,8 +85,9 @@ The project documentation establishes:
 | Homepage structure, header, navigation, footer | Immersive redesign on `task-003/immersive-homepage-redesign`; founder reports responsive and working navigation |
 | Responsive layout (Bootstrap 5 grid) | Reviewed by ChatGPT; awaiting commit; not yet viewed on real devices |
 | Brand colour variables and typography | Reviewed by ChatGPT; awaiting commit |
-| About page | Implemented on `task-003/immersive-homepage-redesign`; awaiting founder review |
-| Explore, Authors, Readers and Contact pages | Still placeholders; queued for page-by-page implementation |
+| About page | Implemented and founder-approved on `task-003/immersive-homepage-redesign` |
+| Explore Books page | Implemented on the working branch; awaiting founder review |
+| For Authors, For Readers and Contact pages | Still placeholders; queued for page-by-page implementation |
 | Original BBC logo | Blocked: asset not yet supplied (placeholder in place) |
 | Book catalogue | `data/books.json` created with no approved entries yet; individual static book pages not started |
 | Functional forms, newsletter, admin, backend, database | Not started; need founder approvals (Stage B) |
