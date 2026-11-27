@@ -32,7 +32,7 @@ Status: The immersive homepage and About page are implemented on `task-003/immer
 - Stage A homepage: Immersive editorial redesign implemented on `task-003/immersive-homepage-redesign`; founder reports responsive layout and working page links.
 - Stage A About page: Implemented with purpose, independent discovery approach, values and community pathways; founder-approved.
 - Stage A Explore Books page: Implemented with five editorial collections, intentional empty states, responsive styling, an empty approved-books JSON source, and a frontend catalogue renderer; founder-reviewed positively.
-- For Authors has now been implemented on `task-003/immersive-homepage-redesign` and is awaiting founder review. For Readers and Contact remain placeholders. The founder has clarified that the homepage must act as a discovery gateway, with Featured Books visibly previewing real approved catalogue entries and Worth Discovering encouraging click-through exploration. The founder has also confirmed the delivery order: finish public page designs, then populate the approved book catalogue and individual book pages, then build the admin dashboard, database and backend. Author service payments, where applicable, are handled outside the website; submitting a book through the future website form itself carries no submission charge, and every submission must await admin approval before public listing.
+- For Authors has been implemented and refined after founder feedback; its final review is pending. For Readers has now been implemented on `task-003/immersive-homepage-redesign` and is awaiting founder review. Contact remains a placeholder. The founder has clarified that the homepage must act as a discovery gateway, with Featured Books visibly previewing real approved catalogue entries and Worth Discovering encouraging click-through exploration. The founder has also confirmed the delivery order: finish public page designs, then populate the approved book catalogue and individual book pages, then build the admin dashboard, database and backend. Author service payments, where applicable, are handled outside the website; submitting a book through the future website form itself carries no submission charge, and every submission must await admin approval before public listing.
 ## 4. Documentation Progress
 
 The planned documentation set is present, including `WEBSITE_SPECIFICATION.md`:
@@ -87,7 +87,7 @@ The project documentation establishes:
 | Brand colour variables and typography | Implemented on the working branch using the repository's current working palette; the Ghost-site colours recorded in the PDF have not been substituted |
 | About page | Implemented and founder-approved on `task-003/immersive-homepage-redesign` |
 | Explore Books page | Implemented and founder-reviewed positively on the working branch |
-| For Authors page | Implemented and refined after founder feedback; awaiting final founder review |\n| For Readers and Contact pages | Still placeholders; queued for page-by-page implementation |
+| For Authors page | Implemented and refined after founder feedback; awaiting final founder review |\n| For Readers page | Implemented on `task-003/immersive-homepage-redesign`; awaiting founder review |\n| Contact page | Still a placeholder; queued for implementation |
 | Original BBC logo | Blocked: asset not yet supplied (placeholder in place) |
 | Book catalogue | `data/books.json` created with no approved entries yet; individual static book pages not started |
 | Functional forms, newsletter, admin, backend, database | Not started; need founder approvals (Stage B) |
@@ -113,7 +113,7 @@ Refer to `DECISIONS.md` before treating a technical proposal as approved.
 ### Immediate priorities
 
 1. Founder reviews the Explore Books page on `task-003/immersive-homepage-redesign` and requests any refinements.
-2. Implement For Authors, For Readers and Contact, one page at a time.
+2. Founder reviews For Readers; then implement Contact, one page at a time.
 3. Populate the catalogue and create individual static book pages only after books and cover assets are approved.
 4. Complete a site-wide visual, responsive, accessibility and link review after all public pages are implemented.
 5. Prepare a pull request from the development branch into `main` for founder review; merge only with explicit approval.
