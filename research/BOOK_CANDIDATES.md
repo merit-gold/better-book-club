@@ -14,6 +14,7 @@ The founder clarified on 27 November 2026 that average Goodreads stars should **
 
 | # | Book | Author | Goodreads avg. | Goodreads ratings | Likely genre | Initial note |
 |---:|---|---|---:|---:|---|---|
+| 52 | Mateguas Island | Linda Watkins | 3.82 | 642 | Horror | Goodreads indie-horror list lead; check exact edition and publishing route |
 | 51 | The Thirteen Black Cats of Edith Penn | Sean McDonough | 4.34 | 571 | Horror | smaller readership; discovery lead; verify publication details |
 | 50 | At Home with the Horrors | Sammy Scott | 4.17 | 1,976 | Horror | promising horror lead; verify publishing route and sample |
 | 49 | Herald | Rob J. Hayes | 4.29 | 1,021 | Fantasy | promising smaller-scale lead; verify edition and publishing route |
