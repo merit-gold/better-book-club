@@ -1,5 +1,24 @@
 # Better Book Club — Changelog
 
+## 2026-11-27 — About Page Implementation
+
+### Added
+
+- Replaced the About page placeholder with an editorial page covering BBC's purpose, why it exists, independent book discovery and selection, editorial values, and pathways for readers and authors.
+- Added responsive page-specific styling while reusing the existing homepage design system, navigation, footer, typography and motion behaviour.
+
+### Testing
+
+- Checked page structure, navigation destinations, in-page anchor targets, responsive CSS breakpoints, reduced-motion support, and the existing reveal observer.
+- Confirmed the page does not introduce a non-functional submission form or an unapproved contact address.
+- Founder review and real-browser visual review of the About page are still pending.
+
+### Next
+
+Founder reviews the About page. After refinements and acceptance, implement Explore Books, then For Authors, For Readers and Contact, one page at a time.
+
+---
+
 This document records significant changes to the Better Book Club project.
 
 It provides a history of project planning, documentation, design decisions, implementation, testing, and releases.
