@@ -83,8 +83,8 @@ The project documentation establishes:
 | Area | Status |
 |---|---|
 | Homepage structure, header, navigation, footer | Immersive redesign on `task-003/immersive-homepage-redesign`; founder reports responsive and working navigation |
-| Responsive layout (Bootstrap 5 grid) | Reviewed by ChatGPT; awaiting commit; not yet viewed on real devices |
-| Brand colour variables and typography | Reviewed by ChatGPT; awaiting commit |
+| Responsive layout | Founder reports the homepage is responsive and navigation works; formal real-browser and physical-device testing remains outstanding |
+| Brand colour variables and typography | Implemented on the working branch using the repository's current working palette; the Ghost-site colours recorded in the PDF have not been substituted |
 | About page | Implemented and founder-approved on `task-003/immersive-homepage-redesign` |
 | Explore Books page | Implemented on the working branch; awaiting founder review |
 | For Authors, For Readers and Contact pages | Still placeholders; queued for page-by-page implementation |
