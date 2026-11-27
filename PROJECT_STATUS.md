@@ -78,7 +78,7 @@ The project documentation establishes:
 
 ## 6. Website Implementation Status
 
-**Status: Foundation Skeleton committed to `main`; immersive homepage, founder-approved About page, and Explore Books page implemented on `task-003/immersive-homepage-redesign`. Explore Books has been reviewed positively by the founder.**
+**Status: Public page designs implemented on `task-003/immersive-homepage-redesign`; Homepage, About, Explore Books, For Authors, and For Readers have been reviewed positively by the founder. Contact is implemented and awaiting review. `main` remains untouched.**
 
 | Area | Status |
 |---|---|
@@ -87,7 +87,7 @@ The project documentation establishes:
 | Brand colour variables and typography | Implemented on the working branch using the repository's current working palette; the Ghost-site colours recorded in the PDF have not been substituted |
 | About page | Implemented and founder-approved on `task-003/immersive-homepage-redesign` |
 | Explore Books page | Implemented and founder-reviewed positively on the working branch |
-| For Authors page | Implemented and refined after founder feedback; awaiting final founder review |\n| For Readers page | Implemented on `task-003/immersive-homepage-redesign`; awaiting founder review |\n| Contact page | Still a placeholder; queued for implementation |
+| For Authors page | Implemented; founder confirms it is working |\n| For Readers page | Implemented and founder-approved |\n| Contact page | Implemented with enquiry pathways and a transparent unavailable-contact notice; awaiting founder review |
 | Original BBC logo | Blocked: asset not yet supplied (placeholder in place) |
 | Book catalogue | `data/books.json` created with no approved entries yet; individual static book pages not started |
 | Functional forms, newsletter, admin, backend, database | Not started; need founder approvals (Stage B) |
@@ -112,11 +112,10 @@ Refer to `DECISIONS.md` before treating a technical proposal as approved.
 
 ### Immediate priorities
 
-1. Founder reviews the Explore Books page on `task-003/immersive-homepage-redesign` and requests any refinements.
-2. Founder reviews For Readers; then implement Contact, one page at a time.
-3. Populate the catalogue and create individual static book pages only after books and cover assets are approved.
-4. Complete a site-wide visual, responsive, accessibility and link review after all public pages are implemented.
-5. Prepare a pull request from the development branch into `main` for founder review; merge only with explicit approval.
+1. Founder reviews the implemented Contact page and requests any refinements.
+2. Complete a cross-page review of all public pages: visual consistency, responsive layouts, accessibility, navigation, internal links, metadata, and truthful content.
+3. After the cross-check, populate the catalogue and create individual static book pages only with founder-approved books, verified information, and authorised cover assets.
+4. Prepare a pull request from the development branch into `main` for founder review; merge only with explicit approval.
 6. Founder supplies the original BBC logo file when available; the current text mark is a placeholder and is not the original logo.
 
 ### Technical and operational decisions
@@ -151,7 +150,7 @@ See `AI_WORKFLOW.md` for the complete workflow.
 
 ## 10. Next Development Stage
 
-See `NEXT_STEP.md`. The current task is founder review of the implemented For Authors page. For Readers and Contact follow; then complete the public-site review, build the approved book catalogue and individual book pages, and only afterwards move to the admin dashboard, database and backend. These Stage B operational features are not yet implemented.
+See `NEXT_STEP.md`. The current task is founder review of the Contact page. Then cross-check all public pages before beginning the approved book catalogue and individual book pages. Only afterwards move to the admin dashboard, database and backend. These Stage B operational features are not yet implemented.
 
 ## 11. Progress Reporting Rules
 
