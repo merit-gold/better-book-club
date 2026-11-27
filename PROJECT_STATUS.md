@@ -22,14 +22,16 @@ All progress reports must reflect actual work and verified evidence.
 
 ## 3. Current Development Phase
 
-**Phase 4 — Homepage Completion (Task 001, backend-free)**
+**Stage A — Public frontend implementation (backend-free)**
 
-Status: Task 001 has been implemented on `task-001/homepage-completion` and is awaiting founder review. The Phase 3 Foundation Skeleton is present on `main`.
+Status: The immersive homepage and About page are implemented on `task-003/immersive-homepage-redesign`. The founder reports that the homepage is responsive and its navigation links work. The About page is awaiting founder review. The working branch has not been merged into `main`.
 
 - Phase 1 (project foundation and documentation): Completed.
 - Phase 2 (repository inspection and technical assessment): Completed. The report was reviewed with ChatGPT and the founder agreed the decisions recorded in `DECISIONS.md` on 2026-11-27.
 - Phase 3 (Foundation Skeleton): Committed to GitHub on `main` and reviewed. Real-browser and physical-device testing remain outstanding.
-- Phase 4 (Task 001): Homepage structure, approved hero headline, editorial discovery sections, and targeted documentation updates are implemented on the working branch. Founder review and merge are pending.
+- Stage A homepage: Immersive editorial redesign implemented on `task-003/immersive-homepage-redesign`; founder reports responsive layout and working page links.
+- Stage A About page: Implemented with purpose, mission, independent discovery approach, values and community pathways; awaiting founder review.
+- Remaining public pages: Explore Books, For Authors, For Readers and Contact are still placeholders.
 
 ## 4. Documentation Progress
 
@@ -80,10 +82,11 @@ The project documentation establishes:
 
 | Area | Status |
 |---|---|
-| Homepage structure, header, navigation, footer | Updated for Task 001 on working branch; awaiting founder review |
+| Homepage structure, header, navigation, footer | Immersive redesign on `task-003/immersive-homepage-redesign`; founder reports responsive and working navigation |
 | Responsive layout (Bootstrap 5 grid) | Reviewed by ChatGPT; awaiting commit; not yet viewed on real devices |
 | Brand colour variables and typography | Reviewed by ChatGPT; awaiting commit |
-| Placeholder pages (Explore, Authors, Readers, About, Contact) | Reviewed by ChatGPT; awaiting commit; content is placeholder text only |
+| About page | Implemented on `task-003/immersive-homepage-redesign`; awaiting founder review |
+| Explore, Authors, Readers and Contact pages | Still placeholders; queued for page-by-page implementation |
 | Original BBC logo | Blocked: asset not yet supplied (placeholder in place) |
 | Book catalogue, `books.json`, individual book pages | Not started |
 | Functional forms, newsletter, admin, backend, database | Not started; need founder approvals (Stage B) |
@@ -108,11 +111,11 @@ Refer to `DECISIONS.md` before treating a technical proposal as approved.
 
 ### Immediate priorities
 
-1. Founder reviews the Task 001 changes on `task-001/homepage-completion`.
-2. Check the homepage in current desktop and mobile browsers, including responsive layout and navigation.
-3. If approved, merge the working branch into `main`.
-4. Founder supplies the original BBC logo file when available; the existing placeholder remains intentionally unchanged.
-5. Agree the next focused task after Task 001 is accepted.
+1. Founder reviews the About page on `task-003/immersive-homepage-redesign` and requests any refinements.
+2. Implement and review Explore Books, then For Authors, For Readers and Contact, one page at a time.
+3. Complete a site-wide visual, responsive, accessibility and link review after all public pages are implemented.
+4. Prepare a pull request from the development branch into `main` for founder review; merge only with explicit approval.
+5. Founder supplies the original BBC logo file when available; the current text mark is a placeholder and is not the original logo.
 
 ### Technical and operational decisions
 
@@ -146,7 +149,7 @@ See `AI_WORKFLOW.md` for the complete workflow.
 
 ## 10. Next Development Stage
 
-See `NEXT_STEP.md`. After Task 001 is reviewed and accepted, agree the next Stage A task. The book catalogue and individual static book pages are likely candidates. Stage B (backend, forms, newsletter, admin) needs separate founder approvals.
+See `NEXT_STEP.md`. The current task is founder review of the newly implemented About page. The remaining public pages will be built and reviewed individually before the site-wide review and pull request. Stage B (backend, forms, newsletter, admin) needs separate founder approvals.
 
 ## 11. Progress Reporting Rules
 
