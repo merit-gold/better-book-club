@@ -14,6 +14,12 @@ The founder clarified on 27 November 2026 that average Goodreads stars should **
 
 | # | Book | Author | Goodreads avg. | Goodreads ratings | Likely genre | Initial note |
 |---:|---|---|---:|---:|---|---|
+| 51 | The Thirteen Black Cats of Edith Penn | Sean McDonough | 4.34 | 571 | Horror | smaller readership; discovery lead; verify publication details |
+| 50 | At Home with the Horrors | Sammy Scott | 4.17 | 1,976 | Horror | promising horror lead; verify publishing route and sample |
+| 49 | Herald | Rob J. Hayes | 4.29 | 1,021 | Fantasy | promising smaller-scale lead; verify edition and publishing route |
+| 48 | Curse Painter | Jordan Rivet | 4.13 | 701 | Fantasy | smaller readership; discovery lead; verify publishing route |
+| 47 | Dragon's Reach | J.A. Andrews | 4.35 | 2,504 | Fantasy | promising rating volume; verify publication route and edition |
+| 46 | Wagons & Wyverns | Z.S. Diamanti | 4.40 | 628 | Fantasy | recent indie-fantasy shelf lead; verify publication route and series context |
 | 1 | The Grey Bastards | Jonathan French | 4.06 | 9,073 | Fantasy | Strong genre fit; cover and publishing route to verify |
 | 2 | The Path of Flames | Phil Tucker | 4.02 | 3,428 | Fantasy | Promising rating volume and genre fit |
 | 3 | Vortex Visions | Elise Kova | 4.03 | 6,040 | Fantasy | Promising; confirm independent publication history for this edition |
@@ -60,7 +66,7 @@ The founder clarified on 27 November 2026 that average Goodreads stars should **
 | 44 | The Faerie Guardian | Rachel Morgan | 3.96 | 9,713 | Fantasy/Young Adult | Goodreads indie shelf lead; near upper end of modest range |
 | 45 | The Grey Bastards | Jonathan French | 4.06 | 9,073 | Fantasy | Duplicate discovery record intentionally noted; consolidate before final pool |
 
-**Important:** This working list contains 44 unique title records (the final row is a duplicate marker and must be removed from the count). It is not yet the requested 50 fully checked candidates. Some records are stronger leads than others. A candidate must not be called eligible until independent/self-publishing status and core metadata have been verified. Amazon availability, cover quality/rights and writing sample review remain outstanding for this first pass.
+**Important:** This working list now contains 50 unique title records. It is a discovery pool, not 50 fully verified recommendations. Some records are stronger leads than others. A candidate must not be called eligible until independent/self-publishing status and core metadata have been verified. Amazon availability, cover quality/rights and writing sample review remain outstanding for this first pass.
 
 ## Discovery sources
 
