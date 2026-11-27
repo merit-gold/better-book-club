@@ -1,3 +1,16 @@
+## 2026-11-27 — Author Service and Delivery Sequence Clarified
+
+### Founder direction
+
+- Author payments, where applicable, relate to a BBC service the author chooses to participate in and are handled outside the website; the act of submitting a book through the future website form itself carries no submission charge.
+- A submitted book remains pending until an administrator reviews it and approves it for public listing. Payment does not guarantee editorial selection, a feature, a reader match, or a positive review. Specific service offerings, scopes and prices remain to be defined.
+- Confirmed delivery order: finish the public page designs, then populate the approved book catalogue and create individual book pages, then work on the admin dashboard, database and backend.
+
+### Documentation
+
+- Updated the decisions register, project status and next-step roadmap to reflect the founder’s clarification.
+- The admin dashboard, database and backend remain planned work and have not been implemented.
+
 ## 2026-11-27 — For Authors Page Implemented
 
 ### Added
