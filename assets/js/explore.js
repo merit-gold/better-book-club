@@ -21,7 +21,7 @@ async function renderExploreCollections() {
 
     collections.forEach((section) => {
       const key = section.dataset.collection;
-      const matches = books.filter((book) => selectors[key] && selectors[key](book));
+      const matches = books.filter((book) => book && selectors[key] && selectors[key](book))\n        .filter((book) => book.slug && book.title && book.author && book.cover);
       if (!matches.length) return;
 
       const emptyState = section.querySelector(".explore-empty-state");
