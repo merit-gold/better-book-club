@@ -266,6 +266,16 @@ Website implementation should begin only after the initial inspection and review
 - Replaced the For Authors hero background image URL with the same image URL already used successfully by the About page, keeping the existing overlay, layout, and responsive styling unchanged.
 - No other page content or design was changed.
 
+### 2026-11-27 — For Readers Page Implementation
+
+**Added**
+- Replaced the For Readers placeholder with an immersive, responsive editorial page introducing BBC's reader community, its participation principles, and planned Founding Readers, Beta Reading, and ARC opportunity areas.
+- Clearly marked all reader opportunities as planned and not open for applications; included honest participation expectations, FAQs, and links to Explore Books and About.
+- Kept applications and programme operations inactive because eligibility, detailed rules, privacy arrangements, and Stage B form handling are not yet ready.
+
+**Next**
+- Founder reviews the For Readers page; Contact remains the next public page to implement.
+
 ## Future Entries
 
 Add new entries below whenever meaningful project changes occur.
