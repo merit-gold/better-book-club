@@ -77,6 +77,7 @@ The following documents define the project and guide its development.
 | `BBC_MASTER_BLUEPRINT.md` | Overall project vision, objectives, features, and direction. |
 | `BOOK_SELECTION_CRITERIA.md` | Standards for discovering and evaluating books. |
 | `DECISIONS.md` | Approved decisions, proposals, and unresolved matters. |
+| `WEBSITE_SPECIFICATION.md` | Detailed website page structures, homepage requirements, and feature boundaries. |
 
 ### Design and Technology
 
@@ -145,9 +146,9 @@ See `AI_WORKFLOW.md` for the complete process.
 
 ## 7. Current Project Status
 
-**Current phase:** Phase 3 — Foundation Skeleton (backend-free), reviewed and awaiting commit to GitHub.
+**Current phase:** Phase 4 — Homepage Completion (Task 001, backend-free). The Foundation Skeleton is committed to `main`; Task 001 is implemented on `task-001/homepage-completion` and awaiting founder review.
 
-Phases 1 (documentation) and 2 (repository inspection) are complete. The first frontend files exist: homepage, placeholder pages, `assets/css/bbc.css`, and `assets/js/main.js`.
+Phases 1 (documentation), 2 (repository inspection), and 3 (Foundation Skeleton) are complete. The homepage now includes the approved hero headline and the planned editorial discovery, reader, author, About, and newsletter-placeholder sections.
 
 The original BBC logo has not been added yet. A placeholder marks its position.
 
