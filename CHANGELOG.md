@@ -1,3 +1,28 @@
+## 2026-11-27 — Explore Books Page and Editorial Copy Review
+
+### Added
+
+- Replaced the Explore Books placeholder with an editorial catalogue page containing Featured Books, Recommended Books, Worth Discovering, Coming Soon, and Past Features collections.
+- Added responsive Explore Books styling, collection jump links, and intentional empty states for collections with no approved titles.
+- Added an initially empty `data/books.json` catalogue and a small frontend renderer that displays approved entries when they are added.
+
+### Changed
+
+- Refined one Homepage sentence so it does not imply that public book discussions or comments are available.
+- Reviewed the founder-provided Ghost chat record alongside the website specification, book selection criteria, content guidelines, design system, and master blueprint. No About page rewrite was needed.
+
+### Testing
+
+- Checked the Explore page's internal collection links and matching section IDs, shared navigation destinations, metadata, data-file path, and empty-catalogue behaviour by static inspection.
+- Confirmed that no fake book entries, covers, ratings, feature dates, search controls, or non-functional forms were added.
+- Real-browser and physical-device visual testing has not yet been performed.
+
+### Next
+
+Founder reviews the Explore Books page. Continue with For Authors, For Readers, and Contact one page at a time.
+
+---
+
 # Better Book Club — Changelog
 
 ## 2026-11-27 — About Page Implementation
