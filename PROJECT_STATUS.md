@@ -111,11 +111,12 @@ Refer to `DECISIONS.md` before treating a technical proposal as approved.
 
 ### Immediate priorities
 
-1. Founder reviews the About page on `task-003/immersive-homepage-redesign` and requests any refinements.
-2. Implement and review Explore Books, then For Authors, For Readers and Contact, one page at a time.
-3. Complete a site-wide visual, responsive, accessibility and link review after all public pages are implemented.
-4. Prepare a pull request from the development branch into `main` for founder review; merge only with explicit approval.
-5. Founder supplies the original BBC logo file when available; the current text mark is a placeholder and is not the original logo.
+1. Founder reviews the Explore Books page on `task-003/immersive-homepage-redesign` and requests any refinements.
+2. Implement For Authors, For Readers and Contact, one page at a time.
+3. Populate the catalogue and create individual static book pages only after books and cover assets are approved.
+4. Complete a site-wide visual, responsive, accessibility and link review after all public pages are implemented.
+5. Prepare a pull request from the development branch into `main` for founder review; merge only with explicit approval.
+6. Founder supplies the original BBC logo file when available; the current text mark is a placeholder and is not the original logo.
 
 ### Technical and operational decisions
 
