@@ -87,7 +87,7 @@ The project documentation establishes:
 | Brand colour variables and typography | Implemented on the working branch using the repository's current working palette; the Ghost-site colours recorded in the PDF have not been substituted |
 | About page | Implemented and founder-approved on `task-003/immersive-homepage-redesign` |
 | Explore Books page | Implemented and founder-reviewed positively on the working branch |
-| For Authors page | Implemented on the working branch; awaiting founder review |\n| For Readers and Contact pages | Still placeholders; queued for page-by-page implementation |
+| For Authors page | Implemented and refined after founder feedback; awaiting final founder review |\n| For Readers and Contact pages | Still placeholders; queued for page-by-page implementation |
 | Original BBC logo | Blocked: asset not yet supplied (placeholder in place) |
 | Book catalogue | `data/books.json` created with no approved entries yet; individual static book pages not started |
 | Functional forms, newsletter, admin, backend, database | Not started; need founder approvals (Stage B) |
