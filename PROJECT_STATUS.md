@@ -32,7 +32,7 @@ Status: The immersive homepage and About page are implemented on `task-003/immer
 - Stage A homepage: Immersive editorial redesign implemented on `task-003/immersive-homepage-redesign`; founder reports responsive layout and working page links.
 - Stage A About page: Implemented with purpose, independent discovery approach, values and community pathways; founder-approved.
 - Stage A Explore Books page: Implemented with five editorial collections, intentional empty states, responsive styling, an empty approved-books JSON source, and a frontend catalogue renderer; founder-reviewed positively.
-- For Authors has now been implemented on `task-003/immersive-homepage-redesign` and is awaiting founder review. For Readers and Contact remain placeholders. The founder has clarified that the homepage must act as a discovery gateway, with Featured Books visibly previewing real approved catalogue entries and Worth Discovering encouraging click-through exploration.
+- For Authors has now been implemented on `task-003/immersive-homepage-redesign` and is awaiting founder review. For Readers and Contact remain placeholders. The founder has clarified that the homepage must act as a discovery gateway, with Featured Books visibly previewing real approved catalogue entries and Worth Discovering encouraging click-through exploration. The founder has also confirmed the delivery order: finish public page designs, then populate the approved book catalogue and individual book pages, then build the admin dashboard, database and backend. Author service payments, where applicable, are handled outside the website; submitting a book through the future website form itself carries no submission charge, and every submission must await admin approval before public listing.
 ## 4. Documentation Progress
 
 The planned documentation set is present, including `WEBSITE_SPECIFICATION.md`:
@@ -151,7 +151,7 @@ See `AI_WORKFLOW.md` for the complete workflow.
 
 ## 10. Next Development Stage
 
-See `NEXT_STEP.md`. The current task is founder review of the newly implemented Explore Books page. The remaining public pages will be built and reviewed individually before catalogue population, site-wide review and the pull request. Stage B (backend, forms, newsletter, admin) needs separate founder approvals.
+See `NEXT_STEP.md`. The current task is founder review of the implemented For Authors page. For Readers and Contact follow; then complete the public-site review, build the approved book catalogue and individual book pages, and only afterwards move to the admin dashboard, database and backend. These Stage B operational features are not yet implemented.
 
 ## 11. Progress Reporting Rules
 
