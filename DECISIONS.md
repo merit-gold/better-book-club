@@ -37,6 +37,8 @@ When a decision changes, update this register and add an entry to `CHANGELOG.md`
 | Main navigation | Home, Explore Books, For Authors, For Readers, About, Contact; Newsletter on the homepage and footer | Approved (2026-11-27) |
 | First implementation task | Backend-free Foundation Skeleton (no database, backend, authentication, newsletter integration, paid services, or functional forms) | Approved (2026-11-27) |
 | Visual direction | Premium, literary, welcoming, distinctive, and responsive | Approved direction |
+| Homepage hero headline | “Discover Stories Worth Your Time.” | Approved (2026-11-27) |
+| Homepage editorial section name | “Worth Discovering” for noteworthy book selections, without implying a popularity ranking | Approved (2026-11-27) |
 
 ## 4. Proposed Brand Palette
 
@@ -68,7 +70,7 @@ The following items must remain open until the founder explicitly approves a dir
 | Paid promotional options | Open | Whether any paid opportunities will be offered and how editorial independence will be protected |
 | Reader programmes | Open | Eligibility, application process, privacy, and operating rules |
 | Launch catalogue size | Open | Number of books to include at launch |
-| Name of the "popular / noteworthy" section | Open | Final name and sourcing rules for popularity claims |
+| Homepage supporting copy | Proposed | Founder approval of any future replacement hero supporting text |
 | Analytics | Deferred | Whether analytics are needed and which privacy approach to use |
 
 ## 6. Editorial and Trust Rules
