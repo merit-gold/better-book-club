@@ -1,0 +1,34 @@
+# Better Book Club - files that must not be committed
+
+# Secrets and credentials (never commit these)
+.env
+.env.*
+*.pem
+*.key
+*serviceAccount*.json
+*credentials*.json
+
+# Private material: submissions, manuscripts and reader data stay out of the public repository
+private/
+submissions/
+manuscripts/
+
+# Dependencies and build output (for if tooling is added later)
+node_modules/
+dist/
+build/
+.cache/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editor settings and backups
+.vscode/
+.idea/
+*.swp
+*~
