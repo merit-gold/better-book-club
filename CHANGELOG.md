@@ -1,3 +1,25 @@
+## 2026-11-27 — About Page Founder Introduction and Purpose Refinement
+
+### Changed
+
+- Replaced the existing generic “Why we exist” section with a combined founder introduction and clearer explanation of why Better Book Club was created; no additional page section was added.
+- Identified the founder as Aliyah Merit-gold and used the founder-supplied description “Literary Growth Partner” and experience of more than nine years in the book space.
+- Explained the author challenges BBC aims to address: discoverability, genuine reader engagement and honest feedback, alongside the reader-facing purpose of thoughtful book discovery.
+- Clarified that newsletters are an intended communication channel as it becomes available, not a currently active subscription service.
+- Updated page metadata to reflect the founder introduction.
+
+### Verification
+
+- Confirmed the revised founder and purpose copy is present in `pages/about.html`, the former generic section copy is gone, and the existing section structure is retained.
+- Source-level checks only; founder visual review is pending. No claim of browser visual testing.
+
+### Next
+
+- Founder reviews the updated About page.
+- Begin the one-time research of approximately 50 independent-book candidates; preserve the candidate pool separately from the 10-book public starter catalogue.
+
+---
+
 ## 2026-11-27 — For Authors Review Refinements
 
 ### Changed

@@ -24,13 +24,13 @@ All progress reports must reflect actual work and verified evidence.
 
 **Stage A — Public frontend implementation (backend-free)**
 
-Status: The immersive homepage and About page are implemented on `task-003/immersive-homepage-redesign`; the founder has approved the About page and previously reported that the homepage is responsive with working navigation. The Explore Books page is implemented and the founder has reviewed it positively; the founder confirmed that it is working as expected. The working branch has not been merged into `main`.
+Status: The public pages have been implemented on `task-003/immersive-homepage-redesign`; the founder has completed a site-wide review and is satisfied. The About page has now received a founder-requested content refinement introducing Aliyah Merit-gold and explaining the reason BBC exists. This refinement is awaiting founder visual review. The working branch has not been merged into `main`.
 
 - Phase 1 (project foundation and documentation): Completed.
 - Phase 2 (repository inspection and technical assessment): Completed. The report was reviewed with ChatGPT and the founder agreed the decisions recorded in `DECISIONS.md` on 2026-11-27.
 - Phase 3 (Foundation Skeleton): Committed to GitHub on `main` and reviewed. Real-browser and physical-device testing remain outstanding.
 - Stage A homepage: Immersive editorial redesign implemented on `task-003/immersive-homepage-redesign`; founder reports responsive layout and working page links.
-- Stage A About page: Implemented with purpose, independent discovery approach, values and community pathways; founder-approved.
+- Stage A About page: Existing design retained; the former generic “Why we exist” section has been replaced with a combined founder introduction and clearer explanation of BBC's purpose. The founder is identified as Aliyah Merit-gold, founder and Literary Growth Partner, with more than nine years' experience as supplied by the founder. Awaiting founder visual review of this refinement.
 - Stage A Explore Books page: Implemented with five editorial collections, intentional empty states, responsive styling, an empty approved-books JSON source, and a frontend catalogue renderer; founder-reviewed positively.
 - For Authors has been implemented and refined after founder feedback; its final review is pending. For Readers has now been implemented on `task-003/immersive-homepage-redesign` and is awaiting founder review. Contact remains a placeholder. The founder has clarified that the homepage must act as a discovery gateway, with Featured Books visibly previewing real approved catalogue entries and Worth Discovering encouraging click-through exploration. The founder has also confirmed the delivery order: finish public page designs, then populate the approved book catalogue and individual book pages, then build the admin dashboard, database and backend. Author service payments, where applicable, are handled outside the website; submitting a book through the future website form itself carries no submission charge, and every submission must await admin approval before public listing.
 ## 4. Documentation Progress
@@ -112,10 +112,11 @@ Refer to `DECISIONS.md` before treating a technical proposal as approved.
 
 ### Immediate priorities
 
-1. Founder reviews the implemented Contact page and requests any refinements.
-2. Complete a cross-page review of all public pages: visual consistency, responsive layouts, accessibility, navigation, internal links, metadata, and truthful content.
-3. After the cross-check, populate the catalogue and create individual static book pages only with founder-approved books, verified information, and authorised cover assets.
-4. Prepare a pull request from the development branch into `main` for founder review; merge only with explicit approval.
+1. Founder reviews the updated About page content and requests any refinements.
+2. Begin the one-time research exercise for approximately 50 independent-book candidates using the founder's criteria; preserve candidate research separately from the public catalogue.
+3. Present the researched pool with sources, ratings/counts, genre, cover-source and permission status, and editorial rationale for founder review.
+4. Select 10 founder-approved books for the initial manual website catalogue and individual book pages; keep the remaining candidates available for future admin-page entry.
+5. Prepare a pull request from the development branch into `main` for founder review; merge only with explicit approval.
 6. Founder supplies the original BBC logo file when available; the current text mark is a placeholder and is not the original logo.
 
 ### Technical and operational decisions
