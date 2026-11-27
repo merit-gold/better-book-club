@@ -12,8 +12,8 @@ The Foundation Skeleton and project documentation remain on `main`. The active d
 
 ## 3. Immediate Next Action
 
-1. Founder reviews the implemented For Authors page and requests any refinements.
-2. Implement and review For Readers, then Contact, one page at a time.
+1. Founder reviews the implemented For Readers page and requests any refinements.
+2. Implement and review Contact, one page at a time.
 3. Finish the remaining public page designs and complete a site-wide visual, responsive, accessibility and link review.
 4. Preserve the homepage discovery principle: Featured Books should visibly preview real approved catalogue entries on the homepage, and Worth Discovering should encourage exploration. Revisit the homepage as part of catalogue integration.
 5. Populate `data/books.json` with founder-approved books and create individual static book pages only after the public page designs are complete and authorised cover assets and verified information are available.
