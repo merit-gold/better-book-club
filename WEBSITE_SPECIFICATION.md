@@ -62,7 +62,19 @@ The existing documentation remains authoritative for these decisions.
 10. Newsletter section.
 11. Footer.
 
-### 3.1 Hero section
+#### Homepage discovery principle — founder direction (2026-11-27)
+
+The homepage must work as a discovery gateway, not simply as an editorial page visitors are expected to read. Its first screen and early sections should quickly show that BBC features books and give visitors compelling reasons to click through and explore.
+
+- **Featured Books must be immediately visible on the homepage itself.** Once approved books are added, show a genuine visual glimpse of the featured catalogue (especially covers, titles and authors) without requiring visitors to navigate to Explore Books first.
+- Treat the homepage Featured Books area as a curated preview of real books already represented in the catalogue and linked to their individual BBC book pages. It is a preview, not a substitute for the full Explore Books collection.
+- **Worth Discovering** should act as an editorial curiosity hook: surface noteworthy selections that invite a click, without implying a popularity ranking.
+- Calls to action and section links should make the next step obvious. The homepage should prompt exploration while still communicating BBC's identity.
+- Until approved book records and authorised cover assets exist, retain honest designed empty states. Do not fabricate sample titles or covers to create the appearance of a live catalogue.
+
+This principle guides the later homepage review and catalogue integration; it does not require an immediate redesign of the already implemented page.
+
+## 3.1 Hero section
 
 Should contain:
 
