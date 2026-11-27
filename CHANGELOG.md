@@ -13,7 +13,7 @@
 
 ### Testing
 
-- Checked the Explore page's internal collection links and matching section IDs, shared navigation destinations, metadata, data-file path, and empty-catalogue behaviour by static inspection.
+- Checked the Explore page's internal collection links and matching section IDs, shared navigation destinations, metadata, data-file path, and empty-catalogue behaviour by static inspection.\n- Checked the Explore catalogue renderer's JavaScript syntax.
 - Confirmed that no fake book entries, covers, ratings, feature dates, search controls, or non-functional forms were added.
 - Real-browser and physical-device visual testing has not yet been performed.
 
