@@ -6,7 +6,7 @@ This document identifies the immediate next action for the Better Book Club proj
 
 ## 2. Current Project Stage
 
-**Current stage:** Stage A — public frontend implementation. The immersive homepage and About page are implemented on `task-003/immersive-homepage-redesign`; the founder has approved the About page and reported that the homepage is responsive with working navigation. The Explore Books page has now been implemented on the same branch and is awaiting founder review.
+**Current stage:** Stage A — public frontend implementation. The immersive homepage and About page are implemented on `task-003/immersive-homepage-redesign`; the founder has approved the About page and reported that the homepage is responsive with working navigation. The Explore Books page has now been implemented on the same branch and the founder has reviewed it positively.
 
 The Foundation Skeleton and project documentation remain on `main`. The active development branch is intentionally separate; no changes have been merged into `main`.
 
@@ -31,7 +31,7 @@ Firebase remains an option, not an approved backend.
 
 ## 5. Likely Following Task (to be agreed, not yet approved)
 
-After the public pages are reviewed, implement the Stage A book catalogue (`data/books.json`, approved books only) and individual static book pages with their own titles, descriptions, and social-sharing metadata.
+After the public page designs and site-wide review are complete, implement the Stage A book catalogue (`data/books.json`, approved books only) and individual static book pages with their own titles, descriptions, and social-sharing metadata. Book content must not be added ahead of the page-design phase.
 
 ## 6. Workflow
 
