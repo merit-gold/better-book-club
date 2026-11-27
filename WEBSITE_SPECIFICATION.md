@@ -194,15 +194,13 @@ Suggested supporting text:
 
 ### 4.2 Book categories
 
-The following categories are already established in the project blueprint:
+The public catalogue uses these collections:
 
 - Featured Books.
 - Recommended Books.
-- Popular / Noteworthy section.
+- Worth Discovering — the approved label for noteworthy editorial selections; it does not imply a measured popularity ranking.
 - Coming Soon.
 - Past Features / Archive.
-
-The final public label for the popularity-related section remains open.
 
 ### 4.3 Book cards
 
