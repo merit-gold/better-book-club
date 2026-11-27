@@ -22,13 +22,14 @@ All progress reports must reflect actual work and verified evidence.
 
 ## 3. Current Development Phase
 
-**Phase 3 — Foundation Skeleton (backend-free)**
+**Phase 4 — Homepage Completion (Task 001, backend-free)**
 
-Status: Reviewed by ChatGPT; awaiting founder commit to GitHub.
+Status: Task 001 has been implemented on `task-001/homepage-completion` and is awaiting founder review. The Phase 3 Foundation Skeleton is present on `main`.
 
 - Phase 1 (project foundation and documentation): Completed.
 - Phase 2 (repository inspection and technical assessment): Completed. The report was reviewed with ChatGPT and the founder agreed the decisions recorded in `DECISIONS.md` on 2026-11-27.
-- Phase 3: the Foundation Skeleton has been written and checked with scripts. ChatGPT has reviewed it, and the founder reports testing navigation between the pages in VS Code. It still needs testing in real browsers and on a phone, and the founder has not yet committed it to GitHub (see `CHANGELOG.md`).
+- Phase 3 (Foundation Skeleton): Committed to GitHub on `main` and reviewed. Real-browser and physical-device testing remain outstanding.
+- Phase 4 (Task 001): Homepage structure, approved hero headline, editorial discovery sections, and targeted documentation updates are implemented on the working branch. Founder review and merge are pending.
 
 ## 4. Documentation Progress
 
@@ -49,6 +50,7 @@ All 13 planned documentation files are present:
 | CONTENT_GUIDELINES.md | Created |
 | AUTHOR_AND_READER_POLICIES.md | Created |
 | TESTING_AND_DEPLOYMENT.md | Created |
+| WEBSITE_SPECIFICATION.md | Created and updated to reflect approved homepage decisions |
 
 The documentation foundation is complete. A consistency review can continue alongside the technical assessment.
 
@@ -74,11 +76,11 @@ The project documentation establishes:
 
 ## 6. Website Implementation Status
 
-**Status: Foundation Skeleton written and reviewed by ChatGPT; awaiting founder commit to GitHub. A `.gitignore` is included.**
+**Status: Foundation Skeleton committed to `main`; Task 001 homepage completion implemented on `task-001/homepage-completion` and awaiting founder review.**
 
 | Area | Status |
 |---|---|
-| Homepage structure, header, navigation, footer | Reviewed by ChatGPT; awaiting commit |
+| Homepage structure, header, navigation, footer | Updated for Task 001 on working branch; awaiting founder review |
 | Responsive layout (Bootstrap 5 grid) | Reviewed by ChatGPT; awaiting commit; not yet viewed on real devices |
 | Brand colour variables and typography | Reviewed by ChatGPT; awaiting commit |
 | Placeholder pages (Explore, Authors, Readers, About, Contact) | Reviewed by ChatGPT; awaiting commit; content is placeholder text only |
@@ -106,11 +108,11 @@ Refer to `DECISIONS.md` before treating a technical proposal as approved.
 
 ### Immediate priorities
 
-1. ChatGPT reviews the Foundation Skeleton.
-2. Founder reviews and approves, then commits to GitHub.
-3. Founder supplies the original BBC logo file.
-4. Test the skeleton in real browsers (Chrome, Firefox, Safari, Edge) and on a phone.
-5. Agree the next focused task.
+1. Founder reviews the Task 001 changes on `task-001/homepage-completion`.
+2. Check the homepage in current desktop and mobile browsers, including responsive layout and navigation.
+3. If approved, merge the working branch into `main`.
+4. Founder supplies the original BBC logo file when available; the existing placeholder remains intentionally unchanged.
+5. Agree the next focused task after Task 001 is accepted.
 
 ### Technical and operational decisions
 
@@ -135,7 +137,7 @@ The intended workflow is established.
 | Role | Responsibility |
 |---|---|
 | Founder | Project owner and final decision-maker |
-| ChatGPT | Planning, research, task preparation, and review |
+| ChatGPT | Planning, research, task preparation, and review; directly implemented Task 001 at the founder’s request |
 | Claude | Repository inspection, UI/UX, implementation, and testing |
 
 Only one AI should actively edit project files at a time.
@@ -144,7 +146,7 @@ See `AI_WORKFLOW.md` for the complete workflow.
 
 ## 10. Next Development Stage
 
-See `NEXT_STEP.md`. After the Foundation Skeleton is accepted, the likely next task is the book catalogue and individual static book pages (Stage A). Stage B (backend, forms, newsletter, admin) needs separate founder approvals.
+See `NEXT_STEP.md`. After Task 001 is reviewed and accepted, agree the next Stage A task. The book catalogue and individual static book pages are likely candidates. Stage B (backend, forms, newsletter, admin) needs separate founder approvals.
 
 ## 11. Progress Reporting Rules
 
