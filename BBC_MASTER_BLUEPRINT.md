@@ -133,6 +133,8 @@ Newsletter delivery requires a real email provider integration. Do not present a
 
 ## 9. Admin Dashboard
 
+The future submission workflow must support clear review states: pending review, approved, and rejected. A book must not appear in the public catalogue until an administrator has explicitly approved it. The admin dashboard, database and backend are planned Stage B work and are not part of the current public-page design phase.
+
 The private dashboard should eventually support:
 
 - Secure administrator login.
