@@ -78,7 +78,7 @@ The project documentation establishes:
 
 ## 6. Website Implementation Status
 
-**Status: Foundation Skeleton committed to `main`; Task 001 homepage completion implemented on `task-001/homepage-completion` and awaiting founder review.**
+**Status: Foundation Skeleton committed to `main`; immersive homepage, founder-approved About page, and Explore Books page implemented on `task-003/immersive-homepage-redesign`. Explore Books is awaiting founder review.**
 
 | Area | Status |
 |---|---|
