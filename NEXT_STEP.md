@@ -12,12 +12,12 @@ The Foundation Skeleton and project documentation remain on `main`. The active d
 
 ## 3. Immediate Next Action
 
-1. Implement the For Authors page using the founder-provided strategy record and approved BBC policies; keep website submissions unavailable until the relevant Stage B arrangements are approved.
-2. Founder reviews the For Authors page before moving to For Readers.
-3. Implement and review For Readers, then Contact, one page at a time.
-4. Preserve the homepage discovery principle: Featured Books should visibly preview real approved catalogue entries on the homepage, and Worth Discovering should encourage exploration. Revisit the homepage when the catalogue is ready.
-4. Populate `data/books.json` and create individual static book pages only after books and authorised cover assets are approved.
-5. After all public pages are implemented, complete a site-wide review and prepare a pull request for founder review. Do not merge into `main` without explicit founder approval.
+1. Founder reviews the implemented For Authors page and requests any refinements.
+2. Implement and review For Readers, then Contact, one page at a time.
+3. Finish the remaining public page designs and complete a site-wide visual, responsive, accessibility and link review.
+4. Preserve the homepage discovery principle: Featured Books should visibly preview real approved catalogue entries on the homepage, and Worth Discovering should encourage exploration. Revisit the homepage as part of catalogue integration.
+5. Populate `data/books.json` with founder-approved books and create individual static book pages only after the public page designs are complete and authorised cover assets and verified information are available.
+6. After the catalogue and individual book pages, plan and implement the Stage B admin dashboard, database and backend with the founder. These are not built yet and require technical, privacy and operational decisions.
 
 ## 4. Approved Scope Limits (unchanged)
 
