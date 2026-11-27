@@ -33,7 +33,7 @@ Status: Task 001 has been implemented on `task-001/homepage-completion` and is a
 
 ## 4. Documentation Progress
 
-All 13 planned documentation files are present:
+The planned documentation set is present, including `WEBSITE_SPECIFICATION.md`:
 
 | Document | Status |
 |---|---|
