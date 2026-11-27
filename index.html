@@ -3,13 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Better Book Club - Discover stories. Find your next favourite.</title>
+  <title>Better Book Club — Discover Stories Worth Your Time</title>
   <meta name="description" content="An independent literary discovery and reader community. Discover worthwhile books, chosen with care.">
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Better Book Club">
-  <meta property="og:title" content="Better Book Club - Discover stories. Find your next favourite.">
+  <meta property="og:title" content="Better Book Club — Discover Stories Worth Your Time">
   <meta property="og:description" content="An independent literary discovery and reader community. Discover worthwhile books, chosen with care.">
-  <!-- TODO: add og:image once the original BBC logo/share image is supplied. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/bbc.css">
 </head>
@@ -19,25 +21,23 @@
   <header class="site-header">
     <nav class="navbar navbar-expand-lg" aria-label="Main navigation">
       <div class="container">
-        <a class="navbar-brand" href="index.html">
-          <!-- LOGO PLACEHOLDER: replace this span with the original logo, e.g.
-               <img src="assets/images/logo/FILENAME" alt="Better Book Club" height="48">
-               Do not redraw or recolour the logo. -->
-          <span class="logo-placeholder" aria-hidden="true">LOGO</span>
-          <span>Better Book Club</span>
+        <a class="navbar-brand" href="index.html" aria-label="Better Book Club home">
+          <!-- Replace this text mark with the supplied original BBC logo when available. -->
+          <span class="brand-mark" aria-hidden="true">b.</span>
+          <span class="brand-name">Better Book <i>Club</i></span>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-menu"
                 aria-controls="main-menu" aria-expanded="false" aria-label="Show or hide the menu">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="main-menu">
-          <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="pages/explore.html">Explore Books</a></li>
-          <li class="nav-item"><a class="nav-link" href="pages/authors.html">For Authors</a></li>
-          <li class="nav-item"><a class="nav-link" href="pages/readers.html">For Readers</a></li>
-          <li class="nav-item"><a class="nav-link" href="pages/about.html">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="pages/contact.html">Contact</a></li>
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="pages/explore.html">Explore Books</a></li>
+            <li class="nav-item"><a class="nav-link" href="pages/authors.html">For Authors</a></li>
+            <li class="nav-item"><a class="nav-link" href="pages/readers.html">For Readers</a></li>
+            <li class="nav-item"><a class="nav-link" href="pages/about.html">About</a></li>
+            <li class="nav-item"><a class="nav-link nav-contact" href="pages/contact.html">Get in touch <span aria-hidden="true">↗</span></a></li>
           </ul>
         </div>
       </div>
@@ -45,141 +45,126 @@
   </header>
 
   <main id="main">
-    <section class="hero">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-image" role="img" aria-label="Warmly lit contemporary reading space with books, lamps and a communal reading table"></div>
+      <div class="hero-shade"></div>
+      <div class="container hero-content">
+        <p class="eyebrow eyebrow-light reveal">A little more wonder in your reading life</p>
+        <h1 id="hero-title" class="reveal">Discover Stories<br><em>Worth Your Time.</em></h1>
+        <p class="hero-copy reveal">A thoughtful home for books, curious readers and the stories that stay with us long after the last page.</p>
+        <div class="hero-actions reveal">
+          <a class="btn btn-cream" href="pages/explore.html">Find your next read <span aria-hidden="true">↗</span></a>
+          <a class="text-link-light" href="pages/about.html">Get to know us <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="hero-note reveal"><span class="hero-note-line"></span><span>Independent by nature. Curious by design.</span></div>
+      </div>
+      <a class="hero-scroll" href="#discover" aria-label="Scroll to discover">SCROLL TO DISCOVER <span aria-hidden="true">↓</span></a>
+    </section>
+
+    <section class="intro-band" id="discover">
       <div class="container">
-        <div class="row align-items-center g-5">
-          <div class="col-lg-7">
-            <h1>Discover Stories Worth Your Time.</h1>
-            <p class="lead mt-4">Better Book Club is an independent place to discover books worth your time, chosen with care and introduced in our own words.</p>
-            <p class="mt-4">
-              <a class="btn btn-bbc me-2" href="pages/explore.html">Explore books</a>
-              <a class="btn btn-bbc-outline" href="pages/authors.html">For authors</a>
-            </p>
+        <div class="intro-band-inner reveal">
+          <span class="eyebrow">The better way to browse</span>
+          <p>Not just more books.<br><em>More meaningful discoveries.</em></p>
+          <span class="intro-side-note">GOOD STORIES<br>FIND THEIR PEOPLE.</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section featured-section" aria-labelledby="featured-heading">
+      <div class="container">
+        <div class="section-heading reveal">
+          <div><p class="eyebrow">A considered collection</p><h2 id="featured-heading">The next chapter<br><em>starts here.</em></h2></div>
+          <p class="section-heading-copy">We believe finding a good book should feel like a discovery, not another endless scroll.</p>
+        </div>
+        <div class="collection-empty reveal">
+          <div class="collection-empty-art" aria-hidden="true">
+            <span class="book-shape book-shape-one"></span><span class="book-shape book-shape-two"></span><span class="book-shape book-shape-three"></span>
+            <span class="sparkle sparkle-one">✳</span><span class="sparkle sparkle-two">✳</span>
           </div>
-          <div class="col-lg-5">
-            <div class="spines" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+          <div class="collection-empty-copy">
+            <p class="eyebrow">Featured books</p>
+            <h3>Good things are<br>being gathered.</h3>
+            <p>Our first handpicked collection is taking shape. Check back soon for books selected with curiosity, care and a point of view.</p>
+            <a class="underlined-link" href="pages/explore.html">Explore the book space <span aria-hidden="true">→</span></a>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section section-rose" aria-labelledby="featured-heading">
+    <section class="editorial-section" aria-labelledby="worth-heading">
+      <div class="editorial-photo" role="img" aria-label="Sunlit shelves and a welcoming modern library interior"></div>
+      <div class="editorial-copy">
+        <p class="eyebrow eyebrow-light">A note from the club</p>
+        <h2 id="worth-heading">For the books<br>you haven't met <em>yet.</em></h2>
+        <p>Some stories find you at exactly the right moment. Worth Discovering is our space for thoughtful recommendations and unexpected literary finds — never a popularity contest.</p>
+        <a class="text-link-light" href="pages/explore.html">See what we're about <span aria-hidden="true">→</span></a>
+        <span class="editorial-index">01 / THE DISCOVERY</span>
+      </div>
+    </section>
+
+    <section class="section worth-section" aria-labelledby="worth-list-heading">
       <div class="container">
-        <h2 id="featured-heading">Featured Books</h2>
-        <div class="empty-state mt-4">
-          <h3>No featured books yet</h3>
-          <p class="mb-0">Books will appear here when they have been selected and approved for an official BBC feature.</p>
+        <div class="simple-heading reveal">
+          <p class="eyebrow">Worth discovering</p>
+          <h2 id="worth-list-heading">A good story is<br><em>always worth sharing.</em></h2>
+          <p>Our editorial picks will live here: considered, independent and chosen for the conversations they start.</p>
+        </div>
+        <div class="coming-strip reveal">
+          <div class="coming-number">01</div>
+          <div><span class="eyebrow">The collection is growing</span><h3>Fresh discoveries are on their way.</h3><p class="mb-0">We’ll introduce titles here as soon as each feature is confirmed.</p></div>
+          <span class="coming-star" aria-hidden="true">✳</span>
         </div>
       </div>
     </section>
 
-    <section class="section" aria-labelledby="explore-heading">
+    <section class="community-section" aria-label="Ways to be part of Better Book Club">
       <div class="container">
-        <div class="section-intro">
-          <h2 id="explore-heading">Explore Books</h2>
-          <p>Browse the BBC catalogue and discover thoughtfully selected books across a range of genres.</p>
-          <a class="btn btn-bbc" href="pages/explore.html">Explore all books</a>
+        <div class="community-heading reveal">
+          <p class="eyebrow eyebrow-light">More than a reading list</p>
+          <h2>There’s a place<br><em>for you here.</em></h2>
+        </div>
+        <div class="community-grid">
+          <article class="community-card reader-card reveal">
+            <div class="community-card-top"><span>01 — FOR READERS</span><span aria-hidden="true">✳</span></div>
+            <div><h3>Bring your<br>curiosity.</h3><p>Find out about reader opportunities, early reading experiences and ways to help shape a thoughtful book community.</p><a class="community-link" href="pages/readers.html">A place for readers <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="community-card author-card reveal">
+            <div class="community-card-top"><span>02 — FOR AUTHORS</span><span aria-hidden="true">✳</span></div>
+            <div><h3>Your story<br>belongs in the world.</h3><p>Learn how we discover books and how authors can introduce their work to Better Book Club.</p><a class="community-link" href="pages/authors.html">A place for authors <span aria-hidden="true">↗</span></a></div>
+          </article>
         </div>
       </div>
     </section>
 
-    <section class="section section-rose" aria-labelledby="worth-discovering-heading">
-      <div class="container">
-        <div class="section-intro">
-          <h2 id="worth-discovering-heading">Worth Discovering</h2>
-          <p>A space for interesting books that deserve a closer look, selected with care by Better Book Club.</p>
-        </div>
-        <div class="empty-state mt-4">
-          <h3>More discoveries are on the way</h3>
-          <p class="mb-0">This section will grow as the BBC catalogue develops. It is an editorial selection, not a popularity ranking.</p>
+    <section class="about-section" aria-labelledby="about-heading">
+      <div class="container about-inner">
+        <p class="eyebrow reveal">A club built around the love of a good story</p>
+        <h2 id="about-heading" class="reveal">Reading is personal.<br><em>Finding your next book should be, too.</em></h2>
+        <div class="about-bottom reveal">
+          <p>Better Book Club is an independent literary discovery and reader community. We make room for considered recommendations, new voices and the joy of finding a story that feels like it was meant for you.</p>
+          <a class="btn btn-outline-cream" href="pages/about.html">Our story <span aria-hidden="true">↗</span></a>
         </div>
       </div>
     </section>
 
-    <section class="section" aria-labelledby="coming-soon-heading">
-      <div class="container">
-        <div class="section-intro">
-          <h2 id="coming-soon-heading">Coming Soon</h2>
-          <p>Get a first look at books approved for upcoming BBC features.</p>
-        </div>
-        <div class="empty-state mt-4">
-          <h3>No upcoming features to announce yet</h3>
-          <p class="mb-0">Books will be listed here when a future feature has been approved and its details are confirmed.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-rose" aria-labelledby="readers-heading">
-      <div class="container">
-        <div class="opportunity-panel">
-          <div>
-            <p class="eyebrow">For readers</p>
-            <h2 id="readers-heading">Be part of the reading community</h2>
-            <p class="mb-0">Learn about reader opportunities that BBC may introduce, including Founding Readers, beta reading, and advance reading copy (ARC) opportunities. Details will be shared when programmes are ready.</p>
-          </div>
-          <a class="btn btn-bbc-outline" href="pages/readers.html">For readers</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" aria-labelledby="authors-heading">
-      <div class="container">
-        <div class="opportunity-panel">
-          <div>
-            <p class="eyebrow">For authors</p>
-            <h2 id="authors-heading">Introduce your work to BBC</h2>
-            <p class="mb-0">Find out how BBC discovers and selects books, and learn about possible ways for authors to take part. A submission or enquiry does not guarantee selection or a feature.</p>
-          </div>
-          <a class="btn btn-bbc" href="pages/authors.html">For authors</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-rose" aria-labelledby="about-heading">
-      <div class="container">
-        <div class="section-intro">
-          <h2 id="about-heading">An independent club for readers</h2>
-          <p>BBC discovers and evaluates books independently, with care for accuracy, editorial fairness, and the people who write and read them.</p>
-          <a href="pages/about.html">Learn more about Better Book Club</a>
-        </div>
-      </div>
-    </section>
-
-    <section class="section newsletter-section" aria-labelledby="newsletter-heading">
-      <div class="container">
-        <div class="section-intro">
-          <h2 id="newsletter-heading">Stay in the know</h2>
-          <p>The BBC newsletter is not open yet. We will share signup details here when the service is ready.</p>
-          <p class="small mb-0">There is no subscription form at this stage.</p>
-        </div>
+    <section class="newsletter-section" aria-labelledby="newsletter-heading">
+      <div class="container newsletter-inner reveal">
+        <div><p class="eyebrow">A little note from us</p><h2 id="newsletter-heading">Good stories.<br><em>Coming your way.</em></h2></div>
+        <div class="newsletter-copy"><p>Our newsletter isn’t open just yet. When it is, this will be the place for new discoveries, club notes and reading inspiration.</p><span class="newsletter-status"><span></span> The mailing list is getting ready</span></div>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <div class="row g-4">
-        <div class="col-md-5">
-          <h2>Better Book Club</h2>
-          <p>An independent literary discovery and reader community.</p>
-        </div>
-        <div class="col-6 col-md-3">
-          <h2>Explore</h2>
-          <ul class="list-unstyled">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="pages/explore.html">Explore Books</a></li>
-          <li><a href="pages/authors.html">For Authors</a></li>
-          <li><a href="pages/readers.html">For Readers</a></li>
-          <li><a href="pages/about.html">About</a></li>
-          <li><a href="pages/contact.html">Contact</a></li>
-          </ul>
-        </div>
-        <div class="col-6 col-md-4">
-          <h2>Newsletter</h2>
-          <p>The BBC newsletter is not open yet. Signup will appear here when it is ready.</p>
-        </div>
+      <div class="footer-main">
+        <div class="footer-brand"><a class="footer-logo" href="index.html"><span class="brand-mark" aria-hidden="true">b.</span><span>Better Book <i>Club</i></span></a><p>For the love of stories<br>and the people who find them.</p></div>
+        <div class="footer-links"><span class="eyebrow eyebrow-light">Explore</span><a href="pages/explore.html">Books</a><a href="pages/readers.html">Readers</a><a href="pages/authors.html">Authors</a></div>
+        <div class="footer-links"><span class="eyebrow eyebrow-light">The club</span><a href="pages/about.html">Our story</a><a href="pages/contact.html">Get in touch</a></div>
+        <div class="footer-signoff"><span>TURN THE PAGE.</span><strong>Stay curious.</strong></div>
       </div>
-      <p class="mt-4 mb-0 small">&copy; <span id="footer-year">2026</span> Better Book Club</p>
+      <div class="footer-bottom"><span>© <span id="footer-year">2026</span> Better Book Club</span><span>Made for the love of a good story.</span></div>
     </div>
   </footer>
 
