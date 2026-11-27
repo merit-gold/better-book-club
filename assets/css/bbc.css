@@ -423,7 +423,7 @@ em { font-weight: 400; }
 
 
 /* For Authors — editorial introduction and transparent participation guide */
-.authors-hero { min-height: 600px; position: relative; display: flex; align-items: center; overflow: hidden; color: #fffaf1; background: #30261f url("https://images.unsplash.com/photo-1455390582262-044c105b4f4a?auto=format&fit=crop&fm=jpg&q=85&w=2200") center 48%/cover no-repeat; }
+.authors-hero { min-height: 600px; position: relative; display: flex; align-items: center; overflow: hidden; color: #fffaf1; background: #30261f url("https://images.unsplash.com/photo-1756037020659-6f9d3418f6b6?auto=format&fit=crop&fm=jpg&q=85&w=2200") center 48%/cover no-repeat; }
 .authors-hero-shade { position: absolute; inset: 0; background: linear-gradient(90deg,rgba(24,22,20,.86),rgba(24,22,20,.62) 53%,rgba(24,22,20,.18)),linear-gradient(0deg,rgba(24,22,20,.36),transparent 44%); }
 .authors-hero-content { position: relative; z-index: 1; padding-top: 120px; }
 .authors-hero h1 { max-width: 950px; margin: 0 0 1.5rem; font-size: clamp(4rem,8vw,7.2rem); line-height: .98; letter-spacing: -.065em; }
