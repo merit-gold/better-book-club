@@ -19,16 +19,11 @@ The Foundation Skeleton and project documentation remain on `main`. The active d
 5. Populate `data/books.json` with founder-approved books and create individual static book pages only after the public page designs are complete and authorised cover assets and verified information are available.
 6. After the catalogue and individual book pages, plan and implement the Stage B admin dashboard, database and backend with the founder. These are not built yet and require technical, privacy and operational decisions.
 
-## 4. Approved Scope Limits (unchanged)
+## 4. Approved Scope Limits
 
-Until the founder approves otherwise, do not add:
+Until the relevant Stage B work is approved, do not implement a database, backend, authentication, newsletter integration, functional submission forms or admin operations.
 
-- A database, backend, or authentication.
-- Newsletter integration.
-- Paid services.
-- Functional submission forms.
-
-Firebase remains an option, not an approved backend.
+Author service participation may involve payment outside the website. The act of submitting a book through the future website form itself will not carry a submission charge. Specific services, scopes and prices remain to be defined and must not be invented or advertised as available.
 
 ## 5. Likely Following Task (to be agreed, not yet approved)
 
