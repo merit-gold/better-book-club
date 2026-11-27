@@ -3,7 +3,7 @@
 ### Added
 
 - Replaced the For Authors placeholder with an editorial page explaining BBC's independent book discovery, consideration process, author expectations, copyright principles and honest-feedback standards.
-- Added a transparent explanation that basic book submission for consideration is free, while the website submission form is not yet available.
+- Clarified that the website submission route is not yet available and that future requirements and applicable terms will be stated clearly.
 - Added FAQs covering selection, fees, reader matching, reviews and manuscript handling.
 - Added responsive page-specific styling consistent with the immersive editorial design used across the public pages.
 
