@@ -42,3 +42,35 @@ A cover can be aesthetically strong but still be unusable on the BBC website unt
 ## Status
 
 This is only the first verification pass, not completion of all 50. No candidate is founder-approved. No covers have been copied into BBC's public assets. No entries have been added to `data/books.json`.
+
+
+## Additional exact-page checks — pass 2
+
+| Title | Goodreads snapshot | Finding | Decision |
+|---|---:|---|---|
+| Sweet Little Hearts — Shanora Williams | 4.28 / 3,374 ratings | Author's official page links Amazon, Barnes & Noble and Goodreads. Goodreads describes a contemporary sports romance. However the listed edition is published by Montlake, so it is not a clean indie-published example. Author's official page promotes the cover/edition. | **Hold as traditional/partner-published edition**, not counted as independent until publication rights/imprint history are clarified. |
+| Thirty, Flirty, and Forever Alone — Christine Riccio | 4.04 / 7,456 ratings | Goodreads page identifies this as a 2025 adult rom-com and notes the author's large book-community platform. This does not establish independent publishing; publication route needs checking. | **Hold.** |
+| Heart Restoration Project — Beth Merlin & Danielle Modafferi | 3.91 / 914 ratings | Exact Goodreads page confirms two co-authors, genre and synopsis. Publishing route and Amazon edition not confirmed. | **Hold.** |
+| Reservations — Kindle Alexander | 4.16 / 2,137 ratings | Exact Goodreads page confirms M/M contemporary romance and the premise. Publishing route/edition still to verify. | **Hold.** |
+| Caribbean Crush — R.S. Grey | 3.91 / 4,032 ratings | Exact Goodreads page confirms contemporary romance, publication date and premise. Publishing route and cover source remain unverified. | **Hold.** |
+| Voice of Power — Melanie Cellier | 4.19 / 7,874 ratings | Exact Goodreads page confirms The Spoken Mage #1 and YA fantasy premise. Independent publication route and Amazon edition not confirmed in this pass. | **Hold.** |
+| The Faerie Guardian — Rachel Morgan | 3.96 / 9,712 ratings | Exact Goodreads page confirms YA fantasy/romance and series details. Author is based in Cape Town, which may offer BBC a useful regional author discovery angle; independent publication status still needs primary-source proof. | **Hold — promising genre and regional relevance; verify route and cover.** |
+| The Thirteen Black Cats of Edith Penn — Sean McDonough | 4.34 / 570 ratings | Exact Goodreads record confirms horror/witchcraft premise, author, rating count and 2021 publication. Publishing route and Amazon edition not yet verified. | **Hold — promising niche horror lead; verify route and cover.** |
+| At Home with the Horrors — Sammy Scott | 4.17 / 1,975 ratings | Exact Goodreads page confirms a short-fiction horror collection and synopsis. Publishing route and cover still need primary-source verification. | **Hold.** |
+| The Changelings — Elle Casey | 4.08 / 6,083 ratings | Exact Goodreads page confirms title, author, YA fantasy/paranormal genre and first publication date. Current edition/publisher route needs verification. | **Hold.** |
+| The Moon Dwellers — David Estes | 3.83 / 4,458 ratings | Goodreads series page confirms series order and exact rating count. Score alone is not a rejection reason; publishing route and cover need verification. | **Hold — review sample before any editorial recommendation.** |
+| The Amendment — Melanie Moreland | 4.14 / 6,830 ratings | Goodreads series page confirms rating and that it is book 2 of The Contract series. Publishing route still needs verification. | **Hold.** |
+| A Chance Encounter — Nikki Ash | 4.06 / 7,004 ratings | Exact Goodreads page confirms contemporary romance and premise. A Goodreads review snapshot shows mixed reader response, so inspect wider review themes and sample rather than relying on average alone. Publishing route not confirmed. | **Hold — quality/sample review required.** |
+| Code Name: Revenge — Sawyer Bennett | 4.11 / 1,140 ratings | Exact Goodreads page confirms it is book 10 in the Jameson Force Security series. Series-entry barrier is a concern for a standalone BBC discovery feature. | **Hold — only consider if series context is made clear.** |
+| Hard to Hold — K. Bromberg | Not verified under this exact title | Search surfaced **Hard to Handle** by K. Bromberg, a different title, with 11,280 ratings. The earlier candidate entry appears to have a title mismatch. | **Remove from shortlist pending exact-title correction. Do not substitute Hard to Handle silently.** |
+
+### Important corrections to the discovery pool
+
+- Goodreads currently shows *The Grey Bastards* at about 9,274 ratings and 4.05, but publisher pages confirm Crown/Random House and Hachette/Orbit publication. It is not suitable to label it as an independently published candidate today.
+- Goodreads shows *Tales from the Gas Station: Volume Two* above 6,000 ratings on its series page, not the older approximate 5,545 figure. This is still below millions but above the preferred modest range; it should not be prioritised over smaller-reading-pool discoveries.
+- Goodreads shows *The Thief Who Pulled on Trouble's Braids* at about 3,487 ratings and explicitly describes its self-published edition as the SPFBO winner.
+- Goodreads shows *Bedside Manor* at about 2,534–2,639 ratings depending on edition/page snapshot; use the exact edition page when building the catalogue record.
+- Goodreads shows *Sistah Samurai* at about 647 ratings and describes it as an Action Fantasy novella. It is a strong fit for the founder's request to find distinctive books with smaller readerships.
+- *Hard to Hold* is not the exact title surfaced in this verification. Do not keep its earlier rating figure.
+
+These checks demonstrate why the initial 50-title pool must remain a discovery pool until each title is reconciled to its exact Goodreads edition and publishing history.
