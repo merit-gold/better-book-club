@@ -1,3 +1,20 @@
+## 2026-11-27 — Public Page-First Development Sequence Confirmed
+
+### Founder decision
+
+- Complete the designs for all public pages (Homepage, About, Explore Books, For Authors, For Readers and Contact) before adding the book catalogue.
+- Review the complete site for consistency, responsive behaviour, accessibility and navigation after the page designs are complete.
+- Add founder-approved books, authorised covers and individual book pages afterwards, then connect relevant book previews across the Homepage and Explore Books page.
+- The founder reviewed the Explore Books page positively and confirmed that it is working as expected.
+
+### Documentation
+
+- Recorded the approved sequence in `DECISIONS.md`.
+- Updated `PROJECT_STATUS.md` to reflect the founder's positive review of Explore Books.
+- Updated `NEXT_STEP.md` so the next implementation work is For Authors, For Readers and Contact, followed by site-wide review and then catalogue population.
+
+---
+
 ## 2026-11-27 — Explore Books Page and Editorial Copy Review
 
 ### Added
