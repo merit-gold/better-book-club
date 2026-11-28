@@ -1,3 +1,20 @@
+### 2026-11-28 — Admin-Authored Posts and Backend Recommendation
+
+**Approved requirements**
+- Admin can create, edit, save, publish, unpublish, and delete posts directly in the admin dashboard.
+- Admin-created posts do not need a second approval or enter the external author-submission approval queue. Draft/published state and audit history still apply.
+- Content origin must distinguish admin-authored content from external submissions.
+
+**Proposed architecture — awaiting founder approval**
+- Supabase is the leading backend recommendation because PostgreSQL fits BBC's relational catalogue, collections, submissions, newsletter campaigns, subscriber consent, and audit requirements.
+- Firebase Hosting can host the existing static frontend while Supabase provides backend services; Vercel/Netlify are optional alternatives, not compulsory.
+- Documented current pricing/free-tier considerations and security implications. No paid service or account has been activated.
+
+**Next**
+- Founder decides whether to approve the Supabase + Firebase Hosting recommendation before provider-specific implementation.
+
+---
+
 # Better Book Club — Changelog
 
 ## 2026-11-28 — Backend and Admin Workflow Requirements Approved
