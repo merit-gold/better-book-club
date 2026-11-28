@@ -8,6 +8,18 @@ It helps the founder and collaborating AIs understand what has been completed, w
 
 All progress reports must reflect actual work and verified evidence.
 
+## Current Status Correction — 2026-11-28
+
+**This update supersedes older roadmap/status statements below wherever they say the backend is deferred or the catalogue/public pages are awaiting approval.**
+
+- Public website pages and the starter catalogue have now been confirmed by the founder.
+- The active phase is **Stage B — backend, database, admin dashboard, and operational workflows**.
+- The active branch is `task-003/immersive-homepage-redesign`; `main` remains untouched pending explicit founder approval.
+- The founder has approved the functional admin and newsletter requirements recorded in `DECISIONS.md`, `TECHNICAL_ARCHITECTURE.md`, and `WEBSITE_SPECIFICATION.md`.
+- No backend provider, database, hosting provider, or newsletter delivery provider has yet been selected. Firebase remains a candidate, not an approved choice.
+- Backend implementation has not yet started. The immediate task is architecture/provider evaluation and a concrete data-flow plan, followed by founder approval before provider-specific implementation.
+
+
 ## 2. Project Overview
 
 **Project:** Better Book Club (BBC)
@@ -22,7 +34,7 @@ All progress reports must reflect actual work and verified evidence.
 
 ## 3. Current Development Phase
 
-**Stage A — Public frontend implementation (backend-free)**
+**Stage B — Backend, database, and admin operations (active phase; architecture selection pending)**
 
 Status: The public pages have been implemented on `task-003/immersive-homepage-redesign`; the founder has completed a site-wide review and is satisfied. The About page founder introduction and purpose refinement has been reviewed and accepted by the founder. The working branch has not been merged into `main`.
 
