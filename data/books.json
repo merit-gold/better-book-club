@@ -13,7 +13,10 @@
       "source_url": "https://www.goodreads.com/book/show/44066722-vortex-visions",
       "source_name": "Goodreads",
       "author_url": "https://www.elisekova.com/vortex-visions/",
-      "series": "Air Awakens: Vortex Chronicles #1"
+      "series": "Air Awakens: Vortex Chronicles #1",
+      "cover_url": "https://target.scene7.com/is/image/Target/GUEST_8f22040e-58b2-4a61-a0a6-96ae9a1ce0ca",
+      "cover_source_url": "https://www.target.com/p/-/A-1004135999",
+      "cover_credit": "Target"
     },
     {
       "slug": "sistah-samurai",
@@ -27,7 +30,10 @@
       "source_url": "https://www.goodreads.com/book/show/190526292-sistah-samurai",
       "source_name": "Goodreads",
       "author_url": "https://www.tatianaobey.com/",
-      "series": "The Champloo Mixes #1"
+      "series": "The Champloo Mixes #1",
+      "cover_url": "https://images.squarespace-cdn.com/content/v1/60302736f874b10de2373c5c/319c7d1c-cb68-4411-9116-563b51a9b328/Sistah%2BSamurai%2BSpecial%2BEdiiton%2B-%2BFront%2BCover.png",
+      "cover_source_url": "https://www.tatianaobey.com/",
+      "cover_credit": "Tatiana Obey"
     },
     {
       "slug": "the-path-of-flames",
@@ -41,7 +47,10 @@
       "source_url": "https://www.goodreads.com/book/show/29936142-the-path-of-flames",
       "source_name": "Goodreads",
       "author_url": "https://authorphiltucker.com/books-1",
-      "series": "Chronicles of the Black Gate #1"
+      "series": "Chronicles of the Black Gate #1",
+      "cover_url": "https://books.google.com/books/content?id=fyPBjwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
+      "cover_source_url": "https://books.google.com/books?id=fyPBjwEACAAJ",
+      "cover_credit": "Google Books"
     },
     {
       "slug": "bedside-manor",
@@ -55,7 +64,10 @@
       "source_url": "https://www.goodreads.com/book/show/60212546-bedside-manor",
       "source_name": "Goodreads",
       "author_url": "https://www.gasstationjack.com/",
-      "series": "Tales from the Gas Station #3.2"
+      "series": "Tales from the Gas Station #3.2",
+      "cover_url": "https://static.wixstatic.com/media/fc1a9a_68077a8b785d44b6b291fc73cfa7ffe1~mv2.jpg/v1/fill/w_980%2Ch_980%2Cal_c%2Cq_85%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/fc1a9a_68077a8b785d44b6b291fc73cfa7ffe1~mv2.jpg",
+      "cover_source_url": "https://www.gasstationjack.com/post/bedside-manor-is-now-an-ebook",
+      "cover_credit": "Jack Townsend"
     },
     {
       "slug": "kosa",
@@ -69,7 +81,10 @@
       "source_url": "https://www.goodreads.com/book/show/200327905-kosa",
       "source_name": "Goodreads",
       "author_url": "https://www.johndurginauthor.com/",
-      "series": "Standalone"
+      "series": "Standalone",
+      "cover_url": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1697822444i/200327905.jpg",
+      "cover_source_url": "https://www.goodreads.com/book/show/200327905-kosa",
+      "cover_credit": "Goodreads"
     },
     {
       "slug": "drowned-tomb",
@@ -82,7 +97,10 @@
       ],
       "source_url": "https://www.goodreads.com/book/show/30656121-drowned-tomb",
       "source_name": "Goodreads",
-      "series": "The Changeling #2"
+      "series": "The Changeling #2",
+      "cover_url": "https://target.scene7.com/is/image/Target/GUEST_ea1cc245-2989-46a1-bf9f-f48c31b1e7a1",
+      "cover_source_url": "https://www.target.com/p/-/A-83968747",
+      "cover_credit": "Target"
     },
     {
       "slug": "never-die",
@@ -95,7 +113,10 @@
       ],
       "source_url": "https://www.goodreads.com/book/show/43069198-never-die",
       "source_name": "Goodreads",
-      "series": "Mortal Techniques universe · Standalone story"
+      "series": "Mortal Techniques universe · Standalone story",
+      "cover_url": "https://target.scene7.com/is/image/Target/GUEST_e4bb4082-7e4e-49e9-9144-c8ee08644b2e",
+      "cover_source_url": "https://www.target.com/p/-/A-79244758",
+      "cover_credit": "Target"
     },
     {
       "slug": "relic-of-the-gods",
@@ -109,7 +130,10 @@
       "source_url": "https://www.goodreads.com/book/show/49183105-relic-of-the-gods",
       "source_name": "Goodreads",
       "author_url": "https://www.philipquaintrell.com/",
-      "series": "The Echoes Saga #3"
+      "series": "The Echoes Saga #3",
+      "cover_url": "https://i5.walmartimages.com/seo/The-Echoes-Saga-Relic-of-the-Gods-The-Echoes-Saga-Book-3-Paperback-9781916610026_d06b44a0-d1a6-48f8-89f8-4109a99cd559.40f467df7bcd0040b4d347b95a73b083.jpeg?odnBg=FFFFFF&odnHeight=612&odnWidth=612",
+      "cover_source_url": "https://business.walmart.com/ip/The-Echoes-Saga-Relic-of-the-Gods-The-Echoes-Saga-Book-3-Paperback-9781916610026/1945078756",
+      "cover_credit": "Walmart"
     },
     {
       "slug": "tales-from-the-gas-station-volume-two",
@@ -123,7 +147,10 @@
       "source_url": "https://www.goodreads.com/book/show/195641892-tales-from-the-gas-station",
       "source_name": "Goodreads",
       "author_url": "https://www.gasstationjack.com/",
-      "series": "Tales from the Gas Station #2"
+      "series": "Tales from the Gas Station #2",
+      "cover_url": "https://target.scene7.com/is/image/Target/GUEST_a0ae7c68-acea-4de3-a14f-2bc251402a1b",
+      "cover_source_url": "https://www.target.com/p/-/A-1002716571",
+      "cover_credit": "Target"
     },
     {
       "slug": "the-thief-who-pulled-on-troubles-braids",
@@ -136,7 +163,10 @@
       ],
       "source_url": "https://www.goodreads.com/book/show/43398402-the-thief-who-pulled-on-trouble-s-braids",
       "source_name": "Goodreads",
-      "series": "Amra Thetys #1"
+      "series": "Amra Thetys #1",
+      "cover_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3gz_DGbzxyEzDmZyxs4Bgk7SZ_FrZOaiuj2DCI2Cwtcl8v8PFnjrY1lLYGY6wtFUyFPdP3AqwyT5LI6sZVGfcZvq709xbyLG98J63VVt3X7hrMC3dyhBKhnPLV5Mi5hZwB5Xwti9xSQ/s640/Amra%2B1%2BMon%2BEbook%2BCover%2BYellow%2BType%2Bflattened.jpg",
+      "cover_source_url": "https://outofthisworldrev.blogspot.com/2020/02/cover-reveal-thief-who-pulled-on.html",
+      "cover_credit": "Official cover reveal"
     }
   ]
 }
