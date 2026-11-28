@@ -61,13 +61,14 @@ Do not invent paid services, prices, active reader programmes, or public contact
 
 1. Backend foundation, environments, database schema, and secure configuration.
 2. Admin authentication and protected dashboard shell.
-3. Book/submission management and moderation actions.
-4. Approval workflow with catalogue collection assignment and optional newsletter inclusion.
-5. Public author submission form connected to pending submissions.
-6. Public catalogue integration using approved and published database records.
-7. Newsletter draft editor, preview, subscriber management, and send workflow.
-8. Security, functional, accessibility, responsive, and end-to-end testing.
-9. Deployment readiness and founder review.
+3. Admin-authored post manager: create, edit, save draft, publish/unpublish, and delete directly. Admin-created posts bypass the external submission approval queue; record content origin and audit actions.
+4. Book/submission management and moderation actions.
+5. Approval workflow with catalogue collection assignment and optional newsletter inclusion.
+6. Public author submission form connected to pending submissions.
+7. Public catalogue integration using approved and published database records.
+8. Newsletter draft editor, preview, subscriber management, and send workflow.
+9. Security, functional, accessibility, responsive, and end-to-end testing.
+10. Deployment readiness and founder review.
 
 Work in focused milestones. Do not build everything in one unreviewed change.
 
@@ -75,8 +76,8 @@ Work in focused milestones. Do not build everything in one unreviewed change.
 
 1. Read `DECISIONS.md`, `TECHNICAL_ARCHITECTURE.md`, and this file.
 2. Inspect the actual repository and current branch before implementation.
-3. Present the architecture/provider recommendation and data-flow plan.
-4. Obtain founder approval for provider, costs, and any consequential account setup.
+3. Present the architecture/provider recommendation and data-flow plan. Current recommendation to evaluate: Supabase backend with Firebase Hosting for the existing static frontend; Vercel/Netlify are alternatives, not mandatory. This recommendation is proposed, not approved.
+4. Obtain founder approval for provider, costs, and any consequential account setup. Do not create billable resources or add payment details before approval.
 5. Implement one milestone at a time on the agreed branch.
 6. Test and report changed files, evidence, limitations, and outstanding decisions.
 7. Update `PROJECT_STATUS.md`, this file, and `CHANGELOG.md`; update `DECISIONS.md` when a new decision is approved.
