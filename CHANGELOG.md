@@ -1,3 +1,27 @@
+## 2026-11-28 — Initial Public Book Catalogue Added
+
+### Changed
+
+- Added 10 researched titles to `data/books.json` with author names, first-publication dates, genres, Goodreads source links and verified author websites where available.
+- Added series-position notes where a title is part of a larger series or shared universe.
+- Kept the catalogue text-and-link only: no third-party cover images are copied, stored or hotlinked.
+- Updated the Explore Books renderer to display linked text cards without requiring a local cover image or a BBC-hosted individual book page.
+- Added matching responsive card styling.
+
+### Verification and limitations
+
+- Publication dates were checked against the individual Goodreads book records; rating counts are not displayed because they change over time and are not needed for the public catalogue.
+- Goodreads links are bibliographic references, not a claim that Goodreads endorses BBC.
+- Some selections are later entries in a series; this is disclosed in the series note.
+- Source-level review only. No live browser/device visual QA was performed by ChatGPT.
+- Changes are on `task-003/immersive-homepage-redesign`; `main` has not been changed.
+
+### Next
+
+Connect the homepage Featured Books preview to the approved catalogue, then move on to the next project priority.
+
+---
+
 ## 2026-11-27 — About Page Founder Introduction and Purpose Refinement
 
 ### Changed
