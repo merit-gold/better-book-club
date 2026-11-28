@@ -146,15 +146,13 @@ See `AI_WORKFLOW.md` for the complete process.
 
 ## 7. Current Project Status
 
-**Current phase:** Phase 4 — Homepage Completion (Task 001, backend-free). The Foundation Skeleton is committed to `main`; Task 001 is implemented on `task-001/homepage-completion` and awaiting founder review.
+**Current phase:** Stage B — Backend, Database and Admin Operations.
 
-Phases 1 (documentation), 2 (repository inspection), and 3 (Foundation Skeleton) are complete. The homepage now includes the approved hero headline and the planned editorial discovery, reader, author, About, and newsletter-placeholder sections.
+The public pages and starter catalogue have been confirmed by the founder on `task-003/immersive-homepage-redesign`. The next task is to specify and evaluate the backend architecture for secure admin access, book submissions and moderation, catalogue placement, and editable/previewable newsletters.
 
-The original BBC logo has not been added yet. A placeholder marks its position.
+The founder has approved the operational workflow requirements, but the backend/database provider, hosting arrangement, and newsletter delivery provider remain undecided. Firebase is a candidate, not a confirmed choice. Backend implementation has not yet started. `main` remains untouched pending explicit founder approval.
 
-Backend, hosting, newsletter, and functional forms remain outstanding and require founder approval.
-
-See `PROJECT_STATUS.md` and `NEXT_STEP.md`.
+See `PROJECT_STATUS.md`, `NEXT_STEP.md`, `DECISIONS.md`, and `TECHNICAL_ARCHITECTURE.md`.
 
 ## 8. Important Principles
 
