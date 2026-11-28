@@ -300,3 +300,58 @@ The requirements above are approved; the implementation choices are not. Evaluat
 - Spam protection, transactional email, backups, and operational costs.
 
 Present a concise recommendation with trade-offs, security implications, free-tier limits, expected costs, and migration implications before committing to a provider. Firebase remains an option, not a decision.
+
+
+## 22. Admin-Created Editorial Posts — Founder-Approved Requirement (2026-11-28)
+
+The admin dashboard must include a content/post manager. An authorised administrator can create a post directly from the admin area, edit it, save it as a draft, publish it, unpublish it, and delete it with confirmation.
+
+Posts created directly by an administrator are trusted BBC-authored content and **do not enter the external author-submission approval queue or require a second approval**. The administrator who creates the post may publish it directly. Draft/published state and audit history must still be recorded.
+
+Keep this workflow distinct from externally submitted author books/posts, which remain pending until editorial review. The data model should identify content origin (for example, admin-created versus external submission) and preserve the appropriate workflow.
+
+## 23. Backend and Hosting Recommendation — Proposed, Awaiting Founder Approval (2026-11-28)
+
+### Recommended direction
+
+Use **Supabase as the primary backend platform** (PostgreSQL database, Auth, Storage, and Edge Functions where server-side logic is needed). Keep the existing HTML5, Bootstrap 5, and Vanilla JavaScript frontend.
+
+For the public website and admin frontend, use **Firebase Hosting as a static host** as the first option to evaluate. This is a hybrid arrangement: Firebase Hosting serves the website; Supabase provides the backend services. Vercel or Netlify are alternatives, not mandatory dependencies.
+
+### Why Supabase is the leading candidate
+
+BBC's data is relational:
+- A book can belong to several catalogue collections.
+- One submission can become one canonical book record.
+- A book may be used in several newsletter campaigns.
+- Posts, editorial states, catalogue placement, newsletter inclusion, and send status must be related but separately managed.
+- Admin users, roles, audit events, and subscriber consent need clear relationships and constraints.
+
+PostgreSQL and relational constraints are a natural fit for these relationships. Supabase also provides managed Postgres, authentication, file storage, APIs, and server-side Edge Functions. Use Row Level Security on every exposed table and keep privileged keys on trusted server-side code only.
+
+### Hosting clarification
+
+Supabase is not the static website host for this existing HTML site. It supplies backend services. However, a separate Vercel or Netlify account is not compulsory: Firebase Hosting can serve the static frontend while the frontend securely connects to Supabase APIs. Firebase Hosting can also route to Cloud Functions or Cloud Run if BBC later needs Google-hosted server-side services, but those are separate services with their own billing/configuration.
+
+### Initial cost considerations (USD; check live pricing before account creation)
+
+- Supabase Free currently lists 500 MB database, 1 GB file storage, 5 GB egress, 50,000 monthly active users, and project pausing after one week of inactivity. It is useful for development/prototyping, but the inactivity pause and lack of automatic backups make it a poor assumption for a dependable live production service.
+- Supabase Pro currently starts at $25/month and includes daily backups with 7-day retention, higher quotas, and 100 GB file storage. Additional usage can cost more.
+- Firebase Hosting has a no-cost quota on Spark and Blaze; current published allowance includes 10 GB stored and 360 MB/day data transfer. Overages on Blaze are billed.
+- Firebase's Spark plan is not a blanket guarantee that every backend feature is free. Cloud Functions and some Google Cloud integrations require Blaze/pay-as-you-go. Firestore has no-cost quotas, then usage-based charges. Phone authentication is billed separately.
+- Vercel Hobby is listed as free for personal, non-commercial use; its pricing page distinguishes the Pro plan for professional use. Do not assume the Hobby plan is suitable for BBC as a commercial platform.
+
+Prices and quotas are subject to change, tax, region, and actual usage. Do not enable a paid plan, add a payment method, or incur charges without founder approval.
+
+### Risks and safeguards
+
+- Supabase requires careful PostgreSQL schema design and strict Row Level Security policies; an exposed table without appropriate grants and RLS can expose or permit modification of data.
+- Firebase Hosting does not itself provide the database or admin backend in this hybrid plan.
+- Do not expose Supabase service-role keys or other secrets in browser JavaScript.
+- Keep development and production projects separate where practical.
+- Define backup/export and recovery before public launch.
+- Assess email delivery separately; neither Supabase nor Firebase should be assumed to be a complete newsletter campaign delivery product without checking provider limits and deliverability needs.
+
+### Decision status
+
+**Proposed recommendation: Supabase backend + Firebase Hosting frontend. Awaiting explicit founder approval.** Firebase-only (Firestore + Firebase Hosting + Functions) remains a viable alternative, but is not the preferred fit for BBC's relational catalogue and editorial workflow.
