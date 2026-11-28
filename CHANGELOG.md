@@ -1,3 +1,29 @@
+# Better Book Club — Changelog
+
+## 2026-11-28 — Backend and Admin Workflow Requirements Approved
+
+### Approved by founder
+
+- Moved the active project phase to Stage B: backend, database, and admin operations, following confirmation of the public pages and starter catalogue.
+- Admin access will use a private sign-in route (recommended `/admin`); there will be no public admin sign-up page. The initial administrator account will be provisioned securely.
+- Admin must be able to view, edit, approve, disapprove/reject, publish/unpublish, archive, and delete submissions/catalogue records, with confirmation and recovery-aware safeguards for deletion.
+- Book approval must include selecting one or more catalogue collections.
+- During the same approval workflow, admin may also choose newsletter inclusion.
+- Newsletter inclusion is separate from sending. Admin must be able to edit and save newsletter drafts, preview the complete newsletter, review eligible recipients, and deliberately confirm sending.
+- One canonical book record can be used across multiple catalogue collections and newsletter campaigns.
+- Public book submissions remain free and pending until admin review; payment for any separate service does not guarantee selection or publication.
+
+### Changed
+
+- Updated `TECHNICAL_ARCHITECTURE.md`, `WEBSITE_SPECIFICATION.md`, `DECISIONS.md`, `PROJECT_STATUS.md`, `NEXT_STEP.md`, and `README.md` to record the approved workflow and correct the project phase.
+- Backend/database/hosting and newsletter provider remain undecided. Firebase remains a candidate only.
+
+### Next
+
+Prepare a backend architecture and provider recommendation, data model, and end-to-end workflow plan for founder approval before provider-specific implementation.
+
+---
+
 ## 2026-11-28 — Homepage Featured Books Preview Connected
 
 ### Changed
