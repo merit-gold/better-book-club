@@ -8,7 +8,8 @@
       "publication_date": "4 February 2019",
       "genre": "Fantasy · Young Adult · Romance",
       "collections": [
-        "featured"
+        "featured",
+        "recommended"
       ],
       "source_url": "https://www.goodreads.com/book/show/44066722-vortex-visions",
       "source_name": "Goodreads",
@@ -45,7 +46,9 @@
       "author": "Phil Tucker",
       "publication_date": "11 May 2016",
       "genre": "Epic Fantasy",
-      "collections": [],
+      "collections": [
+        "featured"
+      ],
       "source_url": "https://www.goodreads.com/book/show/29936142-the-path-of-flames",
       "source_name": "Goodreads",
       "author_url": "https://authorphiltucker.com/books-1",
@@ -62,7 +65,9 @@
       "author": "Jack Townsend",
       "publication_date": "1 October 2021",
       "genre": "Horror · Mystery · Humour",
-      "collections": [],
+      "collections": [
+        "featured"
+      ],
       "source_url": "https://www.goodreads.com/book/show/60212546-bedside-manor",
       "source_name": "Goodreads",
       "author_url": "https://www.gasstationjack.com/",
@@ -80,7 +85,8 @@
       "publication_date": "17 May 2024",
       "genre": "Horror · Thriller",
       "collections": [
-        "worth-discovering"
+        "worth-discovering",
+        "recommended"
       ],
       "source_url": "https://www.goodreads.com/book/show/200327905-kosa",
       "source_name": "Goodreads",
@@ -98,7 +104,9 @@
       "author": "James Fahy",
       "publication_date": "18 August 2016",
       "genre": "Fantasy · Young Adult",
-      "collections": [],
+      "collections": [
+        "worth-discovering"
+      ],
       "source_url": "https://www.goodreads.com/book/show/30656121-drowned-tomb",
       "source_name": "Goodreads",
       "series": "The Changeling #2",
@@ -114,7 +122,9 @@
       "author": "Rob J. Hayes",
       "publication_date": "29 January 2019",
       "genre": "Fantasy · Wuxia · Adventure",
-      "collections": [],
+      "collections": [
+        "featured"
+      ],
       "source_url": "https://www.goodreads.com/book/show/43069198-never-die",
       "source_name": "Goodreads",
       "series": "Mortal Techniques universe · Standalone story",
@@ -130,7 +140,9 @@
       "author": "Philip C. Quaintrell",
       "publication_date": "1 June 2018",
       "genre": "Epic Fantasy · Dragons",
-      "collections": [],
+      "collections": [
+        "worth-discovering"
+      ],
       "source_url": "https://www.goodreads.com/book/show/49183105-relic-of-the-gods",
       "source_name": "Goodreads",
       "author_url": "https://www.philipquaintrell.com/",
