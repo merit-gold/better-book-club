@@ -762,3 +762,6 @@ em { font-weight: 400; }
 .book-detail-cta:hover { background:#54222c; color:#fff; }
 .book-detail-secondary { color:var(--wine); font-size:11px; font-weight:700; text-underline-offset:3px; }
 @media(max-width:700px) { .book-detail-layout { grid-template-columns:minmax(0,1fr); max-width:480px; } .book-detail-art { max-width:300px; margin:0 auto; } .book-detail-copy h1 { font-size:2.8rem; } }
+
+/* Let a small, intentionally curated collection breathe instead of leaving empty grid slots. */
+.explore-book-grid-covers,.home-featured-grid { grid-template-columns:repeat(auto-fit,minmax(170px, min(100%, 230px))); justify-content:start; }
