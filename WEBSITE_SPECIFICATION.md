@@ -740,3 +740,89 @@ The existing planning work must be preserved. Missing details should be filled i
 The founder remains the final decision-maker.
 
 **Better Book Club — Discover stories. Find your next favourite.**
+
+
+---
+
+## 12. Admin Dashboard and Backend Workflow — Founder-Approved Requirements (2026-11-28)
+
+**Purpose:** Give the founder a secure place to manage submissions, curate the catalogue, and prepare newsletters without editing repository files.
+
+### 12.1 Admin access
+
+- Provide a dedicated private admin sign-in, recommended route `/admin` with sign-in at `/admin/login`.
+- Do not create a public admin sign-up page.
+- Provision the initial administrator account securely during backend setup. Any later admin accounts must be invited or created by an authorised admin.
+- Protect every admin page and action through backend authentication and permissions.
+- Provide password recovery; assess multi-factor authentication.
+- Public readers and authors do not receive admin access.
+
+### 12.2 Admin dashboard
+
+The dashboard should provide clear areas for:
+- Overview and pending review queue.
+- Book submissions.
+- Catalogue/books.
+- Newsletter campaigns.
+- Subscriber management (with consent and unsubscribe status).
+- Admin account/security settings.
+- Activity/audit history.
+
+### 12.3 Submission and book management
+
+For each submission/book, an administrator must be able to view the submitted information and:
+- Edit the record.
+- Approve it.
+- Disapprove/reject it.
+- Delete it, with confirmation and a recovery-aware deletion policy.
+- Publish/unpublish or archive an approved catalogue record.
+- See its current status and relevant action history.
+
+A submission must not become publicly visible simply because it was received or edited. It must pass review and be explicitly published.
+
+### 12.4 Approval with catalogue placement and newsletter inclusion
+
+Approval must be a combined editorial and destination-selection workflow, not a bare Approve button.
+
+When approving, the admin must be able to:
+1. Select one or more catalogue collections for the book (for example Featured Books, Recommended Books, Worth Discovering, Coming Soon, or Past Features, where applicable).
+2. Optionally select newsletter inclusion as part of the same workflow.
+3. Confirm the approval and save the selected destinations.
+
+The same book can be placed in a catalogue collection and a newsletter workflow at the same time. It remains one canonical book record. Newsletter inclusion creates or updates a campaign draft; it must never send automatically.
+
+### 12.5 Newsletter editor and preview
+
+The admin must be able to:
+- Create a newsletter draft.
+- Add one or more approved catalogue books/content items.
+- Write and edit the newsletter-specific headline, introduction, descriptions, calls to action, and ordering without changing the canonical book record.
+- Save and reopen drafts.
+- Preview the full newsletter in a realistic email layout before sending.
+- Review the intended recipient audience and subscription eligibility.
+- Send only after a separate final confirmation.
+
+The newsletter preview should support checking both the email's rendered layout and its content/links. The system should make clear whether a campaign is Draft, Ready for review, or Sent.
+
+### 12.6 Public author submission flow
+
+- Submitting a book is free.
+- Submission creates a private Pending Review record.
+- The submitter receives a clear acknowledgement; submission is not a promise of selection.
+- Admin review is required before catalogue publication.
+- Validate fields server-side and provide spam/abuse protection.
+- Do not request or accept unpublished full manuscripts unless a separate approved policy and secure handling process are established.
+
+### 12.7 Data and permission principles
+
+- A single book record may belong to multiple collections and multiple newsletter campaigns.
+- Keep editorial approval, catalogue publication, and newsletter delivery states separate.
+- Record admin actions, actor, and timestamp.
+- Keep private submissions and subscriber data inaccessible to the public.
+- Honour newsletter consent, unsubscribe requests, and suppression lists.
+- Use confirmation for deletion and newsletter sending.
+- Do not store credentials or private data in the public GitHub repository.
+
+### 12.8 Not yet decided
+
+This specification does not select a backend vendor, database, hosting provider, email delivery provider, final admin role structure, exact form fields, or newsletter design. Those require technical assessment and founder approval before provider-specific implementation.
