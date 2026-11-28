@@ -40,7 +40,7 @@ When a decision changes, update this register and add an entry to `CHANGELOG.md`
 | Homepage hero headline | “Discover Stories Worth Your Time.” | Approved (2026-11-27) |
 | Homepage editorial section name | “Worth Discovering” for noteworthy book selections, without implying a popularity ranking | Approved (2026-11-27) |
 | Homepage purpose and book-preview principle | Homepage acts as a discovery gateway; Featured Books visibly previews actual approved catalogue entries, while Worth Discovering creates an editorial reason to explore | Approved (2026-11-27) |
-| Development sequence | Finish and review all public page designs first; then build the approved book catalogue and individual book pages; then move to the admin dashboard, database and backend work | Approved (2026-11-27) |
+| Development sequence | Public pages and starter catalogue are confirmed; the next active phase is backend, database, and admin operations | Approved (2026-11-28) |
 | About page founder introduction | Identify the founder publicly as Aliyah Merit-gold; describe her founder role, Literary Growth Partner positioning, and founder-supplied experience of more than nine years. Replace the existing generic “Why we exist” section rather than adding another section | Approved (2026-11-27) |
 | Initial book research pool | Research approximately 50 independent-book candidates once and preserve the research separately from the public catalogue; only 10 founder-approved books are to be manually populated for initial website testing. Future admin entry should use the prepared research pool | Approved direction (2026-11-27) |
 | Author service payments and book submissions | Authors may pay externally for a BBC service they choose to participate in; submitting a book through the future website form itself carries no submission charge. A submitted book remains pending until an administrator reviews and approves it for public listing. Service offerings and pricing remain to be defined; payment never buys editorial selection or a positive review | Approved (2026-11-27) |
@@ -128,3 +128,42 @@ Replace the example with a real decision; do not leave fictional decisions in th
 ## 10. Guiding Principle
 
 The repository should make it easy to tell what BBC has decided, what it is considering, and what still requires the founder's approval.
+
+
+## 11. Backend Workflow Decisions — Founder Approved (2026-11-28)
+
+The founder approved the following operational requirements. These are functional requirements, not approval of a particular backend vendor or implementation technology.
+
+| Topic | Approved requirement |
+|---|---|
+| Admin access | Dedicated private admin sign-in, recommended route `/admin`; no public admin sign-up. Provision the initial admin account securely during setup. |
+| Public accounts | No author or reader account system is implied by the admin login. Public book submissions and newsletter subscriptions use their own forms/workflows. |
+| Admin permissions | Backend-enforced authentication and authorisation; never rely on hidden URLs or frontend-only controls. |
+| Admin record management | Admin can view, create, edit, approve, disapprove/reject, publish/unpublish, archive, and delete records. Destructive actions require confirmation and a recovery-aware approach. |
+| Approval destinations | When approving a book, admin chooses the catalogue collection(s) it belongs in. |
+| Combined approval action | During the same approval workflow, admin can also choose to include the book/content in a newsletter. Catalogue placement and newsletter inclusion can be selected together. |
+| Newsletter separation | Newsletter inclusion is not sending. Newsletter content must be editable, saved as a draft, and previewable before a separate deliberate send confirmation. |
+| Canonical records | One book record may appear in multiple catalogue collections and be referenced in newsletter campaigns; do not create duplicate book records for each placement. |
+| Public visibility | Only approved and published catalogue records are visible publicly. Pending, rejected, draft, or unpublished records remain private. |
+| Submission fee | Book submission through BBC's website remains free. Separate optional services, if introduced later, are distinct and must not affect editorial selection. |
+| Newsletter privacy | Send only to eligible subscribers with appropriate consent; honour unsubscribe requests and suppression. |
+| Audit trail | Record significant admin actions and timestamps, including moderation, publishing, deletion, and newsletter sending. |
+
+### 11.1 Approval and publication state
+
+Keep editorial review, catalogue publication, and newsletter campaign state distinct. A suggested lifecycle is:
+
+`Pending Review → Approved (with collection assignment) → Published`
+
+Alternative outcomes include `Rejected/Disapproved`, `Draft`, `Unpublished`, `Archived`, and `Deleted`. Newsletter state is managed independently as `Not included`, `Draft`, `Ready for review`, and `Sent`. Final status names and transitions will be confirmed during schema design.
+
+### 11.2 Still open — do not assume
+
+- Backend/database and hosting provider.
+- Newsletter delivery provider.
+- Whether additional admin roles are needed beyond the founder's initial administrator account.
+- Exact submission fields, file-upload rules, retention periods, and privacy wording.
+- Newsletter layout/template, sending limits, and costs.
+- Whether reader accounts or reader applications will be introduced later.
+
+Firebase remains a candidate only. Provider selection requires a recommendation and explicit founder approval.
