@@ -167,3 +167,22 @@ Alternative outcomes include `Rejected/Disapproved`, `Draft`, `Unpublished`, `Ar
 - Whether reader accounts or reader applications will be introduced later.
 
 Firebase remains a candidate only. Provider selection requires a recommendation and explicit founder approval.
+
+
+## 12. Admin-Created Posts and Platform Recommendation (2026-11-28)
+
+| Topic | Position | Status |
+|---|---|---|
+| Admin-created posts | Admin can create, edit, draft, publish, unpublish, and delete posts directly in the dashboard. Admin-created posts do not need to pass through the external submission approval queue again. Draft/published state and audit history still apply. | Approved |
+| Content origin | Distinguish admin-authored content from external author submissions so the correct workflow is applied. | Approved |
+| Backend recommendation | Supabase (PostgreSQL, Auth, Storage, and Edge Functions where needed) is the recommended backend because BBC has relational links among books, collections, submissions, posts, newsletters, subscribers, and audit records. | Proposed — awaiting founder approval |
+| Frontend hosting recommendation | Evaluate Firebase Hosting for the existing static frontend, with Supabase as the backend. Vercel/Netlify are alternatives, not required. | Proposed — awaiting founder approval |
+| Cost policy | Do not activate a paid plan, add billing details, or incur charges without explicit founder approval. | Approved |
+
+### 12.1 Technology comparison and decision boundary
+
+Supabase provides a managed PostgreSQL database; Firebase's common database options are Firestore (document/NoSQL) and Realtime Database. Firebase also offers SQL Connect backed by Cloud SQL for PostgreSQL, but that is a different architecture and pricing path from Firestore.
+
+The Supabase recommendation is based on BBC's relational requirements: many-to-many book-to-collection placement, canonical book records reused in newsletters, separate editorial/publication/newsletter states, author submissions, posts, subscriber consent, and audit trails.
+
+A hybrid deployment is possible: Firebase Hosting serves the static HTML/CSS/JS frontend while Supabase supplies database, authentication, storage, and backend functions. Supabase does not require Vercel or Netlify specifically. Provider selection and billing remain subject to explicit founder approval.
