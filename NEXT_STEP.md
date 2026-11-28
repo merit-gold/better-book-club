@@ -13,7 +13,7 @@ The Foundation Skeleton and project documentation remain on `main`. The active d
 ## 3. Immediate Next Action
 
 1. Complete the homepage Featured Books preview so it draws from the same approved catalogue and directs visitors to the external book references.
-2. Continue with individual BBC book pages only if they add value beyond the linked Goodreads/author references; the current public catalogue deliberately avoids reproducing third-party covers.
+2. Review the cover-led catalogue locally, then connect the homepage Featured Books preview to these same approved records and cover images.
 3. Resume the internal 50-candidate research and verification pool when needed for future catalogue additions. Keep internal candidates separate from `data/books.json`.
 4. After the public catalogue and homepage preview are stable, proceed to the next founder-approved project task. Admin dashboard, database and backend remain later-stage work.
 
