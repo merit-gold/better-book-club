@@ -2,7 +2,7 @@
 
 **Prepared:** 28 November 2026  
 **Branch:** `task-003/immersive-homepage-redesign`  
-**Status:** Editorial recommendation for founder review — **not approved for the live catalogue**.
+**Status:** The 10 titles have been added to the public text-and-link catalogue on `task-003/immersive-homepage-redesign` at the founder's direction. This is not a cover-image publication; BBC links to Goodreads and verified author sites instead.
 
 ## What this shortlist optimises for
 
@@ -67,3 +67,8 @@ The list is also fantasy/horror-heavy. I have not forced a romance title into th
 ## Recommendation
 
 Treat these as the **10 books to review visually and editorially**, not an instruction to publish all 10 immediately. Before adding them to the live site, replace series volume 2/3 titles with accessible first-in-series books where possible, finish the independent-publishing and edition checks, confirm Amazon/Goodreads links, and obtain cover permission. The founder makes the final selection.
+
+
+## Public catalogue implementation — 28 November 2026
+
+All ten titles above are now recorded in `data/books.json` with first-publication dates verified against Goodreads individual book records. The Explore Books page renders text-only cards with title, author, publication date, genre, series context where applicable, and source links. No cover images are copied or hosted. The founder requested that work proceed without waiting for cover permissions. The list remains visually curated from the inspected covers, but the public presentation does not reproduce those covers.
