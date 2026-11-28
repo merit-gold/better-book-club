@@ -1,4 +1,4 @@
-// Homepage preview uses the same founder-approved records as Explore Books.
+// Homepage preview uses the same curated catalogue as Explore Books.
 (async function renderHomeFeaturedBooks() {
   const grid = document.getElementById("home-featured-books");
   if (!grid) return;
@@ -7,19 +7,19 @@
     if (!response.ok) throw new Error("The featured collection could not be loaded.");
     const data = await response.json();
     const books = (Array.isArray(data.books) ? data.books : []).filter(book =>
-      Array.isArray(book.collections) && book.collections.includes("featured") && book.title && book.author && book.cover_url && book.source_url
+      Array.isArray(book.collections) && book.collections.includes("featured") && book.title && book.author && book.cover_url
     ).slice(0, 5);
     grid.replaceChildren();
     books.forEach(book => {
-      const card = document.createElement("article");
-      card.className = "home-featured-card";
-      const link = document.createElement("a");
-      link.className = "home-featured-cover-link"; link.href = book.source_url; link.target = "_blank"; link.rel = "noopener noreferrer";
-      link.setAttribute("aria-label", "Discover " + book.title + " by " + book.author);
-      const image = document.createElement("img"); image.className = "home-featured-cover"; image.src = book.cover_url;
-      image.alt = "Cover of " + book.title + " by " + book.author; image.loading = "lazy"; image.decoding = "async";
-      link.appendChild(image); card.appendChild(link);
-      const title = document.createElement("h3"); title.textContent = book.title; card.appendChild(title);
+      const card = document.createElement("article"); card.className = "home-featured-card";
+      const link = document.createElement("a"); link.className = "home-featured-cover-link";
+      link.href = "pages/book.html?slug=" + encodeURIComponent(book.slug);
+      link.setAttribute("aria-label", "Read about " + book.title + " by " + book.author);
+      const image = document.createElement("img"); image.className = "home-featured-cover";
+      image.src = book.cover_url; image.alt = "Cover of " + book.title + " by " + book.author;
+      image.loading = "lazy"; image.decoding = "async"; link.appendChild(image); card.appendChild(link);
+      const title = document.createElement("h3"); const titleLink = document.createElement("a");
+      titleLink.href = link.href; titleLink.textContent = book.title; title.appendChild(titleLink); card.appendChild(title);
       const author = document.createElement("p"); author.textContent = "by " + book.author; card.appendChild(author);
       grid.appendChild(card);
     });
