@@ -16,7 +16,9 @@
       "series": "Air Awakens: Vortex Chronicles #1",
       "cover_url": "https://target.scene7.com/is/image/Target/GUEST_8f22040e-58b2-4a61-a0a6-96ae9a1ce0ca",
       "cover_source_url": "https://www.target.com/p/-/A-1004135999",
-      "cover_credit": "Target"
+      "cover_credit": "Target",
+      "description": "Crown Princess Vi Solaris has been raised to inherit an empire now threatened by political conflict and a deadly plague. When forbidden magic awakens in her, a mysterious sorcerer may be the only person able to help her master it. Vi must decide whether to protect the throne she was born to claim or risk everything to change the fate of her world.",
+      "detail_source_url": "https://www.goodreads.com/book/show/44066722-vortex-visions"
     },
     {
       "slug": "sistah-samurai",
@@ -33,7 +35,9 @@
       "series": "The Champloo Mixes #1",
       "cover_url": "https://images.squarespace-cdn.com/content/v1/60302736f874b10de2373c5c/319c7d1c-cb68-4411-9116-563b51a9b328/Sistah%2BSamurai%2BSpecial%2BEdiiton%2B-%2BFront%2BCover.png",
       "cover_source_url": "https://www.tatianaobey.com/",
-      "cover_credit": "Tatiana Obey"
+      "cover_credit": "Tatiana Obey",
+      "description": "A retired, sharp-tongued samurai just wants to get home in peace. But strange thefts, suspicious monks and demons keep interrupting her plans, drawing her back toward a role she thought she had left behind. This anime-inspired action-fantasy novella blends swordplay, humour and supernatural trouble.",
+      "detail_source_url": "https://www.goodreads.com/book/show/190526292-sistah-samurai"
     },
     {
       "slug": "the-path-of-flames",
@@ -41,16 +45,16 @@
       "author": "Phil Tucker",
       "publication_date": "11 May 2016",
       "genre": "Epic Fantasy",
-      "collections": [
-        "featured"
-      ],
+      "collections": [],
       "source_url": "https://www.goodreads.com/book/show/29936142-the-path-of-flames",
       "source_name": "Goodreads",
       "author_url": "https://authorphiltucker.com/books-1",
       "series": "Chronicles of the Black Gate #1",
       "cover_url": "https://books.google.com/books/content?id=fyPBjwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
       "cover_source_url": "https://books.google.com/books?id=fyPBjwEACAAJ",
-      "cover_credit": "Google Books"
+      "cover_credit": "Google Books",
+      "description": "",
+      "detail_source_url": "https://www.goodreads.com/book/show/29936142-the-path-of-flames"
     },
     {
       "slug": "bedside-manor",
@@ -58,16 +62,16 @@
       "author": "Jack Townsend",
       "publication_date": "1 October 2021",
       "genre": "Horror · Mystery · Humour",
-      "collections": [
-        "featured"
-      ],
+      "collections": [],
       "source_url": "https://www.goodreads.com/book/show/60212546-bedside-manor",
       "source_name": "Goodreads",
       "author_url": "https://www.gasstationjack.com/",
       "series": "Tales from the Gas Station #3.2",
       "cover_url": "https://static.wixstatic.com/media/fc1a9a_68077a8b785d44b6b291fc73cfa7ffe1~mv2.jpg/v1/fill/w_980%2Ch_980%2Cal_c%2Cq_85%2Cusm_0.66_1.00_0.01%2Cenc_avif%2Cquality_auto/fc1a9a_68077a8b785d44b6b291fc73cfa7ffe1~mv2.jpg",
       "cover_source_url": "https://www.gasstationjack.com/post/bedside-manor-is-now-an-ebook",
-      "cover_credit": "Jack Townsend"
+      "cover_credit": "Jack Townsend",
+      "description": "",
+      "detail_source_url": "https://www.goodreads.com/book/show/60212546-bedside-manor"
     },
     {
       "slug": "kosa",
@@ -84,7 +88,9 @@
       "series": "Standalone",
       "cover_url": "https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1697822444i/200327905.jpg",
       "cover_source_url": "https://www.goodreads.com/book/show/200327905-kosa",
-      "cover_credit": "Goodreads"
+      "cover_credit": "Goodreads",
+      "description": "Kept secluded in a mansion, Kosa has grown up under the strict rules of a mother who insists the outside world is dangerous. As Kosa begins to question the life she has been taught to accept, she discovers that her unusual ability is central to her mother's survival—and that the truth may be far more frightening than the darkness beyond the house.",
+      "detail_source_url": "https://www.goodreads.com/book/show/200327905-kosa"
     },
     {
       "slug": "drowned-tomb",
@@ -92,15 +98,15 @@
       "author": "James Fahy",
       "publication_date": "18 August 2016",
       "genre": "Fantasy · Young Adult",
-      "collections": [
-        "worth-discovering"
-      ],
+      "collections": [],
       "source_url": "https://www.goodreads.com/book/show/30656121-drowned-tomb",
       "source_name": "Goodreads",
       "series": "The Changeling #2",
       "cover_url": "https://target.scene7.com/is/image/Target/GUEST_ea1cc245-2989-46a1-bf9f-f48c31b1e7a1",
       "cover_source_url": "https://www.target.com/p/-/A-83968747",
-      "cover_credit": "Target"
+      "cover_credit": "Target",
+      "description": "",
+      "detail_source_url": "https://www.goodreads.com/book/show/30656121-drowned-tomb"
     },
     {
       "slug": "never-die",
@@ -108,15 +114,15 @@
       "author": "Rob J. Hayes",
       "publication_date": "29 January 2019",
       "genre": "Fantasy · Wuxia · Adventure",
-      "collections": [
-        "featured"
-      ],
+      "collections": [],
       "source_url": "https://www.goodreads.com/book/show/43069198-never-die",
       "source_name": "Goodreads",
       "series": "Mortal Techniques universe · Standalone story",
       "cover_url": "https://target.scene7.com/is/image/Target/GUEST_e4bb4082-7e4e-49e9-9144-c8ee08644b2e",
       "cover_source_url": "https://www.target.com/p/-/A-79244758",
-      "cover_credit": "Target"
+      "cover_credit": "Target",
+      "description": "",
+      "detail_source_url": "https://www.goodreads.com/book/show/43069198-never-die"
     },
     {
       "slug": "relic-of-the-gods",
@@ -124,16 +130,16 @@
       "author": "Philip C. Quaintrell",
       "publication_date": "1 June 2018",
       "genre": "Epic Fantasy · Dragons",
-      "collections": [
-        "worth-discovering"
-      ],
+      "collections": [],
       "source_url": "https://www.goodreads.com/book/show/49183105-relic-of-the-gods",
       "source_name": "Goodreads",
       "author_url": "https://www.philipquaintrell.com/",
       "series": "The Echoes Saga #3",
       "cover_url": "https://i5.walmartimages.com/seo/The-Echoes-Saga-Relic-of-the-Gods-The-Echoes-Saga-Book-3-Paperback-9781916610026_d06b44a0-d1a6-48f8-89f8-4109a99cd559.40f467df7bcd0040b4d347b95a73b083.jpeg?odnBg=FFFFFF&odnHeight=612&odnWidth=612",
       "cover_source_url": "https://business.walmart.com/ip/The-Echoes-Saga-Relic-of-the-Gods-The-Echoes-Saga-Book-3-Paperback-9781916610026/1945078756",
-      "cover_credit": "Walmart"
+      "cover_credit": "Walmart",
+      "description": "",
+      "detail_source_url": "https://www.goodreads.com/book/show/49183105-relic-of-the-gods"
     },
     {
       "slug": "tales-from-the-gas-station-volume-two",
@@ -150,7 +156,9 @@
       "series": "Tales from the Gas Station #2",
       "cover_url": "https://target.scene7.com/is/image/Target/GUEST_a0ae7c68-acea-4de3-a14f-2bc251402a1b",
       "cover_source_url": "https://www.target.com/p/-/A-1002716571",
-      "cover_credit": "Target"
+      "cover_credit": "Target",
+      "description": "Night-shift clerk Jack would prefer to keep his head down, but a strange radio signal begins exposing secrets hidden in his small town. With an unsettling new manager, dangerous coworkers and a growing web of murder conspiracies and supernatural schemes, another ordinary shift becomes anything but ordinary.",
+      "detail_source_url": "https://www.goodreads.com/book/show/195641892-tales-from-the-gas-station"
     },
     {
       "slug": "the-thief-who-pulled-on-troubles-braids",
@@ -166,7 +174,63 @@
       "series": "Amra Thetys #1",
       "cover_url": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3gz_DGbzxyEzDmZyxs4Bgk7SZ_FrZOaiuj2DCI2Cwtcl8v8PFnjrY1lLYGY6wtFUyFPdP3AqwyT5LI6sZVGfcZvq709xbyLG98J63VVt3X7hrMC3dyhBKhnPLV5Mi5hZwB5Xwti9xSQ/s640/Amra%2B1%2BMon%2BEbook%2BCover%2BYellow%2BType%2Bflattened.jpg",
       "cover_source_url": "https://outofthisworldrev.blogspot.com/2020/02/cover-reveal-thief-who-pulled-on.html",
-      "cover_credit": "Official cover reveal"
+      "cover_credit": "Official cover reveal",
+      "description": "When a fellow thief is murdered in a deal gone wrong, Amra Thetys abandons her usual rules and sets out for revenge. But the people hunting her believe she possesses a legendary weapon she cannot even find. An immortal assassin and a dangerous sorcerer close in as Amra races to uncover the truth.",
+      "detail_source_url": "https://www.goodreads.com/book/show/43398402-the-thief-who-pulled-on-trouble-s-braids"
+    },
+    {
+      "slug": "the-book-of-cin",
+      "title": "The Book of Cin",
+      "author": "H.M. Wolfe",
+      "publication_date": "6 March 2025",
+      "genre": "High Fantasy · Romantasy · Fae",
+      "collections": [],
+      "status": "past-feature",
+      "source_url": "https://www.goodreads.com/book/show/218275111-the-book-of-cin",
+      "source_name": "Goodreads",
+      "author_url": "https://www.hmwolfe.com/",
+      "series": "The Stories #1",
+      "cover_url": "https://books.google.com/books/content?id=t74w0QEACAAJ&printsec=frontcover&img=1&zoom=1",
+      "cover_source_url": "https://books.google.com/books?id=t74w0QEACAAJ",
+      "cover_credit": "Google Books",
+      "description": "At an academy for orphans, Hyacinth must choose between the only home she knows and the possibility of freedom. A mysterious messenger and rumours of a god among the Fae pull her into a dangerous struggle involving dormant magic, shifting loyalties and old prophecies. Her search for a safe haven may demand more than she is willing to lose.",
+      "detail_source_url": "https://www.goodreads.com/book/show/218275111-the-book-of-cin"
+    },
+    {
+      "slug": "daggermouth",
+      "title": "Daggermouth",
+      "author": "H.M. Wolfe",
+      "publication_date": "5 December 2025",
+      "genre": "Dystopian · Romantasy · Dark Romance",
+      "collections": [],
+      "status": "past-feature",
+      "source_url": "https://www.goodreads.com/book/show/249255383-daggermouth",
+      "source_name": "Goodreads",
+      "author_url": "https://www.hmwolfe.com/",
+      "series": "The Heart #1",
+      "cover_url": "https://books.google.com/books/content?vid=ISBN9798330520572&printsec=frontcover&img=1&zoom=1",
+      "cover_source_url": "https://www.goodreads.com/work/editions/257253836-daggermouth",
+      "cover_credit": "Goodreads editions",
+      "description": "In New Found Haven, society is divided into rings of privilege and poverty, watched by a masked ruling elite. Shadera, a mercenary sent to kill the president's heir, misses her target and is forced into a political marriage with Greyson Serel. Both carry secrets that could ignite rebellion, and their unwanted bond may either destroy them or bring the regime down.",
+      "detail_source_url": "https://www.goodreads.com/book/show/249255383-daggermouth"
+    },
+    {
+      "slug": "blood-rains-down",
+      "title": "Blood Rains Down",
+      "author": "H.M. Wolfe",
+      "publication_date": "30 June 2025",
+      "genre": "Fantasy · Romantasy · Dark Fantasy",
+      "collections": [],
+      "status": "past-feature",
+      "source_url": "https://www.goodreads.com/book/show/228139192-blood-rains-down",
+      "source_name": "Goodreads",
+      "author_url": "https://www.hmwolfe.com/",
+      "series": "The Stories #2",
+      "cover_url": "https://books.google.com/books/content?id=s7N20QEACAAJ&printsec=frontcover&img=1&zoom=1",
+      "cover_source_url": "https://books.google.com/books?id=s7N20QEACAAJ",
+      "cover_credit": "Google Books",
+      "description": "After the fall of Redelvtum, the realms stand on the edge of war. Hyacinth is pulled toward a power she never wanted, while Ataliia struggles with grief, rage and a darkness growing inside her. As loyalties fracture and ancient forces stir, both women face choices that could reshape the realms—and themselves.",
+      "detail_source_url": "https://www.goodreads.com/book/show/228139192-blood-rains-down"
     }
   ]
 }
