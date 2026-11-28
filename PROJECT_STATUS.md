@@ -163,7 +163,7 @@ See `AI_WORKFLOW.md` for the complete workflow.
 
 ## 10. Next Development Stage
 
-See `NEXT_STEP.md`. The current task is founder review of the Contact page. Then cross-check all public pages before beginning the approved book catalogue and individual book pages. Only afterwards move to the admin dashboard, database and backend. These Stage B operational features are not yet implemented.
+See `NEXT_STEP.md`. The active task is backend architecture and provider selection. Supabase backend + Firebase Hosting frontend is the current recommendation, not an approved provider decision. Admin-created posts (create/edit/draft/publish/unpublish/delete without external submission approval) are now an approved requirement. No provider-specific backend implementation has started.
 
 ## 11. Progress Reporting Rules
 
