@@ -28,7 +28,8 @@
       "publication_date": "1 November 2023",
       "genre": "Action Fantasy · Novella",
       "collections": [
-        "featured"
+        "featured",
+        "recommended"
       ],
       "source_url": "https://www.goodreads.com/book/show/190526292-sistah-samurai",
       "source_name": "Goodreads",
@@ -179,7 +180,8 @@
       "publication_date": "8 October 2012",
       "genre": "Fantasy · Sword and Sorcery",
       "collections": [
-        "worth-discovering"
+        "worth-discovering",
+        "recommended"
       ],
       "source_url": "https://www.goodreads.com/book/show/43398402-the-thief-who-pulled-on-trouble-s-braids",
       "source_name": "Goodreads",
@@ -214,7 +216,9 @@
       "author": "H.M. Wolfe",
       "publication_date": "5 December 2025",
       "genre": "Dystopian · Romantasy · Dark Romance",
-      "collections": [],
+      "collections": [
+        "recommended"
+      ],
       "status": "past-feature",
       "source_url": "https://www.goodreads.com/book/show/249255383-daggermouth",
       "source_name": "Goodreads",
