@@ -1,3 +1,25 @@
+## 2026-11-28 — Book Cover Catalogue Correction
+
+### Changed
+
+- Reworked the public Explore Books cards so each book cover is the primary visual, followed by title, author, publication date, genre and series details.
+- Added cover-image source and edition-reference links for all 10 founder-approved starter titles.
+- Kept the 10-book public catalogue separate from the internal research pool.
+- Added responsive cover-led layouts for desktop, tablet and mobile.
+
+### Verification and limitations
+
+- Confirmed all 10 catalogue records include a cover image URL and a source/edition reference URL.
+- Cover images are remotely hosted by the cited author, retailer, bookseller or book-information source; they are not copied into the repository. Source links are included on each card. Display permission and hotlink availability should be confirmed with the relevant rights holder before production launch; attribution alone does not grant image rights.
+- Source-level checks only. No live browser/device visual QA was performed by ChatGPT.
+- Changes are on `task-003/immersive-homepage-redesign`; `main` has not been changed.
+
+### Next
+
+Connect the homepage Featured Books preview to the same cover-led catalogue.
+
+---
+
 ## 2026-11-28 — Initial Public Book Catalogue Added
 
 ### Changed
