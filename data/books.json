@@ -1,4 +1,142 @@
 {
   "schema_version": 1,
-  "books": []
+  "books": [
+    {
+      "slug": "vortex-visions",
+      "title": "Vortex Visions",
+      "author": "Elise Kova",
+      "publication_date": "4 February 2019",
+      "genre": "Fantasy · Young Adult · Romance",
+      "collections": [
+        "featured"
+      ],
+      "source_url": "https://www.goodreads.com/book/show/44066722-vortex-visions",
+      "source_name": "Goodreads",
+      "author_url": "https://www.elisekova.com/vortex-visions/",
+      "series": "Air Awakens: Vortex Chronicles #1"
+    },
+    {
+      "slug": "sistah-samurai",
+      "title": "Sistah Samurai",
+      "author": "Tatiana Obey",
+      "publication_date": "1 November 2023",
+      "genre": "Action Fantasy · Novella",
+      "collections": [
+        "featured"
+      ],
+      "source_url": "https://www.goodreads.com/book/show/190526292-sistah-samurai",
+      "source_name": "Goodreads",
+      "author_url": "https://www.tatianaobey.com/",
+      "series": "The Champloo Mixes #1"
+    },
+    {
+      "slug": "the-path-of-flames",
+      "title": "The Path of Flames",
+      "author": "Phil Tucker",
+      "publication_date": "11 May 2016",
+      "genre": "Epic Fantasy",
+      "collections": [
+        "featured"
+      ],
+      "source_url": "https://www.goodreads.com/book/show/29936142-the-path-of-flames",
+      "source_name": "Goodreads",
+      "author_url": "https://authorphiltucker.com/books-1",
+      "series": "Chronicles of the Black Gate #1"
+    },
+    {
+      "slug": "bedside-manor",
+      "title": "Bedside Manor",
+      "author": "Jack Townsend",
+      "publication_date": "1 October 2021",
+      "genre": "Horror · Mystery · Humour",
+      "collections": [
+        "featured"
+      ],
+      "source_url": "https://www.goodreads.com/book/show/60212546-bedside-manor",
+      "source_name": "Goodreads",
+      "author_url": "https://www.gasstationjack.com/",
+      "series": "Tales from the Gas Station #3.2"
+    },
+    {
+      "slug": "kosa",
+      "title": "Kosa",
+      "author": "John Durgin",
+      "publication_date": "17 May 2024",
+      "genre": "Horror · Thriller",
+      "collections": [
+        "featured"
+      ],
+      "source_url": "https://www.goodreads.com/book/show/200327905-kosa",
+      "source_name": "Goodreads",
+      "author_url": "https://www.johndurginauthor.com/",
+      "series": "Standalone"
+    },
+    {
+      "slug": "drowned-tomb",
+      "title": "Drowned Tomb",
+      "author": "James Fahy",
+      "publication_date": "18 August 2016",
+      "genre": "Fantasy · Young Adult",
+      "collections": [
+        "featured"
+      ],
+      "source_url": "https://www.goodreads.com/book/show/30656121-drowned-tomb",
+      "source_name": "Goodreads",
+      "series": "The Changeling #2"
+    },
+    {
+      "slug": "never-die",
+      "title": "Never Die",
+      "author": "Rob J. Hayes",
+      "publication_date": "29 January 2019",
+      "genre": "Fantasy · Wuxia · Adventure",
+      "collections": [
+        "featured"
+      ],
+      "source_url": "https://www.goodreads.com/book/show/43069198-never-die",
+      "source_name": "Goodreads",
+      "series": "Mortal Techniques universe · Standalone story"
+    },
+    {
+      "slug": "relic-of-the-gods",
+      "title": "Relic of the Gods",
+      "author": "Philip C. Quaintrell",
+      "publication_date": "1 June 2018",
+      "genre": "Epic Fantasy · Dragons",
+      "collections": [
+        "featured"
+      ],
+      "source_url": "https://www.goodreads.com/book/show/49183105-relic-of-the-gods",
+      "source_name": "Goodreads",
+      "author_url": "https://www.philipquaintrell.com/",
+      "series": "The Echoes Saga #3"
+    },
+    {
+      "slug": "tales-from-the-gas-station-volume-two",
+      "title": "Tales from the Gas Station: Volume Two",
+      "author": "Jack Townsend",
+      "publication_date": "9 August 2019",
+      "genre": "Horror · Humour · Mystery",
+      "collections": [
+        "featured"
+      ],
+      "source_url": "https://www.goodreads.com/book/show/195641892-tales-from-the-gas-station",
+      "source_name": "Goodreads",
+      "author_url": "https://www.gasstationjack.com/",
+      "series": "Tales from the Gas Station #2"
+    },
+    {
+      "slug": "the-thief-who-pulled-on-troubles-braids",
+      "title": "The Thief Who Pulled on Trouble's Braids",
+      "author": "Michael McClung",
+      "publication_date": "8 October 2012",
+      "genre": "Fantasy · Sword and Sorcery",
+      "collections": [
+        "featured"
+      ],
+      "source_url": "https://www.goodreads.com/book/show/43398402-the-thief-who-pulled-on-trouble-s-braids",
+      "source_name": "Goodreads",
+      "series": "Amra Thetys #1"
+    }
+  ]
 }
