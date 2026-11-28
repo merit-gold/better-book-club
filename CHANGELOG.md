@@ -1,3 +1,21 @@
+## 2026-11-28 — Homepage Featured Books Preview Connected
+
+### Changed
+
+- Replaced the homepage's empty Featured Books placeholder with a live five-book cover preview sourced from `data/books.json`.
+- Added `assets/js/home-featured.js`; homepage and Explore Books now share the same founder-approved catalogue data.
+- Added responsive cover-first presentation and links from each cover to its book details reference.
+- Updated the project handoff notes to make founder local review the next action.
+
+### Verification and limitations
+
+- Source-level checks confirm the homepage loads the new script and the preview filters the same `featured` records as the Explore Books page.
+- No live browser/device visual QA was performed by ChatGPT. Founder should pull the branch and review locally.
+- Cover images are remotely hosted by third-party author, retailer, bookseller or book-information pages. Credits/source links are present; confirm display permission with rights holders before production launch.
+- Changes remain on `task-003/immersive-homepage-redesign`; `main` is untouched.
+
+---
+
 ## 2026-11-28 — Book Cover Catalogue Correction
 
 ### Changed
