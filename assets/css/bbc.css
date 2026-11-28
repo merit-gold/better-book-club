@@ -765,3 +765,46 @@ em { font-weight: 400; }
 
 /* Let a small, intentionally curated collection breathe instead of leaving empty grid slots. */
 .explore-book-grid-covers,.home-featured-grid { grid-template-columns:repeat(auto-fit,minmax(170px, min(100%, 230px))); justify-content:start; }
+
+
+/* Homepage: a precise five-book Featured shelf on wide screens. */
+@media (min-width: 901px) {
+  .home-featured-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 1.35rem; }
+}
+.home-featured-card { padding-bottom: .4rem; }
+.home-featured-cover-link { padding: .5rem; background: #e2d7c9; box-shadow: 0 12px 30px rgba(38,35,31,.11); }
+.home-featured-cover { transition: transform .35s ease; }
+.home-featured-cover-link:hover .home-featured-cover { transform: scale(1.035); }
+
+/* Worth Discovering: editorial book panels, deliberately different from the Featured shelf. */
+.home-discover-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1.15rem; margin:2.7rem 0 1.8rem; }
+.home-discover-card { display:grid; grid-template-columns:minmax(112px,.38fr) minmax(0,.62fr); min-width:0; min-height:245px; overflow:hidden; background:#eee5d9; border:1px solid #e0d5c8; transition:transform .3s ease,box-shadow .3s ease; }
+.home-discover-card:hover { transform:translateY(-4px); box-shadow:0 16px 34px rgba(38,35,31,.1); }
+.home-discover-cover-link { display:flex; align-items:center; justify-content:center; min-height:245px; padding:.8rem; background:#e1d5c6; overflow:hidden; }
+.home-discover-cover { display:block; width:100%; height:100%; max-height:260px; object-fit:contain; transition:transform .35s ease; }
+.home-discover-cover-link:hover .home-discover-cover { transform:scale(1.035); }
+.home-discover-copy { align-self:center; min-width:0; padding:1.3rem 1.35rem; }
+.home-discover-topline { display:flex; align-items:center; justify-content:space-between; gap:.5rem; color:var(--wine); font-size:8px; font-weight:700; letter-spacing:.11em; text-transform:uppercase; }
+.home-discover-topline span:first-child { color:#a28c73; font:400 1.35rem var(--serif); letter-spacing:0; }
+.home-discover-topline span:last-child { text-align:right; }
+.home-discover-copy h3 { margin:.7rem 0 .3rem; font-size:clamp(1.35rem,2vw,1.9rem); line-height:1.12; }
+.home-discover-copy h3 a { color:inherit; }
+.home-discover-copy h3 a:hover { color:var(--wine); }
+.home-discover-author { margin:0 0 .7rem; color:#665d54; font-size:11px; }
+.home-discover-details { margin:0 0 .9rem; color:#82776b; font-size:9px; line-height:1.6; }
+.home-discover-link { display:inline-block; padding-bottom:.3rem; border-bottom:1px solid var(--wine); color:var(--wine); font-size:9px; font-weight:700; letter-spacing:.08em; text-transform:uppercase; }
+.home-discover-loading { grid-column:1/-1; color:#71685e; font:400 1.2rem var(--serif); }
+.home-discover-footer { display:flex; justify-content:flex-end; }
+@media (min-width:1100px) {
+  .home-discover-card:last-child { grid-column:1/-1; grid-template-columns:190px minmax(0,1fr); min-height:220px; }
+  .home-discover-card:last-child .home-discover-cover-link { min-height:220px; }
+  .home-discover-card:last-child .home-discover-cover { max-height:190px; }
+}
+@media (max-width:900px) { .home-featured-grid { grid-template-columns:repeat(3,minmax(0,1fr)); } }
+@media (max-width:700px) {
+  .home-discover-grid { grid-template-columns:1fr; }
+  .home-discover-card { grid-template-columns:125px minmax(0,1fr); min-height:205px; }
+  .home-discover-cover-link { min-height:205px; padding:.6rem; }
+  .home-discover-copy { padding:1rem; }
+}
+@media (max-width:560px) { .home-featured-grid { grid-template-columns:repeat(2,minmax(0,1fr)); gap:1rem; } }
