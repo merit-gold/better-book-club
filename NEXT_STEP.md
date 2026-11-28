@@ -6,17 +6,16 @@ This document identifies the immediate next action for the Better Book Club proj
 
 ## 2. Current Project Stage
 
-**Current stage:** Stage A — public frontend implementation. The immersive homepage, About, Explore Books, For Authors, and For Readers pages are implemented on `task-003/immersive-homepage-redesign`; the founder has reviewed and approved these pages.
+**Current stage:** Stage A — public frontend and starter catalogue. The immersive homepage, About, Explore Books, For Authors, and For Readers pages are implemented on `task-003/immersive-homepage-redesign`; the founder has reviewed and approved the public pages.
 
 The Foundation Skeleton and project documentation remain on `main`. The active development branch is intentionally separate; no changes have been merged into `main`.
 
 ## 3. Immediate Next Action
 
-1. Founder reviews the updated About page, where the existing generic “Why we exist” section has been replaced with a combined introduction to founder Aliyah Merit-gold and a clearer explanation of why BBC exists. No additional section was added.
-2. Conduct one focused research exercise for approximately 50 independent-book candidates using the founder's criteria recorded in `BOOK_SELECTION_CRITERIA.md`.
-3. Preserve all 50 candidate records and their source evidence in internal research files, separate from `data/books.json`.
-4. Present the research pool for founder review and select 10 approved books for the initial manual public catalogue and individual pages. Retain the other candidates for future admin-page entry so the research does not need to be repeated.
-5. Only after the founder approves individual titles and appropriate cover use, add the 10 books to the public catalogue.
+1. Homepage Featured Books preview is now connected to the same approved cover-led catalogue; founder should review it locally alongside Explore Books.
+2. Review the cover-led catalogue locally, then connect the homepage Featured Books preview to these same approved records and cover images.
+3. Resume the internal 50-candidate research and verification pool when needed for future catalogue additions. Keep internal candidates separate from `data/books.json`.
+4. After the public catalogue and homepage preview are stable, proceed to the next founder-approved project task. Admin dashboard, database and backend remain later-stage work.
 
 ## 4. Approved Scope Limits
 

@@ -24,15 +24,15 @@ All progress reports must reflect actual work and verified evidence.
 
 **Stage A — Public frontend implementation (backend-free)**
 
-Status: The public pages have been implemented on `task-003/immersive-homepage-redesign`; the founder has completed a site-wide review and is satisfied. The About page has now received a founder-requested content refinement introducing Aliyah Merit-gold and explaining the reason BBC exists. This refinement is awaiting founder visual review. The working branch has not been merged into `main`.
+Status: The public pages have been implemented on `task-003/immersive-homepage-redesign`; the founder has completed a site-wide review and is satisfied. The About page founder introduction and purpose refinement has been reviewed and accepted by the founder. The working branch has not been merged into `main`.
 
 - Phase 1 (project foundation and documentation): Completed.
 - Phase 2 (repository inspection and technical assessment): Completed. The report was reviewed with ChatGPT and the founder agreed the decisions recorded in `DECISIONS.md` on 2026-11-27.
 - Phase 3 (Foundation Skeleton): Committed to GitHub on `main` and reviewed. Real-browser and physical-device testing remain outstanding.
 - Stage A homepage: Immersive editorial redesign implemented on `task-003/immersive-homepage-redesign`; founder reports responsive layout and working page links.
 - Stage A About page: Existing design retained; the former generic “Why we exist” section has been replaced with a combined founder introduction and clearer explanation of BBC's purpose. The founder is identified as Aliyah Merit-gold, founder and Literary Growth Partner, with more than nine years' experience as supplied by the founder. Awaiting founder visual review of this refinement.
-- Stage A Explore Books page: Implemented with five editorial collections, intentional empty states, responsive styling, an empty approved-books JSON source, and a frontend catalogue renderer; founder-reviewed positively.
-- For Authors has been implemented and refined after founder feedback; its final review is pending. For Readers has now been implemented on `task-003/immersive-homepage-redesign` and is awaiting founder review. Contact remains a placeholder. The founder has clarified that the homepage must act as a discovery gateway, with Featured Books visibly previewing real approved catalogue entries and Worth Discovering encouraging click-through exploration. The founder has also confirmed the delivery order: finish public page designs, then populate the approved book catalogue and individual book pages, then build the admin dashboard, database and backend. Author service payments, where applicable, are handled outside the website; submitting a book through the future website form itself carries no submission charge, and every submission must await admin approval before public listing.
+- Stage A Explore Books page: Implemented with five editorial collections and a live cover-led catalogue of 10 researched books, including first-publication dates, Goodreads references and linked cover-source credits. Cover art is shown alongside the matching book details, with source links for attribution and edition reference.
+- For Authors has been implemented and refined after founder feedback; its final review is pending. For Readers has now been implemented on `task-003/immersive-homepage-redesign` and is awaiting founder review. Contact remains a placeholder. The founder has clarified that the homepage must act as a discovery gateway, with Featured Books visibly previewing real approved catalogue entries and Worth Discovering encouraging click-through exploration. The founder has also confirmed the delivery order: finish public page designs, populate the approved book catalogue and individual book pages, then build the admin dashboard, database and backend. Ten starter titles now appear as cover-led cards in Explore Books, with linked cover-source references. The homepage Featured Books section also reads the same approved catalogue and previews the first five covers. Author service payments, where applicable, are handled outside the website; submitting a book through the future website form itself carries no submission charge, and every submission must await admin approval before public listing.
 ## 4. Documentation Progress
 
 The planned documentation set is present, including `WEBSITE_SPECIFICATION.md`:
@@ -180,3 +180,13 @@ The repository must always reflect the real state of Better Book Club.
 Every collaborating AI should be able to understand the project's progress and continue from the correct point without repeating completed work.
 
 The founder remains the final authority on project direction, approvals, and scope.
+
+
+## 2026-11-28 — Starter Public Catalogue
+
+- Added 10 researched book records to `data/books.json` on `task-003/immersive-homepage-redesign`.
+- Each record includes title, author, first-publication date, genre, Goodreads reference, and an author website where verified; series context is shown where relevant.
+- The public catalogue is text-and-link only. No cover artwork is copied or hosted by BBC.
+- Updated `assets/js/explore.js` and `assets/css/bbc.css` to render source-linked text cards without requiring cover files or individual BBC book pages.
+- The 10 entries currently sit in Featured Books. Several are later books/novellas within a wider series; this is disclosed in the catalogue metadata rather than hidden.
+- Source-level implementation only; no browser visual QA has been performed by ChatGPT. `main` remains untouched.

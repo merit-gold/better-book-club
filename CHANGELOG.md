@@ -1,3 +1,67 @@
+## 2026-11-28 — Homepage Featured Books Preview Connected
+
+### Changed
+
+- Replaced the homepage's empty Featured Books placeholder with a live five-book cover preview sourced from `data/books.json`.
+- Added `assets/js/home-featured.js`; homepage and Explore Books now share the same founder-approved catalogue data.
+- Added responsive cover-first presentation and links from each cover to its book details reference.
+- Updated the project handoff notes to make founder local review the next action.
+
+### Verification and limitations
+
+- Source-level checks confirm the homepage loads the new script and the preview filters the same `featured` records as the Explore Books page.
+- No live browser/device visual QA was performed by ChatGPT. Founder should pull the branch and review locally.
+- Cover images are remotely hosted by third-party author, retailer, bookseller or book-information pages. Credits/source links are present; confirm display permission with rights holders before production launch.
+- Changes remain on `task-003/immersive-homepage-redesign`; `main` is untouched.
+
+---
+
+## 2026-11-28 — Book Cover Catalogue Correction
+
+### Changed
+
+- Reworked the public Explore Books cards so each book cover is the primary visual, followed by title, author, publication date, genre and series details.
+- Added cover-image source and edition-reference links for all 10 founder-approved starter titles.
+- Kept the 10-book public catalogue separate from the internal research pool.
+- Added responsive cover-led layouts for desktop, tablet and mobile.
+
+### Verification and limitations
+
+- Confirmed all 10 catalogue records include a cover image URL and a source/edition reference URL.
+- Cover images are remotely hosted by the cited author, retailer, bookseller or book-information source; they are not copied into the repository. Source links are included on each card. Display permission and hotlink availability should be confirmed with the relevant rights holder before production launch; attribution alone does not grant image rights.
+- Source-level checks only. No live browser/device visual QA was performed by ChatGPT.
+- Changes are on `task-003/immersive-homepage-redesign`; `main` has not been changed.
+
+### Next
+
+Connect the homepage Featured Books preview to the same cover-led catalogue.
+
+---
+
+## 2026-11-28 — Initial Public Book Catalogue Added
+
+### Changed
+
+- Added 10 researched titles to `data/books.json` with author names, first-publication dates, genres, Goodreads source links and verified author websites where available.
+- Added series-position notes where a title is part of a larger series or shared universe.
+- Kept the catalogue text-and-link only: no third-party cover images are copied, stored or hotlinked.
+- Updated the Explore Books renderer to display linked text cards without requiring a local cover image or a BBC-hosted individual book page.
+- Added matching responsive card styling.
+
+### Verification and limitations
+
+- Publication dates were checked against the individual Goodreads book records; rating counts are not displayed because they change over time and are not needed for the public catalogue.
+- Goodreads links are bibliographic references, not a claim that Goodreads endorses BBC.
+- Some selections are later entries in a series; this is disclosed in the series note.
+- Source-level review only. No live browser/device visual QA was performed by ChatGPT.
+- Changes are on `task-003/immersive-homepage-redesign`; `main` has not been changed.
+
+### Next
+
+Connect the homepage Featured Books preview to the approved catalogue, then move on to the next project priority.
+
+---
+
 ## 2026-11-27 — About Page Founder Introduction and Purpose Refinement
 
 ### Changed
