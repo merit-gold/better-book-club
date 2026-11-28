@@ -8,7 +8,7 @@
     const data = await response.json();
     const books = (Array.isArray(data.books) ? data.books : []).filter(book =>
       Array.isArray(book.collections) && book.collections.includes("featured") && book.title && book.author && book.cover_url
-    ).slice(0, 5);
+    ).slice(0, 4);
     grid.replaceChildren();
     books.forEach(book => {
       const card = document.createElement("article"); card.className = "home-featured-card";
