@@ -23,8 +23,8 @@ Do not introduce a large framework or paid dependency without explaining its pur
 
 ## 2a. Development Stages
 
-- **Stage A — frontend, backend-free.** Static pages, catalogue from `books.json`, static book pages. No functional forms.
-- **Stage B — operational.** Backend, forms, newsletter, admin. Requires founder approval of each provider.
+- **Stage A — public frontend and confirmed starter catalogue.** Implemented on the active development branch and reviewed by the founder.
+- **Stage B — operational backend and admin system.** Now the active development phase. The founder has approved the workflow requirements recorded below. Backend/database/provider selection remains subject to technical assessment and explicit approval before adoption.
 
 See `BBC_MASTER_BLUEPRINT.md` section 14.
 
@@ -231,3 +231,72 @@ The founder has final authority over technology choices, paid services, hosting,
 ## 16. Guiding Principle
 
 Build the simplest reliable architecture that meets BBC's current needs and can be extended later. Do not overengineer the first release.
+
+
+## 17. Admin Access and Authentication — Founder-Approved Requirements (2026-11-28)
+
+- Provide a dedicated admin sign-in route, recommended path: `/admin` (or redirect to `/admin/login`).
+- Do not provide public administrator sign-up or self-service admin account creation.
+- The initial administrator account must be provisioned securely during setup. Additional administrators, if needed later, must be invited or created by an authorised administrator.
+- Admin pages, data, and actions must be protected by backend-enforced authentication and authorisation. A hidden URL or frontend-only check is not security.
+- Provide a secure password-reset/recovery flow and evaluate multi-factor authentication for the administrator account.
+- Public visitors do not need accounts merely to browse the catalogue or submit an author book proposal. Any future reader accounts require a separate approved requirement.
+- Keep admin authentication separate from public author submission and newsletter subscription.
+
+## 18. Admin Dashboard and Book/Content Management — Founder-Approved Requirements (2026-11-28)
+
+Administrators must be able to:
+- View and manage incoming book submissions and existing catalogue records.
+- Edit book/submission information.
+- Approve a submission or disapprove/reject it.
+- Delete records, with a clear confirmation step and a safe recovery strategy where practical (prefer soft deletion/archive for recoverability; permanently delete only through a deliberate confirmed action).
+- Publish, unpublish, and update catalogue content.
+- Review status and maintain an audit history of important administrative actions.
+
+### Approval must include publishing destinations
+
+Approval is not a single yes/no action. When approving a book, the administrator must be able to choose:
+- One or more applicable catalogue collections (for example Featured Books, Recommended Books, Worth Discovering, Coming Soon, or Past Features, subject to collection rules); and
+- Whether the same book/content should also be included in a newsletter.
+
+A single approval workflow must support both destinations together: catalogue publication only, newsletter inclusion only where editorially appropriate, or catalogue publication plus newsletter inclusion. Selecting a newsletter destination must not automatically send it.
+
+The system must preserve one canonical book record. A book can belong to multiple catalogue collections and can be referenced by one or more newsletter campaigns without duplicating the underlying book record.
+
+### Suggested submission statuses
+
+Use explicit statuses such as Draft, Pending Review, Approved, Rejected/Disapproved, Published, and Archived/Deleted. Separate editorial approval from publication state and newsletter-send state so an approved book can be prepared for publication without being accidentally made public or emailed.
+
+## 19. Newsletter Campaign Builder — Founder-Approved Requirements (2026-11-28)
+
+The admin dashboard must allow an administrator to:
+- Create a newsletter draft and edit its content before sending.
+- Add an approved book/catalogue item to a newsletter, with editable newsletter-specific introduction or copy.
+- Preview the newsletter as a complete email before sending, including layout and content.
+- Save drafts and return to edit them.
+- Review the recipient audience and subscription eligibility before sending.
+- Send only after a deliberate final confirmation.
+
+Newsletter inclusion and newsletter sending are separate actions. Approving a book for newsletter inclusion creates or updates newsletter draft content; it does not send an email automatically.
+
+The eventual newsletter system must respect subscriber consent, unsubscribe requests, suppression lists, and applicable privacy requirements. Do not send to people who have not validly subscribed.
+
+## 20. Admin Audit, Safety, and Data Handling
+
+- Record who performed significant actions and when (create, edit, approve, reject, publish, unpublish, delete, newsletter preview, and send).
+- Use confirmation for destructive actions and final newsletter sending.
+- Validate data on the backend; do not trust browser-submitted status, collection, or permission values.
+- Restrict access to private author submissions and subscriber data to authorised administrators.
+- Do not store secrets, passwords, private submissions, or subscriber lists in the public Git repository.
+- Keep backups and a recovery path for catalogue and submission data.
+
+## 21. Backend Architecture Decisions Still Open
+
+The requirements above are approved; the implementation choices are not. Evaluate and recommend:
+- Backend/database provider and hosting arrangement.
+- Admin authentication method and account provisioning.
+- Newsletter delivery provider and email-template approach.
+- Image/file storage for book covers and any permitted author assets.
+- Spam protection, transactional email, backups, and operational costs.
+
+Present a concise recommendation with trade-offs, security implications, free-tier limits, expected costs, and migration implications before committing to a provider. Firebase remains an option, not a decision.
