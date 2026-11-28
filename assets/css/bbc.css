@@ -725,3 +725,16 @@ em { font-weight: 400; }
 .explore-book-links a { color:var(--wine); font-size:10px; font-weight:700; text-decoration:underline; text-underline-offset:3px; }
 @media (max-width:1100px) { .explore-book-grid-covers { grid-template-columns:repeat(3,minmax(0,1fr)); } }
 @media (max-width:600px) { .explore-book-grid-covers { grid-template-columns:repeat(2,minmax(0,1fr)); gap:.8rem; } .explore-book-card-cover { padding:.65rem; } .explore-book-card-cover .explore-book-title { font-size:1.15rem; } }
+
+/* Homepage featured books — shared cover-led catalogue data */
+.home-featured-grid { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:1.5rem; margin:2.6rem 0 1.8rem; }
+.home-featured-card { min-width:0; }
+.home-featured-cover-link { display:flex; align-items:center; justify-content:center; width:100%; aspect-ratio:2/3; overflow:hidden; padding:.65rem; background:#e9dfd2; box-shadow:0 10px 28px rgba(38,35,31,.09); transition:transform .25s ease,box-shadow .25s ease; }
+.home-featured-cover-link:hover { transform:translateY(-6px); box-shadow:0 16px 34px rgba(38,35,31,.15); }
+.home-featured-cover { display:block; width:100%; height:100%; object-fit:contain; }
+.home-featured-card h3 { margin:1rem 0 .25rem; font-size:clamp(1.2rem,1.8vw,1.65rem); line-height:1.15; }
+.home-featured-card p { margin:0; color:#71685e; font-size:11px; }
+.home-featured-loading { grid-column:1/-1; color:#71685e; font:400 1.2rem var(--serif); }
+.home-featured-footer { display:flex; justify-content:flex-end; }
+@media (max-width:900px) { .home-featured-grid { grid-template-columns:repeat(3,minmax(0,1fr)); } }
+@media (max-width:560px) { .home-featured-grid { grid-template-columns:repeat(2,minmax(0,1fr)); gap:1rem; } .home-featured-card h3 { font-size:1.2rem; } }
